@@ -1,0 +1,11 @@
+{
+	"name": "SE_K2-Armor&Suits",
+	"version": "0.0.1",
+	"title": "SE-K2 Armor & Suits",
+	"author": "SGZ_Creations",
+	"contact": "https://discord.gg/tbxnpsxkDM",
+	"homepage": "",
+	"dependencies": ["base >= 1.0", "Krastorio2", "space-exploration"],
+	"factorio_version": "1.1",
+	"description": "Increase the armor and space suits equipment grid and inventory bonuse for SE & K2",
+}
