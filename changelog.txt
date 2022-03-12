@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 12.03.2022
+	Features: 
+		- added setting to choose the suiteable size of equipment grid of own choice.
+			This mod defaults are: spacesuit = 15x15, mk2 30x30, mk3 45x45, mk4 60x60 
+		- increased inventory sizes
+			Mk1= Mk2= Mk3= Mk4= Truster suits
+		-
+	
