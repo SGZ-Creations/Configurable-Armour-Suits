@@ -18,3 +18,4 @@
 	data.raw["equipemnt-grid"]["se-thruster-suie-4-grid"].height = 60
 	data.raw["equipemnt-grid"]["se-thruster-suie-4-grid"].width = 60
 },
+-- if mods[modname] then add next work 
