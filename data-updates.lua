@@ -1,21 +1,21 @@
 {
-	data.raw["equipemnt-grid"]["modular-armour"].height = 5
-	data.raw["equipemnt-grid"]["modular-armour"].width = 5
-	data.raw["equipemnt-grid"]["power-armor"].height = 10
-	data.raw["equipemnt-grid"]["power-armor"].width = 10
-	data.raw["equipemnt-grid"]["power-armor-mk2"].hight = 20
-	data.raw["equipemnt-grid"]["power-armor-mk2"].width = 20
-	data.raw["equipemnt-grid"]["power-armor-mk3"].hight = 30
-	data.raw["equipemnt-grid"]["power-armor-mk3"].width = 30
-	data.raw["equipemnt-grid"]["power-armor-mk4"].hight = 40
-	data.raw["equipemnt-grid"]["power-armor-mk4"].width = 40
-	data.raw["equipemnt-grid"]["se-thruster-suie-grid"].height = 15
-	data.raw["equipemnt-grid"]["se-thruster-suie-grid"].width = 15
-	data.raw["equipemnt-grid"]["se-thruster-suie-2-grid"].height = 30
-	data.raw["equipemnt-grid"]["se-thruster-suie-2-grid"].width = 30
-	data.raw["equipemnt-grid"]["se-thruster-suie-3-grid"].height = 45
-	data.raw["equipemnt-grid"]["se-thruster-suie-3-grid"].width = 45
-	data.raw["equipemnt-grid"]["se-thruster-suie-4-grid"].height = 60
-	data.raw["equipemnt-grid"]["se-thruster-suie-4-grid"].width = 60
-},
--- if mods[modname] then add next work 
+local function SetGridSize(grid_name, new_height, new_width)
+  if data.raw["equipemnt-grid"][grid_name] then
+    data.raw["equipemnt-grid"][grid_name].width = new_width
+    data.raw["equipemnt-grid"][grid_name].height = new_height
+  end
+end
+
+	SetGridSize("modular-armour", 5, 5)
+	SetGridSize("power-armor", 10, 10)
+	SetGridSize("power-armor-mk2", 20, 20)
+	SetGridSize("power-armor-mk3", 30, 30)
+	SetGridSize("power-armor-mk4", 40, 40)
+	SetGridSize("bob-power-armor-mk3", 35, 35)
+	SetGridSize("bob-power-armor-mk4", 45, 45)
+	SetGridSize("bob-power-armor-mk5", 55, 55)
+	SetGridSize("se-thruster-suie-grid", 15, 15)
+	SetGridSize("se-thruster-suie-2-grid", 30, 30)
+	SetGridSize("se-thruster-suie-3-grid", 45, 45)
+	SetGridSize("se-thruster-suie-4-grid", 60, 60)
+}, 
