@@ -6,7 +6,7 @@ local function SetGridSize(grid_name, new_height, new_width)
   end
 end
 
-	SetGridSize("modular-armour", 5, 5)
+	SetGridSize("modular-armor", 5, 5)
 	SetGridSize("power-armor", 10, 10)
 	SetGridSize("power-armor-mk2", 20, 20)
 	SetGridSize("power-armor-mk3", 30, 30)
@@ -18,4 +18,5 @@ end
 	SetGridSize("se-thruster-suie-2-grid", 30, 30)
 	SetGridSize("se-thruster-suie-3-grid", 45, 45)
 	SetGridSize("se-thruster-suie-4-grid", 60, 60)
+	SetGridSize("power-armor-mk3-armor-rampant-arsenal", 30, 30)
 }, 
