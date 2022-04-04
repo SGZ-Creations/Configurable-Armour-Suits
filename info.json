@@ -5,7 +5,7 @@
 	"author": "SGZ_Creations",
 	"contact": "https://discord.gg/tbxnpsxkDM",
 	"homepage": "https://github.com/SGZ-Creations/Configurble-Armor-Suits",
-	"dependencies": ["base >= 1.0", "Krastorio2", "space-exploration"],
+	"dependencies": ["base >= 1.0", "bobwarfare", "Krastorio2", "space-exploration", "custom_power_armor_fix"],
 	"factorio_version": "1.1",
-	"description": "Increase the armor and space suits equipment grid and inventory bonuse for SE & K2",
+	"description": "New default Equipment grid sizes of armor and space suit Bob's, K2, SE, Rampand Aresensal, Custom_Power_Armor_fix",
 }
