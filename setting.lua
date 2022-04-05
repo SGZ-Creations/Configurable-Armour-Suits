@@ -1,22 +1,22 @@
 data:extend({
-	{
-	type = "int-setting",
-	name = "modular-armor-grid-size-h",
-	setting_type = "startup",
-	minimum_value = 5
-	maximum_value = 9
-	default_value = 5
-	order = "Aaa"
-	},
-	{
-	type = "int-setting",
-	name = "modular-armor-grid-size-w",
-	setting_type = "startup",
-	minimum_value = 5
-	maximum_value = 9
-	default_value = 5
-	order = "Aab"
-	},
+	--{
+--	type = "int-setting",
+--	name = "modular-armor-grid-size-h",
+--	setting_type = "startup",
+--	minimum_value = 5
+--	maximum_value = 9
+--	default_value = 5
+--	order = "Aaa"
+--	},
+--	{
+--	type = "int-setting",
+--	name = "modular-armor-grid-size-w",
+--	setting_type = "startup",
+--	minimum_value = 5
+--	maximum_value = 9
+--	default_value = 5
+--	order = "Aab"
+--	},
 	{
 	type = "int-setting",
 	name = "power-armor-grid-size-h",
