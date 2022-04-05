@@ -84,6 +84,22 @@ data:extend({
 	maximum_value = 49
 	order = "Cad"
 	},
+	{
+	type = "int-setting",
+	name = "power-armor-mk5-grid-size-h",
+	setting_type = "startup",
+	minimum_value = 5
+	maximum_value = 200
+	order = "Cac"
+	},
+	{
+	type = "int-setting",
+	name = "power-armor-mk5-grid-size-w",
+	setting_type = "startup",
+	minimum_value = 5
+	maximum_value = 200
+	order = "Cad"
+	},
 	end
 	
 	if mods["bobswarefare"] then
@@ -93,7 +109,7 @@ data:extend({
 	name = "bob-power-armor-mk3-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 39
 	order = "Baa"
 	},
 	{
@@ -101,7 +117,7 @@ data:extend({
 	name = "bob-power-armor-mk3-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 39
 	order = "Bab"
 	},
 	{
@@ -109,7 +125,7 @@ data:extend({
 	name = "bob-power-armor-mk4-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 49
 	order = "Bac"
 	},
 	{
@@ -117,7 +133,7 @@ data:extend({
 	name = "bob-power-armor-mk4-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 49
 	order = "Bad"
 	},
 	{
@@ -125,7 +141,7 @@ data:extend({
 	name = "bob-power-armor-mk5-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 200
 	order = "Bae"
 	},
 	{
@@ -133,7 +149,7 @@ data:extend({
 	name = "bob-power-armor-mk5-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 200
 	order = "Baf"
 	},
 	end
@@ -142,7 +158,7 @@ data:extend({
 	
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-h",
+	name = "pamk3-pmak3-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
@@ -150,7 +166,7 @@ data:extend({
 	},
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-w",
+	name = "pamk3-pmak3-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
@@ -158,7 +174,7 @@ data:extend({
 	},
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-h",
+	name = "pamk3-pmak4-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
@@ -166,7 +182,7 @@ data:extend({
 	},
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-w",
+	name = "pamk3-pmak4-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
@@ -177,7 +193,7 @@ data:extend({
 	if mods["space-exploration"] then
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-h",
+	name = "se-thruster-suie-grid-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
@@ -185,7 +201,7 @@ data:extend({
 	},
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-w",
+	name = "se-thruster-suie-grid-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
@@ -193,50 +209,50 @@ data:extend({
 	},
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-h",
+	name = "se-thruster-suie-2-grid-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 29
 	order = "Eac"
 	},
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-w",
+	name = "se-thruster-suie-2-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 29
 	order = "Ead"
 	},
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-h",
+	name = "se-thruster-suie-3-grid-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 39
 	order = "Eac"
 	},
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-w",
+	name = "se-thruster-suie-3-grid-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 39
 	order = "Ead"
 	},
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-h",
+	name = "se-thruster-suie-4-grid-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 49
 	order = "Eae"
 	},
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-w",
+	name = "se-thruster-suie-4-grid-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 49
 	order = "Eaf"
 	},
 	end
@@ -244,18 +260,18 @@ data:extend({
 	if mods["RampantArsenal"] then
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-h",
+	name = "power-armor-mk3-armor-rampant-arsenal-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 60
 	order = "aac"
 	},
 	{
 	type = "int-setting",
-	name = "power-armor-grid-size-w",
+	name = "power-armor-mk3-armor-rampant-arsenal-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 19
+	maximum_value = 60
 	order = "aad"
 	},
 	end
