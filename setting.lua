@@ -126,7 +126,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aac"
+	order = "Bae"
 	},
 	{
 	type = "int-setting",
@@ -134,7 +134,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aad"
+	order = "Baf"
 	},
 	end
 	
@@ -154,7 +154,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aad"
+	order = "Daa"
 	},
 	{
 	type = "int-setting",
@@ -162,7 +162,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aac"
+	order = "Dab"
 	},
 	{
 	type = "int-setting",
@@ -170,7 +170,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aad"
+	order = "Dad"
 	},
 	end
 	
@@ -181,7 +181,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aac"
+	order = "Eaa"
 	},
 	{
 	type = "int-setting",
@@ -189,7 +189,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aad"
+	order = "Eab"
 	},
 	{
 	type = "int-setting",
@@ -197,7 +197,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aac"
+	order = "Eac"
 	},
 	{
 	type = "int-setting",
@@ -205,7 +205,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aad"
+	order = "Ead"
 	},
 	{
 	type = "int-setting",
@@ -213,7 +213,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aac"
+	order = "Eac"
 	},
 	{
 	type = "int-setting",
@@ -221,7 +221,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aad"
+	order = "Ead"
 	},
 	{
 	type = "int-setting",
@@ -229,7 +229,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aac"
+	order = "Eae"
 	},
 	{
 	type = "int-setting",
@@ -237,7 +237,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aad"
+	order = "Eaf"
 	},
 	end
 	
@@ -258,4 +258,5 @@ data:extend({
 	maximum_value = 19
 	order = "aad"
 	},
+	end
 })
