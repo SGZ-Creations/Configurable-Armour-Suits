@@ -51,7 +51,6 @@ data:extend({
 	
 	
 	if mods["custom-power-armor-fix"] then
-	
 	{
 	type = "int-setting",
 	name = "power-armor-mk3-grid-size-h",
@@ -103,7 +102,6 @@ data:extend({
 	end
 	
 	if mods["bobswarefare"] then
-	
 	{
 	type = "int-setting",
 	name = "bob-power-armor-mk3-grid-size-h",
@@ -155,7 +153,6 @@ data:extend({
 	end
 	
 	if mods["Power Armor MK3"] then
-	
 	{
 	type = "int-setting",
 	name = "pamk3-pmak3-grid-size-h",

@@ -1,4 +1,3 @@
-{
 local function SetGridSize(grid_name, new_height, new_width)
   if data.raw["equipemnt-grid"][grid_name] then
     data.raw["equipemnt-grid"][grid_name].width = new_width
@@ -22,5 +21,5 @@ end
 	SetGridSize("se-thruster-suie-3-grid", settings.startup["se-thruster-suie-3-grid-grid-size-h"].value, settings.startup["se-thruster-suie-3-grid-grid-size-w"].value)
 	SetGridSize("se-thruster-suie-4-grid", settings.startup["se-thruster-suie-4-grid-grid-size-h"].value, settings.startup["se-thruster-suie-4-grid-grid-size-w"].value)
 	SetGridSize("power-armor-mk3-armor-rampant-arsenal", settings.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)	
-},
+
 --SetGridSize("modular-armor", settings.startup["armour-grid-size"].value, settings.startup["armour-grid-size"].value)
