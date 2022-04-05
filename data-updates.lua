@@ -7,7 +7,7 @@ end
  
 	SetGridSize("modular-armor", settings.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)
 	SetGridSize("power-armor", settings.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)
-	SetGridSize("power-armor-mk2", settings.startup["power-armor-mk2-grid-size-h"].value, settings.startup["power-armor-mk2-grid-size-w",].value)
+	SetGridSize("power-armor-mk2", settings.startup["power-armor-mk2-grid-size-h"].value, settings.startup["power-armor-mk2-grid-size-w"].value)
 	SetGridSize("power-armor-mk3", settings.startup["power-armor-mk3-grid-size-h"].value, settings.startup["power-armor-mk3-grid-size-w"].value)
 	SetGridSize("power-armor-mk4",settings.startup["power-armor-mk4-grid-size-h"].value, settings.startup["power-armor-mk4-grid-size-w"].value)
 	SetGridSize("power-armor-mk5",settings.startup["power-armor-mk5-grid-size-h"].value, settings.startup["power-armor-mk5-grid-size-w"].value)
