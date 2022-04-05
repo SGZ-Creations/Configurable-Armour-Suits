@@ -20,3 +20,7 @@ end
 	SetGridSize("se-thruster-suie-4-grid", 60, 60)
 	SetGridSize("power-armor-mk3-armor-rampant-arsenal", 30, 30)
 }, 
+
+--data.raw.item["int-setting"]["modular-armor"].deafault_value ={5, 5}
+--data.raw.item["int-setting"]["power-armor"].deafault_value ={10, 10}
+--data.raw.item["int-setting"]["power-armor-mk2"].default_value ={20, 20}
