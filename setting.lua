@@ -159,7 +159,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "aac"
+	order = "Daa"
 	},
 	{
 	type = "int-setting",
@@ -167,7 +167,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "Daa"
+	order = "Dab"
 	},
 	{
 	type = "int-setting",
@@ -175,7 +175,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
-	order = "Dab"
+	order = "Dac"
 	},
 	{
 	type = "int-setting",
@@ -226,7 +226,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 39
-	order = "Eac"
+	order = "Eae"
 	},
 	{
 	type = "int-setting",
@@ -234,7 +234,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 39
-	order = "Ead"
+	order = "Eaf"
 	},
 	{
 	type = "int-setting",
@@ -242,7 +242,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 200
-	order = "Eae"
+	order = "Eag"
 	},
 	{
 	type = "int-setting",
@@ -250,7 +250,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 200
-	order = "Eaf"
+	order = "Eah"
 	},
 	end
 	
