@@ -90,7 +90,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 200
-	order = "Cac"
+	order = "Cae"
 	},
 	{
 	type = "int-setting",
@@ -98,7 +98,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 200
-	order = "Cad"
+	order = "Caf"
 	},
 	end
 	
@@ -244,7 +244,7 @@ data:extend({
 	name = "se-thruster-suie-4-grid-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 49
+	maximum_value = 200
 	order = "Eae"
 	},
 	{
@@ -252,7 +252,7 @@ data:extend({
 	name = "se-thruster-suie-4-grid-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5
-	maximum_value = 49
+	maximum_value = 200
 	order = "Eaf"
 	},
 	end
@@ -264,7 +264,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 60
-	order = "aac"
+	order = "Faa"
 	},
 	{
 	type = "int-setting",
@@ -272,7 +272,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 60
-	order = "aad"
+	order = "Fab"
 	},
 	end
 })
