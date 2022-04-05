@@ -5,22 +5,21 @@ local function SetGridSize(grid_name, new_height, new_width)
     data.raw["equipemnt-grid"][grid_name].height = new_height
   end
 end
-
-	SetGridSize("modular-armor", 5, 5)
-	SetGridSize("power-armor", 10, 10)
-	SetGridSize("power-armor-mk2", 20, 20)
-	SetGridSize("power-armor-mk3", 30, 30)
-	SetGridSize("power-armor-mk4", 40, 40)
-	SetGridSize("bob-power-armor-mk3", 35, 35)
-	SetGridSize("bob-power-armor-mk4", 45, 45)
-	SetGridSize("bob-power-armor-mk5", 55, 55)
-	SetGridSize("se-thruster-suie-grid", 15, 15)
-	SetGridSize("se-thruster-suie-2-grid", 30, 30)
-	SetGridSize("se-thruster-suie-3-grid", 45, 45)
-	SetGridSize("se-thruster-suie-4-grid", 60, 60)
-	SetGridSize("power-armor-mk3-armor-rampant-arsenal", 30, 30)
-}, 
-
---data.raw.item["int-setting"]["modular-armor"].deafault_value ={5, 5}
---data.raw.item["int-setting"]["power-armor"].deafault_value ={10, 10}
---data.raw.item["int-setting"]["power-armor-mk2"].default_value ={20, 20}
+ 
+	SetGridSize("modular-armor", settings.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)
+	SetGridSize("power-armor", settings.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)
+	SetGridSize("power-armor-mk2", settings.startup["power-armor-mk2-grid-size-h"].value, settings.startup["power-armor-mk2-grid-size-w",].value)
+	SetGridSize("power-armor-mk3", settings.startup["modular-armour-grid-size-h"].value, settings.startup["power-armor-mk3-grid-size-w"].value)
+	SetGridSize("power-armor-mk4",settings.startup["modular-armour-grid-size-h"].value, settings.startup["power-armor-mk4-grid-size-w"].value)
+	SetGridSize("bob-power-armor-mk3", settings.startup["power-armor-mk3-grid-size-h"].value, settings.startup["power-armor-mk3-grid-size-w"].value)
+	SetGridSize("bob-power-armor-mk4", settings.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)
+	SetGridSize("bob-power-armor-mk5", settings.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)
+	SetGridSize("pamk3-pmak3", setting.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)
+	SetGridSize("pamk3-pmak4", setting.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)
+	SetGridSize("se-thruster-suie-grid", settings.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)
+	SetGridSize("se-thruster-suie-2-grid", settings.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)
+	SetGridSize("se-thruster-suie-3-grid", settings.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)
+	SetGridSize("se-thruster-suie-4-grid", settings.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)
+	SetGridSize("power-armor-mk3-armor-rampant-arsenal", settings.startup["modular-armour-grid-size-h"].value, settings.startup["modular-armour-grid-size-w"].value)	
+},
+--SetGridSize("modular-armor", settings.startup["armour-grid-size"].value, settings.startup["armour-grid-size"].value)
