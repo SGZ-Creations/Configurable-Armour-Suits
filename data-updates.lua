@@ -4,7 +4,7 @@ local function SetGridSize(grid_name, new_height, new_width)
     data.raw["equipemnt-grid"][grid_name].height = new_height
   end
 end
- 
+{
 	SetGridSize("modular-armor", settings.startup["modular-armor-grid-size-h"].value, settings.startup["modular-armor-grid-size-w"].value)
 	SetGridSize("power-armor", settings.startup["power-armor-grid-size-h"].value, settings.startup["power-armor-grid-size-w"].value)
 	SetGridSize("power-armor-mk2", settings.startup["power-armor-mk2-grid-size-h"].value, settings.startup["power-armor-mk2-grid-size-w"].value)
@@ -21,3 +21,8 @@ end
 	SetGridSize("se-thruster-suie-3-grid", settings.startup["se-thruster-suie-3-grid-grid-size-h"].value, settings.startup["se-thruster-suie-3-grid-grid-size-w"].value)
 	SetGridSize("se-thruster-suie-4-grid", settings.startup["se-thruster-suie-4-grid-grid-size-h"].value, settings.startup["se-thruster-suie-4-grid-grid-size-w"].value)
 	SetGridSize("power-armor-mk3-armor-rampant-arsenal", settings.startup["power-armor-mk3-armor-rampant-arsenal-grid-size-h"].value, settings.startup["power-armor-mk3-armor-rampant-arsenal-grid-size-w"].value)
+}
+	--data.raw.armor["modular-armor"].setting.startup["modular-armor-grid-size-h"].value, setting.startup["modular-armor-grid-size-w"].value
+	--setting.startup
+
+	--game.print.("modular-armor", settings.startup["modular-armor-grid-size-h"].value, settings.startup["modular-armor-grid-size-w"].value)
