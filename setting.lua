@@ -1,5 +1,4 @@
 data:extend({
-	if mods ["base"] thne
 	{
 	type = "int-setting",
 	name = "modular-armour-grid-size-h",
@@ -48,7 +47,6 @@ data:extend({
 	maximum_value = 29
 	order = "Aad"
 	},
-end
 	
 	if mods["custom-power-armor-fix"] then
 	{
