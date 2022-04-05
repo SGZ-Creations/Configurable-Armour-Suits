@@ -1,5 +1,5 @@
 data:extend({
-
+	if mods ["base"] thne
 	{
 	type = "int-setting",
 	name = "modular-armour-grid-size-h",
@@ -48,7 +48,7 @@ data:extend({
 	maximum_value = 29
 	order = "Aad"
 	},
-	
+end
 	
 	if mods["custom-power-armor-fix"] then
 	{
@@ -99,7 +99,7 @@ data:extend({
 	maximum_value = 200
 	order = "Caf"
 	},
-	end
+end
 	
 	if mods["bobswarefare"] then
 	{
@@ -150,7 +150,7 @@ data:extend({
 	maximum_value = 200
 	order = "Baf"
 	},
-	end
+end
 	
 	if mods["Power Armor MK3"] then
 	{
@@ -252,7 +252,7 @@ data:extend({
 	maximum_value = 200
 	order = "Eah"
 	},
-	end
+end
 	
 	if mods["RampantArsenal"] then
 	{
@@ -271,5 +271,5 @@ data:extend({
 	maximum_value = 60
 	order = "Fab"
 	},
-	end
+end
 })
