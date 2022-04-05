@@ -5,6 +5,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 9
+	default_value = 5
 	order = "Aaa"
 	},
 	{
@@ -13,6 +14,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 9
+	default_value = 5
 	order = "Aab"
 	},
 	{
@@ -21,6 +23,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
+	default_value = 10
 	order = "Aac"
 	},
 	{
@@ -29,6 +32,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
+	default_value = 10
 	order = "Aad"
 	},
 	{
@@ -37,6 +41,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 29
+	default_value = 20
 	order = "Aac"
 	},
 	{
@@ -45,6 +50,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 29
+	default_value = 20
 	order = "Aad"
 	},
 	
@@ -55,6 +61,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 39
+	default_value = 30
 	order = "Caa"
 	},
 	{
@@ -63,6 +70,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 39
+	default_value = 30
 	order = "Cab"
 	},
 	{
@@ -71,6 +79,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 49
+	default_value = 40
 	order = "Cac"
 	},
 	{
@@ -79,6 +88,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 49
+	default_value = 40
 	order = "Cad"
 	},
 	{
@@ -87,6 +97,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 200
+	default_value = 50
 	order = "Cae"
 	},
 	{
@@ -95,6 +106,7 @@ data:extend({
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 200
+	default_value = 50
 	order = "Caf"
 	},
 end
@@ -106,6 +118,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 39
+	default_value = 35
 	order = "Baa"
 	},
 	{
@@ -114,6 +127,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 39
+	default_value = 35
 	order = "Bab"
 	},
 	{
@@ -122,6 +136,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 49
+	default_value = 45
 	order = "Bac"
 	},
 	{
@@ -130,6 +145,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 49
+	default_value = 45
 	order = "Bad"
 	},
 	{
@@ -138,6 +154,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 200
+	default_value = 55
 	order = "Bae"
 	},
 	{
@@ -146,6 +163,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 200
+	default_value = 55
 	order = "Baf"
 	},
 end
@@ -157,6 +175,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
+	default_value = 30
 	order = "Daa"
 	},
 	{
@@ -165,6 +184,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
+	default_value = 30
 	order = "Dab"
 	},
 	{
@@ -173,6 +193,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
+	default_value = 40
 	order = "Dac"
 	},
 	{
@@ -181,6 +202,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
+	default_value = 40
 	order = "Dad"
 	},
 	end
@@ -192,6 +214,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
+	default_value = 10
 	order = "Eaa"
 	},
 	{
@@ -200,6 +223,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 19
+	default_value = 10
 	order = "Eab"
 	},
 	{
@@ -208,6 +232,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 29
+	default_value = 20
 	order = "Eac"
 	},
 	{
@@ -216,6 +241,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 29
+	default_value = 20
 	order = "Ead"
 	},
 	{
@@ -224,6 +250,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 39
+	default_value = 30
 	order = "Eae"
 	},
 	{
@@ -232,6 +259,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 39
+	default_value = 30
 	order = "Eaf"
 	},
 	{
@@ -240,6 +268,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 200
+	default_value = 40
 	order = "Eag"
 	},
 	{
@@ -248,6 +277,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 200
+	default_value = 40
 	order = "Eah"
 	},
 end
@@ -259,6 +289,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 60
+	default_value = 30
 	order = "Faa"
 	},
 	{
@@ -267,6 +298,7 @@ end
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 60
+	default_value = 30
 	order = "Fab"
 	},
 end
