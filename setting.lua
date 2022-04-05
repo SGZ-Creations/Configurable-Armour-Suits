@@ -1,7 +1,7 @@
 data:extend({
 	{
 	type = "int-setting",
-	name = "modular-armour-grid-size-h",
+	name = "modular-armor-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 9
@@ -9,7 +9,7 @@ data:extend({
 	},
 	{
 	type = "int-setting",
-	name = "modular-armour-grid-size-w",
+	name = "modular-armor-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5
 	maximum_value = 9
