@@ -54,8 +54,10 @@
 	default_value = 20,
 	order = "Aad"
 	},
+})
 
 	if mods["custom-power-armor-fix"]then
+		data:extend({
 	{
 	type = "int-setting",
 	name = "power-armor-mk3-grid-size-h",
@@ -110,10 +112,11 @@
 	default_value = 50
 	order = "Caf"
 	},
-end
-	end
-	
+		})
+			end
+
 	if mods["bobswarefare"] then
+	data.extend({
 	{
 	type = "int-setting",
 	name = "bob-power-armor-mk3-grid-size-h",
@@ -168,9 +171,11 @@ end
 	default_value = 55
 	order = "Baf"
 	},
-end
-	
+		})
+			end
+
 	if mods["Power Armor MK3"] then
+		data:extend({
 	{
 	type = "int-setting",
 	name = "pamk3-pmak3-grid-size-h",
@@ -207,9 +212,11 @@ end
 	default_value = 40
 	order = "Dad"
 	},
-end
+		})
+			end
 	
 	if mods["space-exploration"] then
+		data:extend
 	{
 	type = "int-setting",
 	name = "se-thruster-suie-grid-grid-size-h",
@@ -282,9 +289,11 @@ end
 	default_value = 40
 	order = "Eah"
 	},
-end
-	
+		})
+			end
+
 	if mods["RampantArsenal"] then
+		data:exstend({
 	{
 	type = "int-setting",
 	name = "power-armor-mk3-armor-rampant-arsenal-grid-size-h",
@@ -303,6 +312,5 @@ end
 	default_value = 30
 	order = "Fab"
 	},
-end
-	}
-		)
+		})
+			end	
