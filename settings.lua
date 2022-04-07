@@ -311,7 +311,7 @@ if mods["custom-power-armor-fix"]then
 	default_value = 30,
 	order = "Gab"
 	},
-{
+	{
 	type = "int-setting",
 	name = "mk4-amror-grid-grid-size-h",
 	setting_type = "startup",
@@ -329,7 +329,7 @@ if mods["custom-power-armor-fix"]then
 	default_value = 40,
 	order = "Gad"
 	},
-		)}
+		})
 			end
 --------------------------------------------------------------------------------------------------
 	if mods["RampantArsenal"] then
