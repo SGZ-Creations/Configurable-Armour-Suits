@@ -8,7 +8,7 @@ end
 	SetGridSize("small-equipment-grid", settings.startup["modular-armor-grid-size-h"].value, settings.startup["modular-armor-grid-size-w"].value)
 	SetGridSize("medium-equipment-grid", settings.startup["power-armor-grid-size-h"].value, settings.startup["power-armor-grid-size-w"].value)
 	SetGridSize("large-equipment-grid", settings.startup["power-armor-mk2-grid-size-h"].value, settings.startup["power-armor-mk2-grid-size-w"].value)
-	SetGridSize("mk3-destroyer-grid", settings.startup["power-armor-mk3-grid-size-h"].value, settings.startup["power-armor-mk3-grid-size-w"].value)
+	SetGridSize("mk3-destroyer-grid", settings.startup["mk3-destroyer-grid-grid-size-h"].value, settings.startup["mk3-destroyer-grid-grid-size-w"].value)
 	SetGridSize("mk4-exterminator-grid",settings.startup["power-armor-mk4-grid-size-h"].value, settings.startup["power-armor-mk4-grid-size-w"].value)
 	SetGridSize("mk5-annihilator-grid",settings.startup["power-armor-mk5-grid-size-h"].value, settings.startup["power-armor-mk5-grid-size-w"].value)
 	SetGridSize("power-armor-equipment-grid-mk3", settings.startup["bob-power-armor-mk3-grid-size-h"].value, settings.startup["bob-power-armor-mk3-grid-size-w"].value)
