@@ -1,7 +1,7 @@
 local function SetGridSize(grid_name, new_height, new_width)
-  if data.raw["equipemnt-grid"][grid_name] then
-    data.raw["equipemnt-grid"][grid_name].width = new_width
-    data.raw["equipemnt-grid"][grid_name].height = new_height
+  if data.raw["equipment-grid"][grid_name] then
+    data.raw["equipment-grid"][grid_name].width = new_width
+    data.raw["equipment-grid"][grid_name].height = new_height
   end
 end
 
