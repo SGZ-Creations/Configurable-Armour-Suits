@@ -55,6 +55,7 @@
 	},
 		})
 			end
+				end
 
 	if mods["custom-power-armor-fix"]then
 		data:extend({
