@@ -1,5 +1,4 @@
- data:extend(
-		{
+ data:extend({
 	{
 	type = "int-setting",
 	name = "modular-armor-grid-size-h",
@@ -54,7 +53,8 @@
 	default_value = 20,
 	order = "Aad"
 	},
-})
+		})
+			end
 
 	if mods["custom-power-armor-fix"]then
 		data:extend({
