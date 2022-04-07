@@ -20,8 +20,4 @@ end
 	SetGridSize("se-thruster-suie-2-grid", settings.startup["se-thruster-suie-2-grid-grid-size-h"].value, settings.startup["se-thruster-suie-2-grid-grid-size-w"].value)
 	SetGridSize("se-thruster-suie-3-grid", settings.startup["se-thruster-suie-3-grid-grid-size-h"].value, settings.startup["se-thruster-suie-3-grid-grid-size-w"].value)
 	SetGridSize("se-thruster-suie-4-grid", settings.startup["se-thruster-suie-4-grid-grid-size-h"].value, settings.startup["se-thruster-suie-4-grid-grid-size-w"].value)
-	SetGridSize("power-armor-mk3-armor-rampant-arsenal", settings.startup["power-armor-mk3-armor-rampant-arsenal-grid-size-h"].value, settings.startup["power-armor-mk3-armor-rampant-arsenal-grid-size-w"].value)
-
-	--data.raw.armor["modular-armor"].setting.startup["modular-armor-grid-size-h"].value, setting.startup["modular-armor-grid-size-w"].value =
-	--game.print.("modular-armor", settings.startup["modular-armor-grid-size-h"].value, settings.startup["modular-armor-grid-size-w"].value) =
-	--setting.startup["modular-armor"].setting.startup["modular-armor-grid-size-h"].value, setting.startup["modular-armor-grid-size-w"].value =
+	SetGridSize("power-armor-mk3-armor-rampant-arsenal", settings.startup["power-armor-mk3-armor-rampant-arsenal-grid-size-h"].value, settings.startup["power-armor-mk3-armor-rampant-arsenal-grid-size-w"].value
