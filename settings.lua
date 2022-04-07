@@ -4,7 +4,7 @@
 	name = "modular-armor-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 1,
-	maximum_value = 9,
+	maximum_value = 10,
 	default_value = 5,
 	order = "Aaa"
 	},
@@ -13,7 +13,7 @@
 	name = "modular-armor-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 1,
-	maximum_value = 9,
+	maximum_value = 10,
 	default_value = 5,
 	order = "Aab"
 	},
@@ -22,7 +22,7 @@
 	name = "power-armor-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5,
-	maximum_value = 19,
+	maximum_value = 20,
 	default_value = 10,
 	order = "Aac"
 	},
@@ -31,7 +31,7 @@
 	name = "power-armor-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5,
-	maximum_value = 19,
+	maximum_value = 20,
 	default_value = 10,
 	order = "Aad"
 	},
