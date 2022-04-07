@@ -55,7 +55,7 @@
 	},
 		})
 --------------------------------------------------------------------------------------------------
-if mods["custom-power-armor-fix"]then
+if mods["custom-power-armor-fix"] then
 	data:extend({
 	{
 	type = "int-setting",
@@ -112,10 +112,9 @@ if mods["custom-power-armor-fix"]then
 	order = "Caf"
 },
 	})
-		end
 --------------------------------------------------------------------------------------------------
 	if mods["bobswarefare"] then
-		data.extend({
+		data:extend({
 	{
 	type = "int-setting",
 	name = "bob-power-armor-mk3-grid-size-h",
@@ -123,7 +122,7 @@ if mods["custom-power-armor-fix"]then
 	minimum_value = 5,
 	maximum_value = 45,
 	default_value = 35,
-	order = "Baa"
+	order = "Baa",
 	},
 	{
 	type = "int-setting",
@@ -132,7 +131,7 @@ if mods["custom-power-armor-fix"]then
 	minimum_value = 5,
 	maximum_value = 45,
 	default_value = 35,
-	order = "Bab"
+	order = "Bab",
 	},
 	{
 	type = "int-setting",
@@ -141,7 +140,7 @@ if mods["custom-power-armor-fix"]then
 	minimum_value = 5,
 	maximum_value = 55,
 	default_value = 45,
-	order = "Bac"
+	order = "Bac",
 	},
 	{
 	type = "int-setting",
@@ -313,7 +312,7 @@ if mods["custom-power-armor-fix"]then
 	},
 	{
 	type = "int-setting",
-	name = "mk4-amror-grid-grid-size-h",
+	name = "mk4-armor-grid-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5,
 	maximum_value = 80,
@@ -322,7 +321,7 @@ if mods["custom-power-armor-fix"]then
 	},
 	{
 	type = "int-setting",
-	name = "mk4-amror-grid-grid-size-w",
+	name = "mk4-armor-grid-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5,
 	maximum_value = 80,
@@ -333,7 +332,7 @@ if mods["custom-power-armor-fix"]then
 			end
 --------------------------------------------------------------------------------------------------
 	if mods["RampantArsenal"] then
-		data:exstend({
+		data:extend({
 	{
 	type = "int-setting",
 	name = "power-armor-mk3-armor-rampant-arsenal-grid-size-h",
