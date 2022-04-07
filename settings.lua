@@ -42,7 +42,7 @@
 	minimum_value = 5,
 	maximum_value = 29,
 	default_value = 20,
-	order = "Aac"
+	order = "Aae"
 	},
 	{
 	type = "int-setting",
@@ -51,6 +51,6 @@
 	minimum_value = 5,
 	maximum_value = 29,
 	default_value = 20,
-	order = "Aad"
+	order = "Aaf"
 	},
 		})
