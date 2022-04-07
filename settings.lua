@@ -1,4 +1,5 @@
- data:extend({
+ data:extend(
+		{
 	{
 	type = "int-setting",
 	name = "modular-armor-grid-size-h",
@@ -53,8 +54,8 @@
 	default_value = 20,
 	order = "Aad"
 	},
-	
-	if mods["custom-power-armor-fix"] then
+
+	if mods["custom-power-armor-fix"]then
 	{
 	type = "int-setting",
 	name = "power-armor-mk3-grid-size-h",
@@ -110,6 +111,7 @@
 	order = "Caf"
 	},
 end
+	end
 	
 	if mods["bobswarefare"] then
 	{
@@ -302,4 +304,5 @@ end
 	order = "Fab"
 	},
 end
-}),
+	}
+		)
