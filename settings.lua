@@ -59,7 +59,7 @@ if mods["custom-power-armor-fix"]then
 	data:extend({
 	{
 	type = "int-setting",
-	name = "mk3-destroyer-grid-grid-size-h",
+	name = "mk3-destroyer-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5,
 	maximum_value = 40,
@@ -68,7 +68,7 @@ if mods["custom-power-armor-fix"]then
 	},
 	{
 	type = "int-setting",
-	name = "mk3-destroyer-grid-grid-size-w",
+	name = "mk3-destroyer-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5,
 	maximum_value = 40,
