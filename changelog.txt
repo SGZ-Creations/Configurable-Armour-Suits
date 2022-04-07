@@ -6,5 +6,5 @@ Date: 12.03.2022
 			The mods defaults can be fount at startup-setting if u have the optional mod present
 		- increased inventory sizes
 			Mk1, Mk2, Mk3, Mk4, & Truster suits
-		-
+		- added Norwegian translation
 	
