@@ -5,3 +5,4 @@ Date: 07.04.2022
     - Added setting to choose the suiteable size of equipment grid of own choice
     - The mods defaults are higer than the other mod u install. Can be found at ("startup-setting"/startup settings) if u have the optional mod present.
     - Norwegian translation included.
+    - Up start Copatibility: Bob's, Custom Power Armour fix, Power Armour mk3, Rampand Aresensal, Krastorio2, Space Exploration,
