@@ -40,7 +40,7 @@
 	name = "power-armor-mk2-grid-size-h",
 	setting_type = "startup",
 	minimum_value = 5,
-	maximum_value = 29,
+	maximum_value = 40,
 	default_value = 20,
 	order = "Aae"
 	},
@@ -49,7 +49,7 @@
 	name = "power-armor-mk2-grid-size-w",
 	setting_type = "startup",
 	minimum_value = 5,
-	maximum_value = 29,
+	maximum_value = 40,
 	default_value = 20,
 	order = "Aaf"
 	},
