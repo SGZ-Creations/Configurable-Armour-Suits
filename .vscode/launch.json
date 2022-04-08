@@ -8,13 +8,13 @@
             "type": "factoriomod",
             "request": "launch",
             "name": "Factorio Mod Debug",
-            "factorioPath": "D:\Factorio's\Factorio Mod making\bin\x64\factorio.exe"
+            "factorioPath": ""
         },
         {
             "type": "factoriomod",
             "request": "launch",
             "name": "Factorio Mod Debug (Settings & Data)",
-            "factorioPath": "D:\Factorio's\Factorio Mod making\bin\x64\factorio.exe",
+            "factorioPath": "",
             "hookSettings": true,
             "hookData": true
         },

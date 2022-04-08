@@ -1,25 +1,52 @@
-local function SetGridSize(grid_name, new_height, new_width)
-  if data.raw["equipment-grid"][grid_name] then
-    data.raw["equipment-grid"][grid_name].width = new_width
-    data.raw["equipment-grid"][grid_name].height = new_height
-  end
+local function SetGridSize(grid_name, setting_name)
+	local width = settings.startup[setting_name.."-grid-size-w"].value
+	local height = settings.startup[setting_name.."-grid-size-h"].value
+	if data.raw["equipment-grid"][grid_name] then
+		data.raw["equipment-grid"][grid_name].width = width
+		data.raw["equipment-grid"][grid_name].height = height
+	end
 end
 
-	SetGridSize("small-equipment-grid", settings.startup["modular-armor-grid-size-h"].value, settings.startup["modular-armor-grid-size-w"].value)
-	SetGridSize("medium-equipment-grid", settings.startup["power-armor-grid-size-h"].value, settings.startup["power-armor-grid-size-w"].value)
-	SetGridSize("large-equipment-grid", settings.startup["power-armor-mk2-grid-size-h"].value, settings.startup["power-armor-mk2-grid-size-w"].value)
-	SetGridSize("mk3-destroyer-grid", settings.startup["mk3-destroyer-grid-size-h"].value, settings.startup["mk3-destroyer-grid-size-w"].value)
-	SetGridSize("mk4-exterminator-grid",settings.startup["power-armor-mk4-grid-size-h"].value, settings.startup["power-armor-mk4-grid-size-w"].value)
-	SetGridSize("mk5-annihilator-grid",settings.startup["power-armor-mk5-grid-size-h"].value, settings.startup["power-armor-mk5-grid-size-w"].value)
-	SetGridSize("power-armor-equipment-grid-mk3", settings.startup["bob-power-armor-mk3-grid-size-h"].value, settings.startup["bob-power-armor-mk3-grid-size-w"].value)
- 	SetGridSize("power-armor-equipment-grid-mk4", settings.startup["bob-power-armor-mk4-grid-size-h"].value, settings.startup["bob-power-armor-mk4-grid-size-w"].value)
-	SetGridSize("power-armor-equipment-grid-mk5", settings.startup["bob-power-armor-mk5-grid-size-h"].value, settings.startup["bob-power-armor-mk5-grid-size-w"].value) 
-	SetGridSize("larger-equipment-grid", setting.startup["pamk3-pmak3-grid-size-h"].value, settings.startup["pamk3-pmak3-grid-size-w"].value)
-	SetGridSize("largest-equipment-grid", setting.startup["pamk3-pmak4-grid-size-h"].value, settings.startup["pamk3-pmak4-grid-size-w"].value)  
-	SetGridSize("se-thruster-suit-grid", settings.startup["se-thruster-suit-grid-grid-size-h"].value, settings.startup["modular-armour-grid-grid-size-w"].value)
-	SetGridSize("se-thruster-suit-2-grid", settings.startup["se-thruster-suit-2-grid-grid-size-h"].value, settings.startup["se-thruster-suit-2-grid-grid-size-w"].value)
-	SetGridSize("se-thruster-suit-3-grid", settings.startup["se-thruster-suit-3-grid-grid-size-h"].value, settings.startup["se-thruster-suit-3-grid-grid-size-w"].value)
-	SetGridSize("se-thruster-suit-4-grid", settings.startup["se-thruster-suit-4-grid-grid-size-h"].value, settings.startup["se-thruster-suit-4-grid-grid-size-w"].value)
-	SetGridSize("mk3-armor-grid", setting.startup["mk3-armor-grid-grid-size-h"].value, setting.startup["mk3-armor-grid-grid-size-w"].value)
-	SetGridSize("mk4-armor-grid", setting.startup["mk4-armor-grid-grid-size-h"].value, setting.startup["mk4-armor-grid-grid-size-w"].value)
-	SetGridSize("power-armor-mk3-grid-rampant-arsenal", settings.startup["power-armor-mk3-armor-rampant-arsenal-grid-size-h"].value, settings.startup["power-armor-mk3-armor-rampant-arsenal-grid-size-w"].value)
+--- This should work, I'll be at work all day tommorow but should be able to peek at discord if you have any questions
+
+-- Try to follow correct indention for readability  either 2, 3, 4 is standard
+-- anything under a control statement gets indented until it `end`s
+
+SetGridSize("small-equipment-grid", "modular-armor")
+SetGridSize("medium-equipment-grid", "power-armor")
+SetGridSize("large-equipment-grid", "power-armor-mk2")
+
+if mods["space-exploration"] then
+	-- Create a table with all of our grids names
+	local grids = {"se-thruster-suit-grid", "se-thruster-suit-2-grid", "se-thruster-suit-3-grid", "se-thruster-suit-4-grid"}
+	-- loop through the table with ipairs, we only care about the value so index is throwaway _
+	for _, grid in ipairs(grids) do
+		SetGridSize(grid, grid)
+	end
+end
+
+if mods["custom-power-armor-fix"] then
+	SetGridSize("mk3-destroyer-grid", "power-armor-mk3")
+	SetGridSize("mk4-exterminator-grid","power-armor-mk4")
+	SetGridSize("mk5-annihilator-grid","power-armor-mk5")
+end
+
+if mods["bobwarfare"] then -- Fixed to correct `bobwarfare`
+	SetGridSize("power-armor-equipment-grid-mk3", "bob-power-armor-mk3")
+	SetGridSize("power-armor-equipment-grid-mk4", "bob-power-armor-mk4")
+    SetGridSize("power-armor-equipment-grid-mk5", "bob-power-armor-mk5")
+end
+
+if mods["Krastorio2"] then
+	SetGridSize("mk3-armor-grid", "mk3-armor-grid")
+	SetGridSize("mk4-armor-grid", "mk4-armor-grid")
+end
+
+if mods["Power Armor MK3"] then
+	SetGridSize("larger-equipment-grid", "pamk3-pmak3")
+	SetGridSize("largest-equipment-grid", "pamk3-pmak4")
+end
+
+if mods["RampantArsenal"] then
+	SetGridSize("power-armor-mk3-grid-rampant-arsenal", "power-armor-mk3-armor-rampant-arsenal")
+end
