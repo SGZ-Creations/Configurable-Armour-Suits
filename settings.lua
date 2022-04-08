@@ -112,6 +112,7 @@ if mods["custom-power-armor-fix"] then
 	order = "Caf"
 },
 	})
+end
 --------------------------------------------------------------------------------------------------
 	if mods["bobswarefare"] then
 		data:extend({
