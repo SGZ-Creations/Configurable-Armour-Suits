@@ -7,8 +7,6 @@ local function SetGridSize(grid_name, setting_name)
 	end
 end
 
---- This should work, I'll be at work all day tommorow but should be able to peek at discord if you have any questions
-
 -- Try to follow correct indention for readability  either 2, 3, 4 is standard
 -- anything under a control statement gets indented until it `end`s
 

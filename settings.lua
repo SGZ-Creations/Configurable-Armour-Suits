@@ -98,7 +98,7 @@ if mods["custom-power-armor-fix"] then
             name = "mk5-annihilator-grid-size-h",
             setting_type = "startup",
             minimum_value = 5,
-            maximum_value = 60,
+            maximum_value = 400,
             default_value = 50,
             order = "Cae"
         },
@@ -107,7 +107,7 @@ if mods["custom-power-armor-fix"] then
             name = "mk5-annihilator-grid-size-w",
             setting_type = "startup",
             minimum_value = 5,
-            maximum_value = 60,
+            maximum_value = 400,
             default_value = 50,
             order = "Caf"
         }
@@ -218,29 +218,29 @@ if mods["space-exploration"] then
     data:extend({
         {
             type = "int-setting",
-            name = "se-thruster-suit-grid-grid-size-h",
+            name = "se-thruster-suit-grid-size-h",
             setting_type = "startup",
             minimum_value = 5,
-            maximum_value = 20,
-            default_value = 10,
+            maximum_value = 30,
+            default_value = 15,
             order = "Eaa"
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-grid-grid-size-w",
+            name = "se-thruster-suit-grid-size-w",
             setting_type = "startup",
             minimum_value = 5,
-            maximum_value = 20,
-            default_value = 10,
+            maximum_value = 30,
+            default_value = 15,
             order = "Eab"
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-2-grid-grid-size-h",
+            name = "se-thruster-suit-2grid-size-h",
             setting_type = "startup",
             minimum_value = 5,
-            maximum_value = 30,
-            default_value = 20,
+            maximum_value = 45,
+            default_value = 30,
             order = "Eac"
         },
         {
@@ -248,31 +248,31 @@ if mods["space-exploration"] then
             name = "se-thruster-suit-2-grid-size-w",
             setting_type = "startup",
             minimum_value = 5,
-            maximum_value = 30,
-            default_value = 20,
+            maximum_value = 45,
+            default_value = 30,
             order = "Ead"
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-3-grid-grid-size-h",
+            name = "se-thruster-suit-3-grid-size-h",
             setting_type = "startup",
             minimum_value = 5,
-            maximum_value = 30,
-            default_value = 30,
+            maximum_value = 60,
+            default_value = 45,
             order = "Eae"
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-3-grid-grid-size-w",
+            name = "se-thruster-suit-3-grid-size-w",
             setting_type = "startup",
             minimum_value = 5,
-            maximum_value = 40,
-            default_value = 30,
+            maximum_value = 60,
+            default_value = 45,
             order = "Eaf"
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-4-grid-grid-size-h",
+            name = "se-thruster-suit-4-grid-size-h",
             setting_type = "startup",
             minimum_value = 5,
             maximum_value = 500,
@@ -281,7 +281,7 @@ if mods["space-exploration"] then
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-4-grid-grid-size-w",
+            name = "se-thruster-suit-4-grid-size-w",
             setting_type = "startup",
             minimum_value = 5,
             maximum_value = 500,
@@ -295,7 +295,7 @@ if mods["Krastorio2"] then
     data:extend({
         {
             type = "int-setting",
-            name = "mk3-armor-grid-grid-size-h",
+            name = "mk3-armor-grid-size-h",
             setting_type = "startup",
             minimum_value = 5,
             maximum_value = 60,
@@ -304,7 +304,7 @@ if mods["Krastorio2"] then
         },
         {
             type = "int-setting",
-            name = "mk3-armor-grid-grid-size-w",
+            name = "mk3-armor-grid-size-w",
             setting_type = "startup",
             minimum_value = 5,
             maximum_value = 60,
@@ -313,7 +313,7 @@ if mods["Krastorio2"] then
         },
         {
             type = "int-setting",
-            name = "mk4-armor-grid-grid-size-h",
+            name = "mk4-armor-grid-size-h",
             setting_type = "startup",
             minimum_value = 5,
             maximum_value = 500,
@@ -322,7 +322,7 @@ if mods["Krastorio2"] then
         },
         {
             type = "int-setting",
-            name = "mk4-armor-grid-grid-size-w",
+            name = "mk4-armor-grid-size-w",
             setting_type = "startup",
             minimum_value = 5,
             maximum_value = 500,
