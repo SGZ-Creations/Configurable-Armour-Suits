@@ -276,7 +276,7 @@ if mods["space-exploration"] then
             setting_type = "startup",
             minimum_value = 5,
             maximum_value = 500,
-            default_value = 40,
+            default_value = 60,
             order = "Eag"
         },
         {
@@ -285,7 +285,7 @@ if mods["space-exploration"] then
             setting_type = "startup",
             minimum_value = 5,
             maximum_value = 500,
-            default_value = 40,
+            default_value = 60,
             order = "Eah"
         }
     })
