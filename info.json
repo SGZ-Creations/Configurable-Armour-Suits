@@ -5,7 +5,7 @@
 	"author": "SGZ_Creations",
 	"contact": "https://discord.gg/tbxnpsxkDM",
 	"homepage": "https://https://github.com/SGZ-Creations/configurable-armour-suits",
-	"dependencies": ["base >= 1.1", "? bobwarfare >= 1.1.0", "? custom_power_armor_fix >= 5.1.1", "? Power Armor MK3 >= 0.4.1", "?  Krastorio2", "? space-exploration >= 0.5.112"],
+	"dependencies": ["base >= 1.1", "? bobwarfare >= 1.1.0", "? custom_power_armor_fix >= 5.1.1", "? Power Armor MK3 >= 0.4.1", "?  Krastorio2", "? space-exploration >= 0.5.112", "! Moar-Grid" ],
 	"factorio_version": "1.1",
 	"description": "New default Equipment grid sizes of armor and space suit Bob's K2 SE Rampand Aresensal Custom_Power_Armor_fix"
 }
