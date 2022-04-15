@@ -21,7 +21,7 @@ data:extend({
         type = "int-setting",
         name = "power-armor-grid-size-h",
         setting_type = "startup",
-        minimum_value = 5,
+        minimum_value = 0,
         maximum_value = 20,
         default_value = 10,
         order = "Aac"
@@ -30,7 +30,7 @@ data:extend({
         type = "int-setting",
         name = "power-armor-grid-size-w",
         setting_type = "startup",
-        minimum_value = 5,
+        minimum_value = 0,
         maximum_value = 20,
         default_value = 10,
         order = "Aad"
@@ -39,7 +39,7 @@ data:extend({
         type = "int-setting",
         name = "power-armor-mk2-grid-size-h",
         setting_type = "startup",
-        minimum_value = 5,
+        minimum_value = 0,
         maximum_value = 40,
         default_value = 20,
         order = "Aae"
@@ -48,7 +48,7 @@ data:extend({
         type = "int-setting",
         name = "power-armor-mk2-grid-size-w",
         setting_type = "startup",
-        minimum_value = 5,
+        minimum_value = 0,
         maximum_value = 40,
         default_value = 20,
         order = "Aaf"
@@ -61,7 +61,7 @@ if mods["custom-power-armor-fix"] then
             type = "int-setting",
             name = "mk3-destroyer-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 40,
             default_value = 30,
             order = "Caa"
@@ -70,7 +70,7 @@ if mods["custom-power-armor-fix"] then
             type = "int-setting",
             name = "mk3-destroyer-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 40,
             default_value = 30,
             order = "Cab"
@@ -79,7 +79,7 @@ if mods["custom-power-armor-fix"] then
             type = "int-setting",
             name = "mk4-exterminator-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
             order = "Cac"
@@ -88,7 +88,7 @@ if mods["custom-power-armor-fix"] then
             type = "int-setting",
             name = "mk4-exterminator-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
             order = "Cad"
@@ -97,7 +97,7 @@ if mods["custom-power-armor-fix"] then
             type = "int-setting",
             name = "mk5-annihilator-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 400,
             default_value = 50,
             order = "Cae"
@@ -106,7 +106,7 @@ if mods["custom-power-armor-fix"] then
             type = "int-setting",
             name = "mk5-annihilator-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 400,
             default_value = 50,
             order = "Caf"
@@ -120,7 +120,7 @@ if mods["bobwarfare"] then
             type = "int-setting",
             name = "bob-power-armor-mk3-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 45,
             default_value = 35,
             order = "Baa"
@@ -129,7 +129,7 @@ if mods["bobwarfare"] then
             type = "int-setting",
             name = "bob-power-armor-mk3-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 45,
             default_value = 35,
             order = "Bab"
@@ -138,7 +138,7 @@ if mods["bobwarfare"] then
             type = "int-setting",
             name = "bob-power-armor-mk4-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 55,
             default_value = 45,
             order = "Bac"
@@ -147,7 +147,7 @@ if mods["bobwarfare"] then
             type = "int-setting",
             name = "bob-power-armor-mk4-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 55,
             default_value = 45,
             order = "Bad"
@@ -156,7 +156,7 @@ if mods["bobwarfare"] then
             type = "int-setting",
             name = "bob-power-armor-mk5-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 550,
             default_value = 55,
             order = "Bae"
@@ -165,7 +165,7 @@ if mods["bobwarfare"] then
             type = "int-setting",
             name = "bob-power-armor-mk5-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 550,
             default_value = 55,
             order = "Baf"
@@ -179,7 +179,7 @@ if mods["Power Armor MK3"] then
             type = "int-setting",
             name = "pamk3-pmak3-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 40,
             default_value = 30,
             order = "Daa"
@@ -188,7 +188,7 @@ if mods["Power Armor MK3"] then
             type = "int-setting",
             name = "pamk3-pmak3-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 40,
             default_value = 30,
             order = "Dab"
@@ -197,7 +197,7 @@ if mods["Power Armor MK3"] then
             type = "int-setting",
             name = "pamk3-pmak4-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
             order = "Dac"
@@ -206,7 +206,7 @@ if mods["Power Armor MK3"] then
             type = "int-setting",
             name = "pamk3-pmak4-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
             order = "Dad"
@@ -220,7 +220,7 @@ if mods["space-exploration"] then
             type = "int-setting",
             name = "se-thruster-suit-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 30,
             default_value = 15,
             order = "Eaa"
@@ -229,7 +229,7 @@ if mods["space-exploration"] then
             type = "int-setting",
             name = "se-thruster-suit-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 30,
             default_value = 15,
             order = "Eab"
@@ -238,7 +238,7 @@ if mods["space-exploration"] then
             type = "int-setting",
             name = "se-thruster-suit-2grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 45,
             default_value = 30,
             order = "Eac"
@@ -247,7 +247,7 @@ if mods["space-exploration"] then
             type = "int-setting",
             name = "se-thruster-suit-2-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 45,
             default_value = 30,
             order = "Ead"
@@ -256,7 +256,7 @@ if mods["space-exploration"] then
             type = "int-setting",
             name = "se-thruster-suit-3-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 60,
             default_value = 45,
             order = "Eae"
@@ -265,7 +265,7 @@ if mods["space-exploration"] then
             type = "int-setting",
             name = "se-thruster-suit-3-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 60,
             default_value = 45,
             order = "Eaf"
@@ -274,7 +274,7 @@ if mods["space-exploration"] then
             type = "int-setting",
             name = "se-thruster-suit-4-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 500,
             default_value = 60,
             order = "Eag"
@@ -283,7 +283,7 @@ if mods["space-exploration"] then
             type = "int-setting",
             name = "se-thruster-suit-4-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 500,
             default_value = 60,
             order = "Eah"
@@ -297,7 +297,7 @@ if mods["Krastorio2"] then
             type = "int-setting",
             name = "mk3-armor-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 60,
             default_value = 30,
             order = "Gaa"
@@ -306,7 +306,7 @@ if mods["Krastorio2"] then
             type = "int-setting",
             name = "mk3-armor-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 60,
             default_value = 30,
             order = "Gab"
@@ -315,7 +315,7 @@ if mods["Krastorio2"] then
             type = "int-setting",
             name = "mk4-armor-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 500,
             default_value = 40,
             order = "Gac"
@@ -324,7 +324,7 @@ if mods["Krastorio2"] then
             type = "int-setting",
             name = "mk4-armor-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 500,
             default_value = 40,
             order = "Gad"
@@ -338,7 +338,7 @@ if mods["RampantArsenal"] then
             type = "int-setting",
             name = "power-armor-mk3-armor-rampant-arsenal-grid-size-h",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 60,
             default_value = 30,
             order = "Faa"
@@ -347,7 +347,7 @@ if mods["RampantArsenal"] then
             type = "int-setting",
             name = "power-armor-mk3-armor-rampant-arsenal-grid-size-w",
             setting_type = "startup",
-            minimum_value = 5,
+            minimum_value = 0,
             maximum_value = 60,
             default_value = 30,
             order = "Fab"
