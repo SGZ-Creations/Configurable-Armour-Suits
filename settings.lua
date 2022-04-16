@@ -218,7 +218,7 @@ if mods["space-exploration"] then
     data:extend({
         {
             type = "int-setting",
-            name = "se-thruster-suit-grid-size-h", -- no touchi tuch :p
+            name = "se-thruster-suit-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 30,

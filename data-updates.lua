@@ -16,7 +16,7 @@ SetGridSize("large-equipment-grid", "power-armor-mk2")
 
 if mods["space-exploration"] then
 	SetGridSize("se-thruster-suit-grid", "se-thruster-suit")
-	SetGridSize("se-thruster-suit-2-grid", "se-thruster-suit-2")--  <<---- correct
+	SetGridSize("se-thruster-suit-2-grid", "se-thruster-suit-2")
     SetGridSize("se-thruster-suit-3-grid", "se-thruster-suit-3")
 	SetGridSize("se-thruster-suit-4-grid", "se-thruster-suit-4")
 end
