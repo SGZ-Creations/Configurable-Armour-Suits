@@ -295,7 +295,7 @@ if mods["Krastorio2"] then
     data:extend({
         {
             type = "int-setting",
-            name = "mk3-armor-size-h",
+            name = "mk3-armor-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 60,
@@ -304,7 +304,7 @@ if mods["Krastorio2"] then
         },
         {
             type = "int-setting",
-            name = "mk3-armor-size-w",
+            name = "mk3-armor-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 60,
@@ -313,7 +313,7 @@ if mods["Krastorio2"] then
         },
         {
             type = "int-setting",
-            name = "mk4-armor-size-h",
+            name = "mk4-armor-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 500,
@@ -322,7 +322,7 @@ if mods["Krastorio2"] then
         },
         {
             type = "int-setting",
-            name = "mk4-armor-size-w",
+            name = "mk4-armor-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 500,
