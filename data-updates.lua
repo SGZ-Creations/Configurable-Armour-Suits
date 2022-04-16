@@ -17,7 +17,7 @@ SetGridSize("large-equipment-grid", "power-armor-mk2")
 if mods["space-exploration"] then
 	-- Create a table with all of our grids names
 	local grids = {"se-thruster-suit-grid", "se-thruster-suit-2-grid", "se-thruster-suit-3-grid", "se-thruster-suit-4-grid"}
-	-- loop through the table with ipairs, we only care about the value so index is throwaway _
+	-- loop through the table with ipairs, we only care about the value so index is throwaway
 	for _, grid in ipairs(grids) do
 		SetGridSize(grid, grid)
 	end

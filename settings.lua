@@ -236,7 +236,7 @@ if mods["space-exploration"] then
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-2grid-size-h",
+            name = "se-thruster-suit-2-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 45,
