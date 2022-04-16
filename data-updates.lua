@@ -18,7 +18,7 @@ if mods["space-exploration"] then
 	SetGridSize("se-thruster-suit-grid", "se-thruster-suit")
 	SetGridSize("se-thruster-suit-2-grid", "se-thruster-suit-2")--  <<---- correct
     SetGridSize("se-thruster-suit-3-grid", "se-thruster-suit-3")
-	SetGridSize("se-thruster-suit-4-grid", "se-thruster-suit-4")-- rename the setting part too without -grid
+	SetGridSize("se-thruster-suit-4-grid", "se-thruster-suit-4")
 end
 
 if mods["custom-power-armor-fix"] then
@@ -27,7 +27,7 @@ if mods["custom-power-armor-fix"] then
 	SetGridSize("mk5-annihilator-grid","power-armor-mk5")
 end
 
-if mods["bobwarfare"] then -- Fixed to correct `bobwarfare`
+if mods["bobwarfare"] then
 	SetGridSize("power-armor-equipment-grid-mk3", "bob-power-armor-mk3")
 	SetGridSize("power-armor-equipment-grid-mk4", "bob-power-armor-mk4")
     SetGridSize("power-armor-equipment-grid-mk5", "bob-power-armor-mk5")
