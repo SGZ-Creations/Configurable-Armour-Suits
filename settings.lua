@@ -218,7 +218,7 @@ if mods["space-exploration"] then
     data:extend({
         {
             type = "int-setting",
-            name = "se-thruster-suit-grid-size-h",
+            name = "se-thruster-suit-grid-size-h", -- no touchi tuch :p
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 30,
@@ -295,7 +295,7 @@ if mods["Krastorio2"] then
     data:extend({
         {
             type = "int-setting",
-            name = "mk3-armor-grid-size-h",
+            name = "mk3-armor-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 60,
@@ -304,7 +304,7 @@ if mods["Krastorio2"] then
         },
         {
             type = "int-setting",
-            name = "mk3-armor-grid-size-w",
+            name = "mk3-armor-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 60,
@@ -313,7 +313,7 @@ if mods["Krastorio2"] then
         },
         {
             type = "int-setting",
-            name = "mk4-armor-grid-size-h",
+            name = "mk4-armor-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 500,
@@ -322,7 +322,7 @@ if mods["Krastorio2"] then
         },
         {
             type = "int-setting",
-            name = "mk4-armor-grid-size-w",
+            name = "mk4-armor-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 500,

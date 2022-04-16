@@ -15,12 +15,10 @@ SetGridSize("medium-equipment-grid", "power-armor")
 SetGridSize("large-equipment-grid", "power-armor-mk2")
 
 if mods["space-exploration"] then
-	-- Create a table with all of our grids names
-	local grids = {"se-thruster-suit-grid", "se-thruster-suit-2-grid", "se-thruster-suit-3-grid", "se-thruster-suit-4-grid"}
-	-- loop through the table with ipairs, we only care about the value so index is throwaway
-	for _, grid in ipairs(grids) do
-		SetGridSize(grid, grid)
-	end
+	SetGridSize("se-thruster-suit-grid", "se-thruster-suit")
+	SetGridSize("se-thruster-suit-2-grid", "se-thruster-suit-2")--  <<---- correct
+    SetGridSize("se-thruster-suit-3-grid", "se-thruster-suit-3")
+	SetGridSize("se-thruster-suit-4-grid", "se-thruster-suit-4")-- rename the setting part too without -grid
 end
 
 if mods["custom-power-armor-fix"] then
@@ -36,8 +34,8 @@ if mods["bobwarfare"] then -- Fixed to correct `bobwarfare`
 end
 
 if mods["Krastorio2"] then
-	SetGridSize("mk3-armor-grid", "mk3-armor-grid")
-	SetGridSize("mk4-armor-grid", "mk4-armor-grid")
+	SetGridSize("mk3-armor-grid", "mk3-armor")
+	SetGridSize("mk4-armor-grid", "mk4-armor")
 end
 
 if mods["Power Armor MK3"] then
