@@ -218,7 +218,7 @@ if mods["space-exploration"] then
     data:extend({
         {
             type = "int-setting",
-            name = "se-thruster-suit-grid-grid-size-h",
+            name = "se-thruster-suit-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 30,
@@ -227,7 +227,7 @@ if mods["space-exploration"] then
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-grid-grid-size-w",
+            name = "se-thruster-suit-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 30,
@@ -236,7 +236,7 @@ if mods["space-exploration"] then
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-2-grid-grid-size-h",
+            name = "se-thruster-suit-2-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 45,
@@ -245,7 +245,7 @@ if mods["space-exploration"] then
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-2-grid-grid-size-w",
+            name = "se-thruster-suit-2-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 45,
@@ -254,7 +254,7 @@ if mods["space-exploration"] then
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-3-grid-grid-size-h",
+            name = "se-thruster-suit-3-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 60,
@@ -263,7 +263,7 @@ if mods["space-exploration"] then
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-3-grid-grid-size-w",
+            name = "se-thruster-suit-3-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 60,
@@ -272,7 +272,7 @@ if mods["space-exploration"] then
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-4-grid-grid-size-h",
+            name = "se-thruster-suit-4-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 500,
@@ -281,7 +281,7 @@ if mods["space-exploration"] then
         },
         {
             type = "int-setting",
-            name = "se-thruster-suit-4-grid-grid-size-w",
+            name = "se-thruster-suit-4-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 500,
