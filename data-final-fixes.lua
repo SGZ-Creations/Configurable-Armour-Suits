@@ -38,8 +38,6 @@ if mods["bobwarfare"] then
     SetGridSize("power-armor-equipment-grid-mk5", "bob-power-armor-mk5")
 end
 
--- Currently K2 have been SE at current momment if i compare to erlier when i IT was weaird.
--- Other than that i went to bed for toady as I'm over tired. if u solve the mixup i will greatly apriciate it 
 
 if mods["Krastorio2"] then -- only change K2 if not SE...
 	if not mods["space-exploration"] then
