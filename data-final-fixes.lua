@@ -12,19 +12,6 @@ SetGridSize("small-equipment-grid", "modular-armor")
 SetGridSize("medium-equipment-grid", "power-armor")
 SetGridSize("large-equipment-grid", "power-armor-mk2")
 
-if mods["space-exploration"] then
-	if mods["Krastorio2"] then
-		SetGridSize("medium-equipment-grid", "se-thruster-suit")
-		SetGridSize("large-equipment-grid", "se-thruster-suit-2")
-		SetGridSize("mk3-armor-grid", "se-thruster-suit-3")
-		SetGridSize("mk4-armor-grid", "se-thruster-suit-4")
-	else
-		SetGridSize("se-thruster-suit-grid", "se-thruster-suit")
-		SetGridSize("se-thruster-suit-2-grid", "se-thruster-suit-2")
-		SetGridSize("se-thruster-suit-3-grid", "se-thruster-suit-3")
-		SetGridSize("se-thruster-suit-4-grid", "se-thruster-suit-4")
-	end
-end
 
 if mods["custom-power-armor-fix"] then
 	SetGridSize("mk3-destroyer-grid", "power-armor-mk3")
@@ -39,13 +26,6 @@ if mods["bobwarfare"] then
 end
 
 
-if mods["Krastorio2"] then -- only change K2 if not SE...
-	if not mods["space-exploration"] then
-		SetGridSize("mk3-armor-grid", "mk3-armor")
-		SetGridSize("mk4-armor-grid", "mk4-armor")
-	end
-end
-
 if mods["Power Armor MK3"] then
 	SetGridSize("larger-equipment-grid", "pamk3-pmak3")
 	SetGridSize("largest-equipment-grid", "pamk3-pmak4")
@@ -58,4 +38,25 @@ end
 -- if mods["PowerAndArmor"] then
 -- 
 --
+--end
+
+if mods["space-exploration"] then
+	if mods["Krastorio2"] then
+		SetGridSize("medium-equipment-grid", "se-thruster-suit")
+		SetGridSize("large-equipment-grid", "se-thruster-suit-2")
+		SetGridSize("mk3-armor-grid", "se-thruster-suit-3")
+		SetGridSize("mk4-armor-grid", "se-thruster-suit-4")
+	else
+		SetGridSize("se-thruster-suit-grid", "se-thruster-suit")
+		SetGridSize("se-thruster-suit-2-grid", "se-thruster-suit-2")
+		SetGridSize("se-thruster-suit-3-grid", "se-thruster-suit-3")
+		SetGridSize("se-thruster-suit-4-grid", "se-thruster-suit-4")
+	end
+end
+
+--if mods["Krastorio2"] then -- only change K2 if not SE...
+--	if not mods["space-exploration"] then
+--		SetGridSize("mk3-armor-grid", "mk3-armor")
+--		SetGridSize("mk4-armor-grid", "mk4-armor")
+--	end
 --end
