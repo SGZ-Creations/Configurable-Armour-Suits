@@ -16,3 +16,4 @@ Date: 11.05.2022
     - Added Norwegian translation. vanilla only. Rest still WIP.
     - Copatibility: Bob's, Power Armour mk3, RampantArsenal, Krastorio2, Space Exploration,
   Betas:
+    - Closed beta testing done.
