@@ -114,7 +114,7 @@ if mods["bobwarfare"] then
     })
 end
 --------------------------------------------------------------------------------------------------
--- Disabl due to not loading ether setting or funtions.
+-- Disabled due to not loading ether setting or funtions.
 
 --if mods["custom-power-armor-fix"] then
 --    data:extend({
