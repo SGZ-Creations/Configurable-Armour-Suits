@@ -55,65 +55,6 @@ data:extend({
     }
 })
 --------------------------------------------------------------------------------------------------
-if mods["custom-power-armor-fix"] then
-    data:extend({
-        {
-            type = "int-setting",
-            name = "mk3-destroyer-grid-size-h",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 40,
-            default_value = 30,
-            order = "Caa"
-        },
-        {
-            type = "int-setting",
-            name = "mk3-destroyer-grid-size-w",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 40,
-            default_value = 30,
-            order = "Cab"
-        },
-        {
-            type = "int-setting",
-            name = "mk4-exterminator-grid-size-h",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 50,
-            default_value = 40,
-            order = "Cac"
-        },
-        {
-            type = "int-setting",
-            name = "mk4-exterminator-grid-size-w",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 50,
-            default_value = 40,
-            order = "Cad"
-        },
-        {
-            type = "int-setting",
-            name = "mk5-annihilator-grid-size-h",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 400,
-            default_value = 50,
-            order = "Cae"
-        },
-        {
-            type = "int-setting",
-            name = "mk5-annihilator-grid-size-w",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 400,
-            default_value = 50,
-            order = "Caf"
-        }
-    })
-end
---------------------------------------------------------------------------------------------------
 if mods["bobwarfare"] then
     data:extend({
         {
@@ -172,6 +113,67 @@ if mods["bobwarfare"] then
         }
     })
 end
+--------------------------------------------------------------------------------------------------
+-- Disabl due to not loading ether setting or funtions.
+
+--if mods["custom-power-armor-fix"] then
+--    data:extend({
+--        {
+--            type = "int-setting",
+--            name = "mk3-destroyer-grid-size-h",
+--            setting_type = "startup",
+--            minimum_value = 0,
+--            maximum_value = 40,
+--            default_value = 30,
+--            order = "Caa"
+--        },
+--        {
+--            type = "int-setting",
+--            name = "mk3-destroyer-grid-size-w",
+--            setting_type = "startup",
+--            minimum_value = 0,
+--            maximum_value = 40,
+--            default_value = 30,
+--            order = "Cab"
+--        },
+--        {
+--            type = "int-setting",
+--            name = "mk4-exterminator-grid-size-h",
+--           setting_type = "startup",
+--            minimum_value = 0,
+--            maximum_value = 50,
+--            default_value = 40,
+--            order = "Cac"
+--        },
+--        {
+--            type = "int-setting",
+--            name = "mk4-exterminator-grid-size-w",
+--            setting_type = "startup",
+--            minimum_value = 0,
+--            maximum_value = 50,
+--            default_value = 40,
+--            order = "Cad"
+--        },
+--        {
+--            type = "int-setting",
+--            name = "mk5-annihilator-grid-size-h",
+--            setting_type = "startup",
+--            minimum_value = 0,
+--            maximum_value = 500,
+--            default_value = 50,
+--            order = "Cae"
+--        },
+--        {
+--            type = "int-setting",
+--            name = "mk5-annihilator-grid-size-w",
+--            setting_type = "startup",
+--            minimum_value = 0,
+--            maximum_value = 500,
+--            default_value = 50,
+--            order = "Caf"
+--        }
+--    })
+--end
 --------------------------------------------------------------------------------------------------
 if mods["Power Armor MK3"] then
     data:extend({

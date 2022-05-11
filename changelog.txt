@@ -1,8 +1,18 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.0.1
-Date: 07.04.2022
+Version: 0.0.2
+Date: 18.05.2022
   Features:
-    - Added setting to choose the suiteable size of equipment grid of own choice
+    - Initial Release.
+    - Complete NO and EN Translation
+    - Disabled compatibility code for (Custom Power Armour Fix/(Custom Power Armour Reborn)) untill i fugure out way it won't load. 
+  Betas:
+    - New Testing for 0.0.3 will come. Want to be one of them join my discord to get a chance.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 11.05.2022
+  Features:
+    - Added settings to choose the suiteable size of equipment grid of own choice
     - The mods defaults are higer than the other mod u install. Can be found at ("startup-setting"/startup settings) if u have the optional mod present.
     - Added Norwegian translation. vanilla only. Rest still WIP.
-    - Copatibility: Bob's, Custom Power Armour fix, Power Armour mk3, RampantArsenal, Krastorio2, Space Exploration,
+    - Copatibility: Bob's, Power Armour mk3, RampantArsenal, Krastorio2, Space Exploration,
+  Betas:
