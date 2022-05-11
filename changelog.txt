@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
-Date: 18.05.2022
+Date: 11.05.2022
   Features:
     - Initial Release.
     - Complete NO and EN Translation
@@ -9,7 +9,7 @@ Date: 18.05.2022
     - New Testing for 0.0.3 will come. Want to be one of them join my discord to get a chance.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
-Date: 11.05.2022
+Date: xx.04.2022
   Features:
     - Added settings to choose the suiteable size of equipment grid of own choice
     - The mods defaults are higer than the other mod u install. Can be found at ("startup-setting"/startup settings) if u have the optional mod present.
