@@ -302,7 +302,7 @@ if mods["Krastorio2"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 30,
-            order = "Gaa"
+            order = "Faa"
         },
         {
             type = "int-setting",
@@ -311,25 +311,125 @@ if mods["Krastorio2"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 30,
-            order = "Gab"
+            order = "Fab"
         },
         {
             type = "int-setting",
             name = "mk4-armor-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 500,
+            maximum_value = 400,
             default_value = 40,
-            order = "Gac"
+            order = "Fac"
         },
         {
             type = "int-setting",
             name = "mk4-armor-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 500,
+            maximum_value = 400,
             default_value = 40,
+            order = "Fad"
+        }
+    })
+end
+--------------------------------------------------------------------------------------------------
+if mods["FactorioExtended-Equipment"] then
+    data:extend({
+        {
+            type = "int-setting",
+            name = "equipment-grid-1-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 35,
+            order = "Gaa"
+        },
+        {
+            type = "int-setting",
+            name = "equipment-grid-1-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 35,
+            order = "Gab"
+        },
+        {
+            type = "int-setting",
+            name = "equipment-grid-2-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 60,
+            default_value = 45,
+            order = "Gac"
+        },
+        {
+            type = "int-setting",
+            name = "equipment-grid-2-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 60,
+            default_value = 45,
             order = "Gad"
+        },
+        {
+            type = "int-setting",
+            name = "equipment-grid-3-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 70,
+            default_value = 55,
+            order = "Gae"
+        },
+        {
+            type = "int-setting",
+            name = "equipment-grid-3-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 70,
+            default_value = 55,
+            order = "Gaf"
+        }
+    })
+end
+--------------------------------------------------------------------------------------------------
+if mods["PowerAndArmor"] then
+    data:extend({
+        {
+            type = "int-setting",
+            name = "PaA-power-armor-mk3-grid-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 40,
+            default_value = 30,
+            order = "Haa"
+        },
+        {
+            type = "int-setting",
+            name = "PaA-power-armor-mk3-grid-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 40,
+            default_value = 30,
+            order = "Hab"
+        },
+        {
+            type = "int-setting",
+            name = "PaA-power-armor-mk4-grid-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 40,
+            order = "Hac"
+        },
+        {
+            type = "int-setting",
+            name = "PaA-power-armor-mk4-grid-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 40,
+            order = "Had"
         }
     })
 end
@@ -343,7 +443,7 @@ if mods["RampantArsenal"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 30,
-            order = "Faa"
+            order = "Iaa"
         },
         {
             type = "int-setting",
@@ -352,7 +452,7 @@ if mods["RampantArsenal"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 30,
-            order = "Fab"
+            order = "Iab"
         }
     })
 end
