@@ -19,7 +19,7 @@ Date: 15.05.2022
     - Setting order for Rampant Aresnal went from F to I
     - reduced limit of K2's mk4 Armour
   Fixes:
-    - Reverted the way K2 changes the grid sizes for SE if bothe mods are played toghetter.
+    - Reverted the way K2 changes the grid sizes for SE if both mods are played toghetter.
     - Fixed NO localisations in genral
     - Fixed NO localisations for "bob-power-armor-mk4-grid-size-w"
   Betas:
