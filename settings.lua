@@ -120,7 +120,7 @@ end
 --    data:extend({
 --        {
 --            type = "int-setting",
---            name = "mk3-destroyer-grid-size-h",
+--            name = "custom-power-armor-mk3-grid-size-h",
 --            setting_type = "startup",
 --            minimum_value = 0,
 --            maximum_value = 40,
@@ -129,7 +129,7 @@ end
 --        },
 --        {
 --            type = "int-setting",
---            name = "mk3-destroyer-grid-size-w",
+--            name = "custom-power-armor-mk3-grid-size-w",
 --            setting_type = "startup",
 --            minimum_value = 0,
 --            maximum_value = 40,
@@ -138,7 +138,7 @@ end
 --        },
 --        {
 --            type = "int-setting",
---            name = "mk4-exterminator-grid-size-h",
+--            name = "custom-power-armor-mk4-grid-size-h",
 --           setting_type = "startup",
 --            minimum_value = 0,
 --            maximum_value = 50,
@@ -147,7 +147,7 @@ end
 --        },
 --        {
 --            type = "int-setting",
---            name = "mk4-exterminator-grid-size-w",
+--            name = "custom-power-armor-mk4-grid-size-w",
 --            setting_type = "startup",
 --            minimum_value = 0,
 --            maximum_value = 50,
@@ -156,7 +156,7 @@ end
 --        },
 --        {
 --            type = "int-setting",
---            name = "mk5-annihilator-grid-size-h",
+--            name = "custom-power-armor-mk5-grid-size-h",
 --            setting_type = "startup",
 --            minimum_value = 0,
 --            maximum_value = 500,
@@ -165,7 +165,7 @@ end
 --        },
 --        {
 --            type = "int-setting",
---            name = "mk5-annihilator-grid-size-w",
+--            name = "custom-power-armor-mk5-grid-size-w",
 --            setting_type = "startup",
 --            minimum_value = 0,
 --            maximum_value = 500,
@@ -338,7 +338,7 @@ if mods["FactorioExtended-Equipment"] then
     data:extend({
         {
             type = "int-setting",
-            name = "equipment-grid-1-grid-size-h",
+            name = "extended-armour-mk1-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 50,
@@ -347,7 +347,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "equipment-grid-1-grid-size-w",
+            name = "extended-armour-mk1-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 50,
@@ -356,7 +356,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "equipment-grid-2-grid-size-h",
+            name = "extended-armour-mk2-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 60,
@@ -365,7 +365,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "equipment-grid-2-grid-size-w",
+            name = "extended-armour-mk2-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 60,
@@ -374,7 +374,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "equipment-grid-3-grid-size-h",
+            name = "extended-armour-mk3-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 70,
@@ -383,7 +383,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "equipment-grid-3-grid-size-w",
+            name = "extended-armour-mk3-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 70,
@@ -397,7 +397,7 @@ if mods["PowerAndArmor"] then
     data:extend({
         {
             type = "int-setting",
-            name = "PaA-power-armor-mk3-grid-grid-size-h",
+            name = "p&a-mk3-grid-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 40,
@@ -406,7 +406,7 @@ if mods["PowerAndArmor"] then
         },
         {
             type = "int-setting",
-            name = "PaA-power-armor-mk3-grid-grid-size-w",
+            name = "p&a-mk3-grid-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 40,
@@ -415,7 +415,7 @@ if mods["PowerAndArmor"] then
         },
         {
             type = "int-setting",
-            name = "PaA-power-armor-mk4-grid-grid-size-h",
+            name = "p&a-mk4-grid-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 50,
@@ -424,7 +424,7 @@ if mods["PowerAndArmor"] then
         },
         {
             type = "int-setting",
-            name = "PaA-power-armor-mk4-grid-grid-size-w",
+            name = "p&a-mk4-grid-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 50,
