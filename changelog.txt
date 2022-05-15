@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: xx.05.2022
+  Fixes:
+    - Organized Optional dependencies to be set in alphabetic ordre.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 15.05.2022
   Fixes:
@@ -18,7 +23,7 @@ Date: 15.05.2022
     - Fixed NO localisations in genral
     - Fixed NO localisations for "bob-power-armor-mk4-grid-size-w"
   Betas:
-    - Beta got canceled
+    - Canceled beta testing
   Thanks:
     - @Tomatoking for the thumbnail.png (Discord)
 ---------------------------------------------------------------------------------------------------
