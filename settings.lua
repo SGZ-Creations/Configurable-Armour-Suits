@@ -397,7 +397,7 @@ if mods["PowerAndArmor"] then
     data:extend({
         {
             type = "int-setting",
-            name = "p&a-mk3-grid-grid-size-h",
+            name = "pa-mk3-grid-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 40,
@@ -406,7 +406,7 @@ if mods["PowerAndArmor"] then
         },
         {
             type = "int-setting",
-            name = "p&a-mk3-grid-grid-size-w",
+            name = "pa-mk3-grid-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 40,
@@ -415,7 +415,7 @@ if mods["PowerAndArmor"] then
         },
         {
             type = "int-setting",
-            name = "p&a-mk4-grid-grid-size-h",
+            name = "pa-mk4-grid-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 50,
@@ -424,7 +424,7 @@ if mods["PowerAndArmor"] then
         },
         {
             type = "int-setting",
-            name = "p&a-mk4-grid-grid-size-w",
+            name = "pa-mk4-grid-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 50,
