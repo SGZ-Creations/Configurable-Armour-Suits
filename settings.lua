@@ -114,66 +114,64 @@ if mods["bobwarfare"] then
     })
 end
 --------------------------------------------------------------------------------------------------
--- Disabled due to not loading ether setting or funtions.
-
---if mods["custom-power-armor-fix"] then
---    data:extend({
---        {
---            type = "int-setting",
---            name = "custom-power-armor-mk3-grid-size-h",
---            setting_type = "startup",
---            minimum_value = 0,
---            maximum_value = 40,
---            default_value = 30,
---            order = "Caa"
---        },
---        {
---            type = "int-setting",
---            name = "custom-power-armor-mk3-grid-size-w",
---            setting_type = "startup",
---            minimum_value = 0,
---            maximum_value = 40,
---            default_value = 30,
---            order = "Cab"
---        },
---        {
---            type = "int-setting",
---            name = "custom-power-armor-mk4-grid-size-h",
---           setting_type = "startup",
---            minimum_value = 0,
---            maximum_value = 50,
---            default_value = 40,
---            order = "Cac"
---        },
---        {
---            type = "int-setting",
---            name = "custom-power-armor-mk4-grid-size-w",
---            setting_type = "startup",
---            minimum_value = 0,
---            maximum_value = 50,
---            default_value = 40,
---            order = "Cad"
---        },
---        {
---            type = "int-setting",
---            name = "custom-power-armor-mk5-grid-size-h",
---            setting_type = "startup",
---            minimum_value = 0,
---            maximum_value = 500,
---            default_value = 50,
---            order = "Cae"
---        },
---        {
---            type = "int-setting",
---            name = "custom-power-armor-mk5-grid-size-w",
---            setting_type = "startup",
---            minimum_value = 0,
---            maximum_value = 500,
---            default_value = 50,
---            order = "Caf"
---        }
---    })
---end
+if mods["custom-power-armor-fix"] then
+    data:extend({
+        {
+            type = "int-setting",
+            name = "custom-power-armor-mk3-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 40,
+            default_value = 30,
+            order = "Caa"
+        },
+        {
+            type = "int-setting",
+            name = "custom-power-armor-mk3-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 40,
+            default_value = 30,
+            order = "Cab"
+        },
+        {
+            type = "int-setting",
+            name = "custom-power-armor-mk4-grid-size-h",
+           setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 40,
+            order = "Cac"
+        },
+        {
+            type = "int-setting",
+            name = "custom-power-armor-mk4-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 40,
+            order = "Cad"
+        },
+        {
+            type = "int-setting",
+            name = "custom-power-armor-mk5-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 500,
+            default_value = 50,
+            order = "Cae"
+        },
+        {
+            type = "int-setting",
+            name = "custom-power-armor-mk5-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 500,
+            default_value = 50,
+            order = "Caf"
+        }
+    })
+end
 --------------------------------------------------------------------------------------------------
 if mods["Power Armor MK3"] then
     data:extend({
