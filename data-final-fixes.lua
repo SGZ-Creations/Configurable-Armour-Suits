@@ -71,7 +71,7 @@ if mods["Krastorio2"] then
 end
 	end
 
-if mods["custom-power-armor-fix"] then
+if mods["custom_power_armor_fix"] then
 	SetGridSize("mk3-destroyer-grid", "custom-power-armor-mk3")
 	SetGridSize("mk4-exterminator-grid", "custom-power-armor-mk4")
 	SetGridSize("mk5-annihilator-grid", "custom-power-armor-mk5")

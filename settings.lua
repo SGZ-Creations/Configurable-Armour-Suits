@@ -114,7 +114,7 @@ if mods["bobwarfare"] then
     })
 end
 --------------------------------------------------------------------------------------------------
-if mods["custom-power-armor-fix"] then
+if mods["custom_power_armor_fix"] then
     data:extend({
         {
             type = "int-setting",

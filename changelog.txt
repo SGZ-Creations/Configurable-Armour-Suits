@@ -1,9 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.3
-Date: xx.05.2022
+Date: 15.05.2022
   Features:
-    - Power and armour has now settings.
-    - FactorioExtended-Equipment Armours has now settings.
+    - Power and armour has now gotten settings.
+    - FactorioExtended-Equipment Armours has now gotten settings.
+    - Custom power armour fix has now gotten settings.
   Changes:
     - Setting order for Rampant Aresnal went from F to I
     - reduced limit of K2's mk4 Armour
@@ -11,12 +12,17 @@ Date: xx.05.2022
     - Reverted the way K2 changes the grid sizes for SE if bothe mods are played toghetter.
     - Fixed NO localisations in genral
     - Fixed NO localisations for "bob-power-armor-mk4-grid-size-w"
+  Betas:
+    - Beta got canceled
+  Thanks:
+    - @Tomatoking for the thumbnail.png (Discord)
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
 Date: 11.05.2022
   Features:
     - Initial Release.
     - Complete NO and EN Translation
+  Changes:
     - Disabled compatibility code for (Custom Power Armour Fix/(Custom Power Armour Reborn)) untill i fugure out way it won't load. 
   Betas:
     - New Testing for 0.0.3 will come. Want to be one of them join my discord to get a chance.
