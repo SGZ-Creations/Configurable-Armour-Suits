@@ -2,7 +2,10 @@
 Version: 0.1.2
 Date: xx.05.2022
   Fixes:
-    - Organized Optional dependencies to be set in alphabetic ordre.
+    - Organized Optional dependencies to show alphabetic ordre on the web page.
+    - Organized dependencies in info page to be in alphabetic ordre.
+    - Fixed typos.
+    - Fixed localisation on the EN page after reducing the K2 limit.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 15.05.2022
@@ -17,7 +20,7 @@ Date: 15.05.2022
     - Custom power armour fix has now gotten settings.
   Changes:
     - Setting order for Rampant Aresnal went from F to I
-    - reduced limit of K2's mk4 Armour
+    - reduced limit of K2's mk4 Armour from: 500 - 400
   Fixes:
     - Reverted the way K2 changes the grid sizes for SE if both mods are played toghetter.
     - Fixed NO localisations in genral
