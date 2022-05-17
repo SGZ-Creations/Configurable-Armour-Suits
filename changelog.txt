@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
-Date: xx.05.2022
+Date: 17.05.2022
   Fixes:
     - Organized Optional dependencies to show alphabetic ordre on the web page.
     - Organized dependencies in info page to be in alphabetic ordre.
