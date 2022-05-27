@@ -8,7 +8,7 @@ local function SetGridSize(grid_name, setting_name_prefix)
 	end
 end
 -- 1= Inv size prefix. 2= name of item. 3= add the: "-inv-size"
-loacl function SetInvSize(armor_name, setting_name_prefix)
+local function SetInvSize(armor_name, setting_name_prefix)
 	data.raw.armor[armor_name].inventory_size_bonus = settings.startup[setting_name_prefix..armor_name.."-inv-size"].value
 end
 
