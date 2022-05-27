@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 26.05.2022
+  Features:
+    - U can now configure armours inventory bonuses.
+  Info:
+    - Note Translations will come soon but later so this is not a bug.
+    - exaples the new part will be looking like "v-cas-power-armor-mk2-inv-size"
+---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 17.05.2022
   Fixes:

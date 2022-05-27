@@ -52,7 +52,52 @@ data:extend({
         maximum_value = 40,
         default_value = 20,
         order = "Aaf"
-    }
+    },
+    {
+        type = "int-setting",
+        name = "v-cas-light-armor-inv-size",
+        setting_type = "startup",
+        minimum_value = 0,
+        maximum_value = 200,
+        default_value = 5,
+        order = "1Aaa"
+    },
+    {
+        type = "int-setting",
+        name = "v-cas-heavy-armor-inv-size",
+        setting_type = "startup",
+        minimum_value = 0,
+        maximum_value = 300,
+        default_value = 10,
+        order = "1Aaab"
+    },
+    {
+        type = "int-setting",
+        name = "v-cas-modular-armor-inv-size",
+        setting_type = "startup",
+        minimum_value = 0,
+        maximum_value = 500,
+        default_value = 15,
+        order = "1Aac"
+    },
+    {
+        type = "int-setting",
+        name = "v-cas-power-armor-inv-size",
+        setting_type = "startup",
+        minimum_value = 0,
+        maximum_value = 600,
+        default_value = 20,
+        order = "1Aad"
+    },
+    {
+        type = "int-setting",
+        name = "v-cas-power-armor-mk2-inv-size",
+        setting_type = "startup",
+        minimum_value = 0,
+        maximum_value = 700,
+        default_value = 30,
+        order = "1Aae"
+    },
 })
 --------------------------------------------------------------------------------------------------
 if mods["bobwarfare"] then
@@ -110,7 +155,52 @@ if mods["bobwarfare"] then
             maximum_value = 550,
             default_value = 55,
             order = "Baf"
-        }
+        },
+        {
+            type = "int-setting",
+            name = "cas-bob-heavy-armor-2-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 500,
+            default_value = 40,
+            order = "1Baa"
+        },
+        {
+            type = "int-setting",
+            name = "cas-bob-heavy-armor-3-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 500,
+            default_value = 60,
+            order = "1Bab"
+        },
+        {
+            type = "int-setting",
+            name = "cas-bob-power-armor-mk3-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 800,
+            default_value = 40,
+            order = "1Bac"
+        },
+        {
+            type = "int-setting",
+            name = "cas-bob-power-armor-mk4-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 900,
+            default_value = 50,
+            order = "1Bad"
+        },
+        {
+            type = "int-setting",
+            name = "cas-bob-power-armor-mk5-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 1000,
+            default_value = 60,
+            order = "1Bae"
+        },
     })
 end
 --------------------------------------------------------------------------------------------------
@@ -169,7 +259,35 @@ if mods["custom_power_armor_fix"] then
             maximum_value = 500,
             default_value = 50,
             order = "Caf"
-        }
+        },
+        {
+            type = "int-setting",
+            name = "cas-custom-power-armor-mk3-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 800,
+            default_value = 40,
+            order = "1Caa"
+        },
+        {
+            type = "int-setting",
+            name = "cas-custom-power-armor-mk4-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 900,
+            default_value = 40,
+            order = "1Cab"
+        },
+        {
+            type = "int-setting",
+            name = "cas-custom-power-armor-mk5-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 1000,
+            default_value = 40,
+            order = "1Cac"
+        },
+        
     })
 end
 --------------------------------------------------------------------------------------------------
@@ -210,7 +328,43 @@ if mods["Power Armor MK3"] then
             maximum_value = 50,
             default_value = 40,
             order = "Dad"
-        }
+        },
+        {
+            type = "int-setting",
+            name = "cas-pamk3-lvest",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 500,
+            default_value = 15,
+            order = "1Daa"
+        },
+        {
+            type = "int-setting",
+            name = "cas-pamk3-hvest",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 600,
+            default_value = 20,
+            order = "1Daa"
+        },
+        {
+            type = "int-setting",
+            name = "cas-pamk3-pmak3",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 800,
+            default_value = 50,
+            order = "1Daa"
+        },
+        {
+            type = "int-setting",
+            name = "cas-pamk3-pmak4",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 900,
+            default_value = 60,
+            order = "1Daa"
+        },
     })
 end
 --------------------------------------------------------------------------------------------------
@@ -287,7 +441,43 @@ if mods["space-exploration"] then
             maximum_value = 500,
             default_value = 60,
             order = "Eah"
-        }
+        },
+        {
+            type = "int-setting",
+            name = "cas-se-thruster-suit-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 600,
+            default_value = 30,
+            order = "1Eaa"
+        },
+        {
+            type = "int-setting",
+            name = "cas-se-thruster-suit-2-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 700,
+            default_value = 40,
+            order = "1Eab"
+        },
+        {
+            type = "int-setting",
+            name = "cas-se-thruster-suit-3-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 800,
+            default_value = 50,
+            order = "1Eac"
+        },
+        {
+            type = "int-setting",
+            name = "cas-se-thruster-suit-4-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 900,
+            default_value = 60,
+            order = "1Ead"
+        },
     })
 end
 --------------------------------------------------------------------------------------------------
@@ -328,7 +518,25 @@ if mods["Krastorio2"] then
             maximum_value = 400,
             default_value = 40,
             order = "Fad"
-        }
+        },
+        {
+            type = "int-setting",
+            name = "cas-mk3-armor-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 800,
+            default_value = 40,
+            order = "1Fac"
+        },
+        {
+            type = "int-setting",
+            name = "cas-mk4-armor-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 900,
+            default_value = 50,
+            order = "1Fade"
+        },
     })
 end
 --------------------------------------------------------------------------------------------------
@@ -387,7 +595,34 @@ if mods["FactorioExtended-Equipment"] then
             maximum_value = 70,
             default_value = 55,
             order = "Gaf"
-        }
+        },
+        {
+            type = "int-setting",
+            name = "cas-extended-armour-mk1-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 600,
+            default_value = 50,
+            order = "1Gaa"
+        },
+        {
+            type = "int-setting",
+            name = "cas-extended-armour-mk2-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 700,
+            default_value = 80,
+            order = "1Gab"
+        },
+        {
+            type = "int-setting",
+            name = "cas-extended-armour-mk3-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 800,
+            default_value = 100,
+            order = "1Gac"
+        },
     })
 end
 --------------------------------------------------------------------------------------------------
@@ -428,7 +663,25 @@ if mods["PowerAndArmor"] then
             maximum_value = 50,
             default_value = 40,
             order = "Had"
-        }
+        },
+        {
+            type = "int-setting",
+            name = "cas-pa-mk3-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 800,
+            default_value = 40,
+            order = "1Gaa"
+        },
+        {
+            type = "int-setting",
+            name = "cas-pa-mk4-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 900,
+            default_value = 50,
+            order = "1Gab"
+        },
     })
 end
 --------------------------------------------------------------------------------------------------
@@ -451,6 +704,15 @@ if mods["RampantArsenal"] then
             maximum_value = 60,
             default_value = 30,
             order = "Iab"
-        }
+        },
+        {
+            type = "int-setting",
+            name = "cas-power-armor-mk3-armor-rampant-arsenal-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 800,
+            default_value = 60,
+            order = "1Iab"
+        },
     })
 end
