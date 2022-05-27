@@ -671,7 +671,7 @@ if mods["PowerAndArmor"] then
             minimum_value = 0,
             maximum_value = 800,
             default_value = 40,
-            order = "1Gaa"
+            order = "1Haa"
         },
         {
             type = "int-setting",
@@ -680,7 +680,7 @@ if mods["PowerAndArmor"] then
             minimum_value = 0,
             maximum_value = 900,
             default_value = 50,
-            order = "1Gab"
+            order = "1Hab"
         },
     })
 end
