@@ -119,4 +119,3 @@ if mods["Krastorio2"] then
 	CopyGridCategories("mk3-armor-grid", "se-thruster-suit-3-grid")
 	CopyGridCategories("mk4-armor-grid", "se-thruster-suit-4-grid")
 end
-	end
