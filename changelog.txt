@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
-Date: 28.05.2022
+Date: 30.05.2022
   Features:
     - U can now configure armours inventory bonuses.
   Info:

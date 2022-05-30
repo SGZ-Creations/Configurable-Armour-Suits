@@ -60,13 +60,13 @@ if mods["PowerAndArmor"] then
 end
 
 if mods["FactorioExtended-Equipment"] then
-	SetGridSize("equipment-grid-1", "extended-armour-mk1")
-	SetGridSize("equipment-grid-2", "extended-armour-mk2")
-	SetGridSize("equipment-grid-3", "extended-armour-mk3")
+	SetGridSize("equipment-grid-1", "extended-armor-mk1")
+	SetGridSize("equipment-grid-2", "extended-armor-mk2")
+	SetGridSize("equipment-grid-3", "extended-armor-mk3")
 
-	SetInvSize("extended-armour-mk1", "cas-")
-	SetInvSize("extended-armour-mk2", "cas-")
-	SetInvSize("extended-armour-mk3", "cas-")
+	SetInvSize("extended-armor-mk1", "cas-")
+	SetInvSize("extended-armor-mk2", "cas-")
+	SetInvSize("extended-armor-mk3", "cas-")
 end
 
 if mods["RampantArsenal"] then
