@@ -331,7 +331,7 @@ if mods["Power Armor MK3"] then
         },
         {
             type = "int-setting",
-            name = "cas-pamk3-lvest",
+            name = "cas-pamk3-lvest-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 500,
@@ -340,7 +340,7 @@ if mods["Power Armor MK3"] then
         },
         {
             type = "int-setting",
-            name = "cas-pamk3-hvest",
+            name = "cas-pamk3-hvest-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 600,
@@ -349,7 +349,7 @@ if mods["Power Armor MK3"] then
         },
         {
             type = "int-setting",
-            name = "cas-pamk3-pmak3",
+            name = "cas-pamk3-pmak3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 800,
@@ -358,7 +358,7 @@ if mods["Power Armor MK3"] then
         },
         {
             type = "int-setting",
-            name = "cas-pamk3-pmak4",
+            name = "cas-pamk3-pmak4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 900,
@@ -521,7 +521,7 @@ if mods["Krastorio2"] then
         },
         {
             type = "int-setting",
-            name = "cas-mk3-armor-inv-size",
+            name = "cas-k2-power-armor-mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 800,
@@ -530,7 +530,7 @@ if mods["Krastorio2"] then
         },
         {
             type = "int-setting",
-            name = "cas-mk4-armor-inv-size",
+            name = "cas-k2-power-armor-mk4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 900,
@@ -598,7 +598,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "cas-extended-armor-mk1-inv-size",
+            name = "cas-extended-power-armor-mk1-armor-mk1-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 600,
@@ -607,7 +607,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "cas-extended-armor-mk2-inv-size",
+            name = "cas-extended-power-armor-mk2-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 700,
@@ -616,7 +616,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "cas-extended-armor-mk3-inv-size",
+            name = "cas-extended-power-armor-mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 800,
@@ -666,7 +666,7 @@ if mods["PowerAndArmor"] then
         },
         {
             type = "int-setting",
-            name = "cas-pa-mk3-inv-size",
+            name = "cas-PaA-power-armor-mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 800,
@@ -675,7 +675,7 @@ if mods["PowerAndArmor"] then
         },
         {
             type = "int-setting",
-            name = "cas-pa-mk4-inv-size",
+            name = "cas-PaA-power-armor-mk4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 900,
@@ -707,7 +707,7 @@ if mods["RampantArsenal"] then
         },
         {
             type = "int-setting",
-            name = "cas-power-armor-mk3-armor-rampant-arsenal-inv-size",
+            name = "cas-ra-power-armor-mk3-armor-rampant-arsenal-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 800,

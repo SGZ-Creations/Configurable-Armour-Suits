@@ -55,8 +55,8 @@ if mods["PowerAndArmor"] then
 	SetGridSize("PaA-power-armor-mk3-grid", "pa-mk3")
 	SetGridSize("PaA-power-armor-mk4-grid", "pa-mk4")
 -- crash here if mods
-	SetInvSize("pa-mk3", "cas-")
-	SetInvSize("pa-mk4", "cas-")
+	SetInvSize("PaA-power-armor-mk3", "cas-")
+	SetInvSize("PaA-power-armor-mk4", "cas-")
 end
 
 if mods["FactorioExtended-Equipment"] then
@@ -64,15 +64,15 @@ if mods["FactorioExtended-Equipment"] then
 	SetGridSize("equipment-grid-2", "extended-armor-mk2")
 	SetGridSize("equipment-grid-3", "extended-armor-mk3")
 
-	SetInvSize("extended-armor-mk1", "cas-")
-	SetInvSize("extended-armor-mk2", "cas-")
-	SetInvSize("extended-armor-mk3", "cas-")
+	SetInvSize("power-armor-mk1", "cas-extended-")
+	SetInvSize("power-armor-mk2", "cas-extended-")
+	SetInvSize("power-armor-mk3", "cas-extended-")
 end
 
 if mods["RampantArsenal"] then
 	SetGridSize("power-armor-mk3-grid-rampant-arsenal", "power-armor-mk3-armor-rampant-arsenal")
 
-	SetInvSize("power-armor-mk3-armor-rampant-arsenal", "cas-")
+	SetInvSize("power-armor-mk3-armor-rampant-arsenal", "cas-ra-")
 end
 
 
@@ -81,9 +81,9 @@ if mods["custom_power_armor_fix"] then
 	SetGridSize("mk4-exterminator-grid", "custom-power-armor-mk4")
 	SetGridSize("mk5-annihilator-grid", "custom-power-armor-mk5")
 
-	SetInvSize("custom-power-armor-mk3", "cas-")
-	SetInvSize("custom-power-armor-mk4", "cas-")
-	SetInvSize("custom-power-armor-mk5", "cas-")
+	SetInvSize("power-armor-mk3", "cas-custom-")
+	SetInvSize("power-armor-mk4", "cas-custom-")
+	SetInvSize("power-armor-mk5", "cas-custom-")
 end
 
 if mods["space-exploration"] then
@@ -102,8 +102,8 @@ if mods["Krastorio2"] then
 		SetGridSize("mk3-armor-grid", "mk3-armor")
 		SetGridSize("mk4-armor-grid", "mk4-armor")
 	
-		SetInvSize("mk3-armor", "cas-")
-		SetInvSize("mk4-armor", "cas-")
+		SetInvSize("power-armor-mk3", "cas-k2-")
+		SetInvSize("power-armor-mk4", "cas-k2-")
 end
 
 -- Undo Krastorio2's SE armor changes so our own work
