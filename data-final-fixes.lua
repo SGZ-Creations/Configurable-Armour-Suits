@@ -10,7 +10,7 @@ end
 -- crash here if mods
 -- 1= Inv size prefix. 2= name of item. 3= add the: "-inv-size"
 local function SetInvSize(armor_name, setting_name_prefix)
-	data.raw["armor"][armor_type].inventory_size_bonus = settings.startup[setting_name_prefix..armor_name.."-inv-size"].value
+	data.raw["armor"][armor_name].inventory_size_bonus = settings.startup[setting_name_prefix..armor_name.."-inv-size"].value
 end
 
 -- Reverts K2's Armour grid size for SE. more on line 66
@@ -104,7 +104,7 @@ if mods["Krastorio2"] then
 	
 		SetInvSize("mk3-armor", "cas-")
 		SetInvSize("mk4-armor", "cas-")
-	end
+end
 
 -- Undo Krastorio2's SE armor changes so our own work
 if mods["Krastorio2"] then
