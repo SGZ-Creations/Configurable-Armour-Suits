@@ -47,8 +47,8 @@ if mods["Power Armor MK3"] then
 
 	SetInvSize("pamk3-lvest", "cas-")
 	SetInvSize("pamk3-hvest", "cas-")
-	SetInvSize("pamk3-pmak3", "cas-")
-	SetInvSize("pamk3-pmak4", "cas-")
+	SetInvSize("pamk3-pamk3", "cas-")
+	SetInvSize("pamk3-pamk4", "cas-")
 end
 
 if mods["PowerAndArmor"] then

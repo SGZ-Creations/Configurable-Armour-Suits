@@ -349,7 +349,7 @@ if mods["Power Armor MK3"] then
         },
         {
             type = "int-setting",
-            name = "cas-pamk3-pmak3-inv-size",
+            name = "cas-pamk3-pamk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 800,
@@ -358,7 +358,7 @@ if mods["Power Armor MK3"] then
         },
         {
             type = "int-setting",
-            name = "cas-pamk3-pmak4-inv-size",
+            name = "cas-pamk3-pamk4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 900,
