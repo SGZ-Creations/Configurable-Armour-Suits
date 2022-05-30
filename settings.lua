@@ -544,7 +544,7 @@ if mods["FactorioExtended-Equipment"] then
     data:extend({
         {
             type = "int-setting",
-            name = "extended-armour-mk1-grid-size-h",
+            name = "extended-armor-mk1-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 50,
@@ -553,7 +553,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "extended-armour-mk1-grid-size-w",
+            name = "extended-armor-mk1-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 50,
@@ -562,7 +562,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "extended-armour-mk2-grid-size-h",
+            name = "extended-armor-mk2-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 60,
@@ -571,7 +571,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "extended-armour-mk2-grid-size-w",
+            name = "extended-armor-mk2-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 60,
@@ -580,7 +580,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "extended-armour-mk3-grid-size-h",
+            name = "extended-armor-mk3-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 70,
@@ -589,7 +589,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "extended-armour-mk3-grid-size-w",
+            name = "extended-armor-mk3-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 70,
@@ -598,7 +598,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "cas-extended-armour-mk1-inv-size",
+            name = "cas-extended-armor-mk1-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 600,
@@ -607,7 +607,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "cas-extended-armour-mk2-inv-size",
+            name = "cas-extended-armor-mk2-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 700,
@@ -616,7 +616,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "cas-extended-armour-mk3-inv-size",
+            name = "cas-extended-armor-mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 800,
