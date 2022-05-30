@@ -106,14 +106,14 @@ if mods["Krastorio2"] then
 		SetInvSize("mk4-armor", "cas-")
 	end
 
-	-- Undo Krastorio2's SE armor changes so our own work
+-- Undo Krastorio2's SE armor changes so our own work
 if mods["Krastorio2"] then
 	data.raw.armor["se-thruster-suit"].equipment_grid = "se-thruster-suit-grid"
 	data.raw.armor["se-thruster-suit-2"].equipment_grid = "se-thruster-suit-2-grid"
 	data.raw.armor["se-thruster-suit-3"].equipment_grid = "se-thruster-suit-3-grid"
 	data.raw.armor["se-thruster-suit-4"].equipment_grid = "se-thruster-suit-4-grid"
 
-	-- Krastorio2 adds some equipment categories, so copy them back
+-- Krastorio2 adds some equipment categories, so copy them back
 	CopyGridCategories("medium-equipment-grid", "se-thruster-suit-grid")
 	CopyGridCategories("large-equipment-grid", "se-thruster-suit-2-grid")
 	CopyGridCategories("mk3-armor-grid", "se-thruster-suit-3-grid")
