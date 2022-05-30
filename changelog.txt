@@ -4,8 +4,9 @@ Date: 30.05.2022
   Features:
     - U can now configure armours inventory bonuses.
   Info:
-    - Note Translations will come soon but later so this is not a bug.
-    - exaples the new part will be looking like "v-cas-power-armor-mk2-inv-size"
+    - Note NO Translations will be comming soon. This is not a bug. Still please let me know quick if u use NO tralslation.
+    - Exaple the new part will be looking like "v-cas-power-armor-mk2-inv-size"
+    - Setting Desription comming in next update Toghetter with NO translation.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 17.05.2022
