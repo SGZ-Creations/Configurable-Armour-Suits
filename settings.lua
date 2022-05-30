@@ -6,7 +6,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 10,
         default_value = 5,
-        order = "Aaa"
+        order = "1Aaa"
     },
     {
         type = "int-setting",
@@ -15,7 +15,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 10,
         default_value = 5,
-        order = "Aab"
+        order = "1Aab"
     },
     {
         type = "int-setting",
@@ -24,7 +24,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 20,
         default_value = 10,
-        order = "Aac"
+        order = "1Aac"
     },
     {
         type = "int-setting",
@@ -33,7 +33,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 20,
         default_value = 10,
-        order = "Aad"
+        order = "1Aad"
     },
     {
         type = "int-setting",
@@ -42,7 +42,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 40,
         default_value = 20,
-        order = "Aae"
+        order = "1Aae"
     },
     {
         type = "int-setting",
@@ -51,7 +51,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 40,
         default_value = 20,
-        order = "Aaf"
+        order = "1Aaf"
     },
     {
         type = "int-setting",
@@ -60,7 +60,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 200,
         default_value = 5,
-        order = "AAaa"
+        order = "2Aaa"
     },
     {
         type = "int-setting",
@@ -69,7 +69,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 300,
         default_value = 10,
-        order = "AAaab"
+        order = "2Aab"
     },
     {
         type = "int-setting",
@@ -78,7 +78,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 500,
         default_value = 15,
-        order = "AAac"
+        order = "2Aac"
     },
     {
         type = "int-setting",
@@ -87,7 +87,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 600,
         default_value = 20,
-        order = "AAad"
+        order = "2Aad"
     },
     {
         type = "int-setting",
@@ -96,7 +96,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 700,
         default_value = 30,
-        order = "AAae"
+        order = "2Aae"
     },
 })
 --------------------------------------------------------------------------------------------------
@@ -109,7 +109,7 @@ if mods["bobwarfare"] then
             minimum_value = 0,
             maximum_value = 45,
             default_value = 35,
-            order = "Baa"
+            order = "1Baa"
         },
         {
             type = "int-setting",
@@ -118,7 +118,7 @@ if mods["bobwarfare"] then
             minimum_value = 0,
             maximum_value = 45,
             default_value = 35,
-            order = "Bab"
+            order = "1Bab"
         },
         {
             type = "int-setting",
@@ -127,7 +127,7 @@ if mods["bobwarfare"] then
             minimum_value = 0,
             maximum_value = 55,
             default_value = 45,
-            order = "Bac"
+            order = "1Bac"
         },
         {
             type = "int-setting",
@@ -136,7 +136,7 @@ if mods["bobwarfare"] then
             minimum_value = 0,
             maximum_value = 55,
             default_value = 45,
-            order = "Bad"
+            order = "1Bad"
         },
         {
             type = "int-setting",
@@ -145,7 +145,7 @@ if mods["bobwarfare"] then
             minimum_value = 0,
             maximum_value = 550,
             default_value = 55,
-            order = "Bae"
+            order = "1Bae"
         },
         {
             type = "int-setting",
@@ -154,7 +154,7 @@ if mods["bobwarfare"] then
             minimum_value = 0,
             maximum_value = 550,
             default_value = 55,
-            order = "Baf"
+            order = "1Baf"
         },
         {
             type = "int-setting",
@@ -163,7 +163,7 @@ if mods["bobwarfare"] then
             minimum_value = 0,
             maximum_value = 500,
             default_value = 40,
-            order = "BBaa"
+            order = "2Baa"
         },
         {
             type = "int-setting",
@@ -172,7 +172,7 @@ if mods["bobwarfare"] then
             minimum_value = 0,
             maximum_value = 500,
             default_value = 60,
-            order = "BBab"
+            order = "2Bab"
         },
         {
             type = "int-setting",
@@ -181,7 +181,7 @@ if mods["bobwarfare"] then
             minimum_value = 0,
             maximum_value = 800,
             default_value = 40,
-            order = "BBac"
+            order = "2Bac"
         },
         {
             type = "int-setting",
@@ -190,7 +190,7 @@ if mods["bobwarfare"] then
             minimum_value = 0,
             maximum_value = 900,
             default_value = 50,
-            order = "BBad"
+            order = "2Bad"
         },
         {
             type = "int-setting",
@@ -199,7 +199,7 @@ if mods["bobwarfare"] then
             minimum_value = 0,
             maximum_value = 1000,
             default_value = 60,
-            order = "BBae"
+            order = "2Bae"
         },
     })
 end
@@ -213,7 +213,7 @@ if mods["custom_power_armor_fix"] then
             minimum_value = 0,
             maximum_value = 40,
             default_value = 30,
-            order = "Caa"
+            order = "1Caa"
         },
         {
             type = "int-setting",
@@ -222,7 +222,7 @@ if mods["custom_power_armor_fix"] then
             minimum_value = 0,
             maximum_value = 40,
             default_value = 30,
-            order = "Cab"
+            order = "1Cab"
         },
         {
             type = "int-setting",
@@ -231,7 +231,7 @@ if mods["custom_power_armor_fix"] then
             minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
-            order = "Cac"
+            order = "1Cac"
         },
         {
             type = "int-setting",
@@ -240,7 +240,7 @@ if mods["custom_power_armor_fix"] then
             minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
-            order = "Cad"
+            order = "1Cad"
         },
         {
             type = "int-setting",
@@ -249,7 +249,7 @@ if mods["custom_power_armor_fix"] then
             minimum_value = 0,
             maximum_value = 500,
             default_value = 50,
-            order = "Cae"
+            order = "1Cae"
         },
         {
             type = "int-setting",
@@ -258,7 +258,7 @@ if mods["custom_power_armor_fix"] then
             minimum_value = 0,
             maximum_value = 500,
             default_value = 50,
-            order = "Caf"
+            order = "1Caf"
         },
         {
             type = "int-setting",
@@ -267,7 +267,7 @@ if mods["custom_power_armor_fix"] then
             minimum_value = 0,
             maximum_value = 800,
             default_value = 40,
-            order = "CCaa"
+            order = "2Caa"
         },
         {
             type = "int-setting",
@@ -276,7 +276,7 @@ if mods["custom_power_armor_fix"] then
             minimum_value = 0,
             maximum_value = 900,
             default_value = 40,
-            order = "CCab"
+            order = "2Cab"
         },
         {
             type = "int-setting",
@@ -285,7 +285,7 @@ if mods["custom_power_armor_fix"] then
             minimum_value = 0,
             maximum_value = 1000,
             default_value = 40,
-            order = "CCac"
+            order = "2Cac"
         },
         
     })
@@ -300,7 +300,7 @@ if mods["Power Armor MK3"] then
             minimum_value = 0,
             maximum_value = 40,
             default_value = 30,
-            order = "Daa"
+            order = "1Daa"
         },
         {
             type = "int-setting",
@@ -309,7 +309,7 @@ if mods["Power Armor MK3"] then
             minimum_value = 0,
             maximum_value = 40,
             default_value = 30,
-            order = "Dab"
+            order = "1Dab"
         },
         {
             type = "int-setting",
@@ -318,7 +318,7 @@ if mods["Power Armor MK3"] then
             minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
-            order = "Dac"
+            order = "1Dac"
         },
         {
             type = "int-setting",
@@ -327,7 +327,7 @@ if mods["Power Armor MK3"] then
             minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
-            order = "Dad"
+            order = "1Dad"
         },
         {
             type = "int-setting",
@@ -336,7 +336,7 @@ if mods["Power Armor MK3"] then
             minimum_value = 0,
             maximum_value = 500,
             default_value = 15,
-            order = "DDaa"
+            order = "2Daa"
         },
         {
             type = "int-setting",
@@ -345,7 +345,7 @@ if mods["Power Armor MK3"] then
             minimum_value = 0,
             maximum_value = 600,
             default_value = 20,
-            order = "DDaa"
+            order = "2Daa"
         },
         {
             type = "int-setting",
@@ -354,7 +354,7 @@ if mods["Power Armor MK3"] then
             minimum_value = 0,
             maximum_value = 800,
             default_value = 50,
-            order = "DDaa"
+            order = "2Daa"
         },
         {
             type = "int-setting",
@@ -363,7 +363,7 @@ if mods["Power Armor MK3"] then
             minimum_value = 0,
             maximum_value = 900,
             default_value = 60,
-            order = "DDaa"
+            order = "2Daa"
         },
     })
 end
@@ -377,7 +377,7 @@ if mods["space-exploration"] then
             minimum_value = 0,
             maximum_value = 30,
             default_value = 15,
-            order = "Eaa"
+            order = "1Eaa"
         },
         {
             type = "int-setting",
@@ -386,7 +386,7 @@ if mods["space-exploration"] then
             minimum_value = 0,
             maximum_value = 30,
             default_value = 15,
-            order = "Eab"
+            order = "1Eab"
         },
         {
             type = "int-setting",
@@ -395,7 +395,7 @@ if mods["space-exploration"] then
             minimum_value = 0,
             maximum_value = 45,
             default_value = 30,
-            order = "Eac"
+            order = "1Eac"
         },
         {
             type = "int-setting",
@@ -404,7 +404,7 @@ if mods["space-exploration"] then
             minimum_value = 0,
             maximum_value = 45,
             default_value = 30,
-            order = "Ead"
+            order = "1Ead"
         },
         {
             type = "int-setting",
@@ -413,7 +413,7 @@ if mods["space-exploration"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 45,
-            order = "Eae"
+            order = "1Eae"
         },
         {
             type = "int-setting",
@@ -422,7 +422,7 @@ if mods["space-exploration"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 45,
-            order = "Eaf"
+            order = "1Eaf"
         },
         {
             type = "int-setting",
@@ -431,7 +431,7 @@ if mods["space-exploration"] then
             minimum_value = 0,
             maximum_value = 500,
             default_value = 60,
-            order = "Eag"
+            order = "1Eag"
         },
         {
             type = "int-setting",
@@ -440,7 +440,7 @@ if mods["space-exploration"] then
             minimum_value = 0,
             maximum_value = 500,
             default_value = 60,
-            order = "Eah"
+            order = "1Eah"
         },
         {
             type = "int-setting",
@@ -449,7 +449,7 @@ if mods["space-exploration"] then
             minimum_value = 0,
             maximum_value = 600,
             default_value = 30,
-            order = "EEaa"
+            order = "2Eaa"
         },
         {
             type = "int-setting",
@@ -458,7 +458,7 @@ if mods["space-exploration"] then
             minimum_value = 0,
             maximum_value = 700,
             default_value = 40,
-            order = "EEab"
+            order = "2Eab"
         },
         {
             type = "int-setting",
@@ -467,7 +467,7 @@ if mods["space-exploration"] then
             minimum_value = 0,
             maximum_value = 800,
             default_value = 50,
-            order = "EEac"
+            order = "2Eac"
         },
         {
             type = "int-setting",
@@ -476,7 +476,7 @@ if mods["space-exploration"] then
             minimum_value = 0,
             maximum_value = 900,
             default_value = 60,
-            order = "EEad"
+            order = "2Ead"
         },
     })
 end
@@ -490,7 +490,7 @@ if mods["Krastorio2"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 30,
-            order = "Faa"
+            order = "1Faa"
         },
         {
             type = "int-setting",
@@ -499,7 +499,7 @@ if mods["Krastorio2"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 30,
-            order = "Fab"
+            order = "1Fab"
         },
         {
             type = "int-setting",
@@ -508,7 +508,7 @@ if mods["Krastorio2"] then
             minimum_value = 0,
             maximum_value = 400,
             default_value = 40,
-            order = "Fac"
+            order = "1Fac"
         },
         {
             type = "int-setting",
@@ -517,7 +517,7 @@ if mods["Krastorio2"] then
             minimum_value = 0,
             maximum_value = 400,
             default_value = 40,
-            order = "Fad"
+            order = "1Fad"
         },
         {
             type = "int-setting",
@@ -526,7 +526,7 @@ if mods["Krastorio2"] then
             minimum_value = 0,
             maximum_value = 800,
             default_value = 40,
-            order = "FFac"
+            order = "2Faa"
         },
         {
             type = "int-setting",
@@ -535,7 +535,7 @@ if mods["Krastorio2"] then
             minimum_value = 0,
             maximum_value = 900,
             default_value = 50,
-            order = "FFade"
+            order = "2Fab"
         },
     })
 end
@@ -549,7 +549,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 50,
             default_value = 35,
-            order = "Gaa"
+            order = "1Gaa"
         },
         {
             type = "int-setting",
@@ -558,7 +558,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 50,
             default_value = 35,
-            order = "Gab"
+            order = "1Gab"
         },
         {
             type = "int-setting",
@@ -567,7 +567,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 45,
-            order = "Gac"
+            order = "1Gac"
         },
         {
             type = "int-setting",
@@ -576,7 +576,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 45,
-            order = "Gad"
+            order = "1Gad"
         },
         {
             type = "int-setting",
@@ -585,7 +585,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 70,
             default_value = 55,
-            order = "Gae"
+            order = "1Gae"
         },
         {
             type = "int-setting",
@@ -594,7 +594,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 70,
             default_value = 55,
-            order = "Gaf"
+            order = "1Gaf"
         },
         {
             type = "int-setting",
@@ -603,7 +603,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 600,
             default_value = 50,
-            order = "GGaa"
+            order = "2Gaa"
         },
         {
             type = "int-setting",
@@ -612,7 +612,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 700,
             default_value = 80,
-            order = "GGab"
+            order = "2Gab"
         },
         {
             type = "int-setting",
@@ -621,7 +621,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 800,
             default_value = 100,
-            order = "GGac"
+            order = "2Gac"
         },
     })
 end
@@ -635,7 +635,7 @@ if mods["PowerAndArmor"] then
             minimum_value = 0,
             maximum_value = 40,
             default_value = 30,
-            order = "Haa"
+            order = "1Haa"
         },
         {
             type = "int-setting",
@@ -644,7 +644,7 @@ if mods["PowerAndArmor"] then
             minimum_value = 0,
             maximum_value = 40,
             default_value = 30,
-            order = "Hab"
+            order = "1Hab"
         },
         {
             type = "int-setting",
@@ -653,7 +653,7 @@ if mods["PowerAndArmor"] then
             minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
-            order = "Hac"
+            order = "1Hac"
         },
         {
             type = "int-setting",
@@ -662,7 +662,7 @@ if mods["PowerAndArmor"] then
             minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
-            order = "Had"
+            order = "1Had"
         },
         {
             type = "int-setting",
@@ -671,7 +671,7 @@ if mods["PowerAndArmor"] then
             minimum_value = 0,
             maximum_value = 800,
             default_value = 40,
-            order = "HHaa"
+            order = "2Haa"
         },
         {
             type = "int-setting",
@@ -680,7 +680,7 @@ if mods["PowerAndArmor"] then
             minimum_value = 0,
             maximum_value = 900,
             default_value = 50,
-            order = "HHab"
+            order = "2Hab"
         },
     })
 end
@@ -694,7 +694,7 @@ if mods["RampantArsenal"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 30,
-            order = "Iaa"
+            order = "1Iaa"
         },
         {
             type = "int-setting",
@@ -703,7 +703,7 @@ if mods["RampantArsenal"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 30,
-            order = "Iab"
+            order = "1Iab"
         },
         {
             type = "int-setting",
@@ -712,7 +712,7 @@ if mods["RampantArsenal"] then
             minimum_value = 0,
             maximum_value = 800,
             default_value = 60,
-            order = "IIab"
+            order = "2Iab"
         },
     })
 end
