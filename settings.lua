@@ -598,7 +598,7 @@ if mods["FactorioExtended-Equipment"] then
         },
         {
             type = "int-setting",
-            name = "cas-extended-power-armor-1-armor-mk1-inv-size",
+            name = "cas-extended-power-armor-1-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 600,
