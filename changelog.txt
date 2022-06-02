@@ -4,12 +4,12 @@ Date: 02.06.2022
   Features:
     - Implemented setting descriptions for the latest feature. This means u can now see "Min" to "Max" size of settings. & the other 2 as u would in equipment grid sizes.
   Fixes:
-    - Sleepless spelling mistakes
+    - Sleepless spelling mistakes.
     - Wrong description limit for SE's Space suit 4. Was showing 400 setting limits to 500. In EN translation only.
   Changes:
     - Bob's Heavy Armor 3 Inv Size incresed limit from 500 to 600.
-    - Inv Sizes for: (Custom Power Armour Reborn) have been updated defaults to be Mk3:40,Mk4:50,Mk5:60
-    - The setting names for Inv Sizes
+    - Inv Sizes for: (Custom Power Armour Reborn) have been updated defaults to be Mk3:40,Mk4:50,Mk5:60.
+    - The setting names for Inv Sizes.
   Info:
     - Will add the base default values later. Just updating the most needed for now. Fully done later some might have gotten one.
 ---------------------------------------------------------------------------------------------------
@@ -18,7 +18,7 @@ Date: 01.06.2022
   Fixes:
     - Homepage Url.
   Thanks:
-    - @jasper#8009 for spotting the bug (Discord)
+    - @jasper#8009 for spotting the bug (Discord).
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 30.05.2022
@@ -26,7 +26,7 @@ Date: 30.05.2022
     - U can now configure armours inventory bonuses.
   Info:
     - Note NO Translations will be coming soon. This is not a bug. Still please let me know quick if u use NO translated game.
-    - Example the new part will be looking like "v-cas-power-armor-mk2-inv-size"
+    - Example the new part will be looking like "v-cas-power-armor-mk2-inv-size".
     - Setting description is coming in future update. Together with NO translation.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
@@ -40,7 +40,7 @@ Date: 17.05.2022
 Version: 0.1.1
 Date: 15.05.2022
   Fixes:
-    - Organized info page
+    - Organized info page.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 15.05.2022
@@ -49,31 +49,31 @@ Date: 15.05.2022
     - FactorioExtended-Equipment Armours has now gotten settings.
     - Custom power armour fix has now gotten settings.
   Changes:
-    - Setting order for Rampant Aresnal went from F to I
-    - reduced limit of K2's mk4 Armour from: 500 - 400
+    - Setting order for Rampant Aresnal went from "F" to "I".
+    - reduced limit of K2's mk4 Armour from: 500 - 400.
   Fixes:
     - Reverted the way K2 changes the grid sizes for SE if both mods are played toghetter.
-    - Fixed NO localisations in general
-    - Fixed NO localisations for "bob-power-armor-mk4-grid-size-w"
+    - Fixed NO localisations in general.
+    - Fixed NO localisations for "bob-power-armor-mk4-grid-size-w".
   Betas:
-    - Cancelled beta testing
+    - Cancelled beta testing.
   Thanks:
-    - @Tomatoking for the thumbnail.png (Discord)
+    - @Tomatoking for the thumbnail.png (Discord).
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
 Date: 11.05.2022
   Features:
     - Initial Release.
-    - Complete NO and EN Translation
+    - Complete NO and EN Translation.
   Changes:
-    - Disabled compatibility code for (Custom Power Armour Fix/(Custom Power Armour Reborn)) until i figure out, why it won't load. 
+    - Disabled compatibility code for (Custom Power Armour Fix/(Custom Power Armour Reborn)) until i figure out why it won't load. 
   Betas:
     - New Testing for 0.0.3 will come. Want to be one of them join my discord to get a chance.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
 Date: xx.04.2022
   Features:
-    - Added settings to choose the suitable size of equipment grid of own choice
+    - Added settings to choose the suitable size of equipment grid of own choice.
     - The mods defaults are higer than the other mod u install. Can be found at ("startup-setting"/startup settings) if u have the optional mod present.
     - Added Norwegian translation. vanilla only. Rest still WIP.
     - Compatibility: Bob's, Power Armour mk3, RampantArsenal, Krastorio2, Space Exploration,
