@@ -9,6 +9,7 @@ Date: 02.06.2022
   Changes:
     - Bob's Heavy Armor 3 Inv Size incresed limit from 500 to 600.
     - Inv Sizes for: (Custom Power Armour Reborn) have been updated defaults to be Mk3:40,Mk4:50,Mk5:60
+    - The setting names for Inv Sizes
   Info:
     - Will add the base default values later. Just updating the most needed for now. Fully done later some might have gotten one.
 ---------------------------------------------------------------------------------------------------
