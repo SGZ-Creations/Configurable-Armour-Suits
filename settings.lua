@@ -170,7 +170,7 @@ if mods["bobwarfare"] then
             name = "cas-bob-heavy-armor-3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 500,
+            maximum_value = 600,
             default_value = 60,
             order = "2Bab"
         },
@@ -275,7 +275,7 @@ if mods["custom_power_armor_fix"] then
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 900,
-            default_value = 40,
+            default_value = 50,
             order = "2Cab"
         },
         {
@@ -284,7 +284,7 @@ if mods["custom_power_armor_fix"] then
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 1000,
-            default_value = 40,
+            default_value = 60,
             order = "2Cac"
         },
         

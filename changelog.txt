@@ -1,4 +1,17 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 02.06.2022
+  Features:
+    - Implemented setting descriptions for the latest feature. This means u can now see "Min" to "Max" size of settings. & the other 2 as u would in equipment grid sizes.
+  Fixes:
+    - Sleepless spelling mistakes
+    - Wrong description limit for SE's Space suit 4. Was showing 400 setting limits to 500. In EN translation only.
+  Changes:
+    - Bob's Heavy Armor 3 Inv Size incresed limit from 500 to 600.
+    - Inv Sizes for: (Custom Power Armour Reborn) have been updated defaults to be Mk3:40,Mk4:50,Mk5:60
+  Info:
+    - Will add the base default values later. Just updating the most needed for now. Fully done later some might have gotten one.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.1
 Date: 01.06.2022
   Fixes:
@@ -11,15 +24,15 @@ Date: 30.05.2022
   Features:
     - U can now configure armours inventory bonuses.
   Info:
-    - Note NO Translations will be comming soon. This is not a bug. Still please let me know quick if u use NO tralslation.
-    - Exaple the new part will be looking like "v-cas-power-armor-mk2-inv-size"
-    - Setting Desription comming in next update Toghetter with NO translation.
+    - Note NO Translations will be coming soon. This is not a bug. Still please let me know quick if u use NO translated game.
+    - Example the new part will be looking like "v-cas-power-armor-mk2-inv-size"
+    - Setting description is coming in future update. Together with NO translation.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 17.05.2022
   Fixes:
-    - Organized Optional dependencies to show alphabetic ordre on the web page.
-    - Organized dependencies in info page to be in alphabetic ordre.
+    - Organized Optional dependencies to show alphabetic order on the web page.
+    - Organized dependencies in info page to be in alphabetic order.
     - Fixed typos.
     - Fixed localisation on the EN page after reducing the K2 limit.
 ---------------------------------------------------------------------------------------------------
@@ -39,10 +52,10 @@ Date: 15.05.2022
     - reduced limit of K2's mk4 Armour from: 500 - 400
   Fixes:
     - Reverted the way K2 changes the grid sizes for SE if both mods are played toghetter.
-    - Fixed NO localisations in genral
+    - Fixed NO localisations in general
     - Fixed NO localisations for "bob-power-armor-mk4-grid-size-w"
   Betas:
-    - Canceled beta testing
+    - Cancelled beta testing
   Thanks:
     - @Tomatoking for the thumbnail.png (Discord)
 ---------------------------------------------------------------------------------------------------
@@ -52,16 +65,16 @@ Date: 11.05.2022
     - Initial Release.
     - Complete NO and EN Translation
   Changes:
-    - Disabled compatibility code for (Custom Power Armour Fix/(Custom Power Armour Reborn)) untill i fugure out way it won't load. 
+    - Disabled compatibility code for (Custom Power Armour Fix/(Custom Power Armour Reborn)) until i figure out, why it won't load. 
   Betas:
     - New Testing for 0.0.3 will come. Want to be one of them join my discord to get a chance.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
 Date: xx.04.2022
   Features:
-    - Added settings to choose the suiteable size of equipment grid of own choice
+    - Added settings to choose the suitable size of equipment grid of own choice
     - The mods defaults are higer than the other mod u install. Can be found at ("startup-setting"/startup settings) if u have the optional mod present.
     - Added Norwegian translation. vanilla only. Rest still WIP.
-    - Copatibility: Bob's, Power Armour mk3, RampantArsenal, Krastorio2, Space Exploration,
+    - Compatibility: Bob's, Power Armour mk3, RampantArsenal, Krastorio2, Space Exploration,
   Betas:
     - Closed beta testing done.
