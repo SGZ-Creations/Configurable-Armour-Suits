@@ -1,10 +1,20 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.3
-Date: 02.06.2022
-  Fixes:
-    - Fixed that K2 would't load separately with my mod as it would look for Se Space suits witout the mod being enabled.
+Version: 0.2.4
+Date: 04.06.2022
+  Features:
+    - NO translation should now be implemented with feature from 0.2.0.
+    - Added Russian Traslation.
   Thanks:
-    - to @implost#4072 for helping & solveing the issue (Discord).
+    - to @implost#4072 for helping with RU translations. (Discord).
+  Info:
+    - RU Translation are not tested
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 03.06.2022
+  Fixes:
+    - Fixed that K2& CAS wouldn't load separately. it look for Space suits from SE mod. When u only want to use K2.
+  Thanks:
+    - To @implost#4072 for helping & solveing the issue (Discord).
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.2
 Date: 02.06.2022
@@ -30,7 +40,7 @@ Date: 01.06.2022
 Version: 0.2.0
 Date: 30.05.2022
   Features:
-    - U can now configure armours inventory bonuses.
+    - U can now configure armours inventory sizes.
   Info:
     - Note NO Translations will be coming soon. This is not a bug. Still please let me know quick if u use NO translated game.
     - Example the new part will be looking like "v-cas-power-armor-mk2-inv-size".
