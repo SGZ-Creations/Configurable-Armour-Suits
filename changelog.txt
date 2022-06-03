@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 02.06.2022
+  Fixes:
+    - Fixed that K2 would't load separately with my mod as it would look for Se Space suits witout the mod being enabled.
+  Thanks:
+    - to @implost#4072 for helping & solveing the issue (Discord).
+---------------------------------------------------------------------------------------------------
 Version: 0.2.2
 Date: 02.06.2022
   Features:

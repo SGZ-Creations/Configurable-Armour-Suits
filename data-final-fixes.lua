@@ -107,7 +107,7 @@ if mods["Krastorio2"] then
 end
 
 -- Undo Krastorio2's SE armor changes so our own work
-if mods["Krastorio2"] then
+if mods["Krastorio2"] and mods["space-exploration"] then
 	data.raw.armor["se-thruster-suit"].equipment_grid = "se-thruster-suit-grid"
 	data.raw.armor["se-thruster-suit-2"].equipment_grid = "se-thruster-suit-2-grid"
 	data.raw.armor["se-thruster-suit-3"].equipment_grid = "se-thruster-suit-3-grid"
