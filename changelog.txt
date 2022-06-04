@@ -5,14 +5,14 @@ Date: 04.06.2022
     - NO translation should now be implemented with feature from 0.2.0.
     - Added Russian Traslation.
   Thanks:
-    - to @implost#4072 for helping with RU translations. (Discord).
+    - To @implost#4072 for helping with RU translations. (Discord).
   Info:
     - RU Translation are not tested
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.3
 Date: 03.06.2022
   Fixes:
-    - Fixed that K2& CAS wouldn't load separately. it look for Space suits from SE mod. When u only want to use K2.
+    - Fixed that K2 was depending on SE to be enabled.
   Thanks:
     - To @implost#4072 for helping & solveing the issue (Discord).
 ---------------------------------------------------------------------------------------------------
