@@ -6,6 +6,9 @@ Date: 06.06.2022
   Changes:
     - Default INV values for Power & Armour wen from 40, 50 to 60, 70.
     - Description of chnagelog v0.2.3
+    - Space suits Default INV old numbers: T1-30, T2-40, T3-50, T4-60, going up.
+  Translation:
+    - Fixed Russian.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.4
 Date: 04.06.2022
