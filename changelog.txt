@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 06.06.2022
+  Completion:
+    - The missing number for the "game defaults". Done with (NO, EN, RU)
+  Changes:
+    - Default INV values for Power & Armour wen from 40, 50 to 60, 70.
+    - Description of chnagelog v0.2.3
+---------------------------------------------------------------------------------------------------
 Version: 0.2.4
 Date: 04.06.2022
   Features:

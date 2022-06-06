@@ -670,7 +670,7 @@ if mods["PowerAndArmor"] then
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 800,
-            default_value = 40,
+            default_value = 60,
             order = "2Haa"
         },
         {
@@ -679,7 +679,7 @@ if mods["PowerAndArmor"] then
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 900,
-            default_value = 50,
+            default_value = 70,
             order = "2Hab"
         },
     })
