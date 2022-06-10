@@ -4,9 +4,9 @@ Date: 06.06.2022
   Completion:
     - The missing number for the "game defaults". Done with (NO, EN, RU)
   Changes:
-    - Default INV values for Power & Armour when from 40, 50 to 60, 70.
+    - Default INV values for Power & Armour went from 40, 50 to 60, 70.
     - Description of changelog v0.2.3
-    - Space suits Default INV old numbers: T1-30, T2-40, T3-50, T4-60, going up.
+    - Space suits Default INV old numbers: T1-30, T2-40, T3-50, T4-60. New size went up.
   Translation:
     - Fixed Russian.
 ---------------------------------------------------------------------------------------------------
