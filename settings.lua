@@ -345,7 +345,7 @@ if mods["Power Armor MK3"] then
             minimum_value = 0,
             maximum_value = 600,
             default_value = 20,
-            order = "2Daa"
+            order = "2Dab"
         },
         {
             type = "int-setting",
@@ -354,7 +354,7 @@ if mods["Power Armor MK3"] then
             minimum_value = 0,
             maximum_value = 800,
             default_value = 50,
-            order = "2Daa"
+            order = "2Dac"
         },
         {
             type = "int-setting",
@@ -363,7 +363,7 @@ if mods["Power Armor MK3"] then
             minimum_value = 0,
             maximum_value = 900,
             default_value = 60,
-            order = "2Daa"
+            order = "2Dad"
         },
     })
 end
@@ -712,7 +712,7 @@ if mods["RampantArsenal"] then
             minimum_value = 0,
             maximum_value = 800,
             default_value = 60,
-            order = "2Iab"
+            order = "2Iaa"
         },
     })
 end
