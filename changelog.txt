@@ -1,11 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 06.06.2022
+  Features:
+    - Comptibility with my new mod.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.6
 Date: 06.06.2022
   Fixes:
     - Setting order for Power Armour MK3. the entire order was not made properly.
     - Setting order for Rampant Arsenal.
   Changes:
-    - Info.json version 0.2.6 Done this to verify my chnaged version.
+    - Info.json version 0.2.6 Done this to verify my changed version.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.5
 Date: 06.06.2022

@@ -7,13 +7,12 @@ local function SetGridSize(grid_name, setting_name_prefix)
 		grid.height = height
 	end
 end
--- crash here if mods
 -- 1= Inv size prefix. 2= name of item. 3= add the: "-inv-size"
 local function SetInvSize(armor_name, setting_name_prefix)
 	data.raw["armor"][armor_name].inventory_size_bonus = settings.startup[setting_name_prefix..armor_name.."-inv-size"].value
 end
 
--- Reverts K2's Armour grid size for SE. more on line 66
+-- Reverts K2's Armour grid size for SE. more on line 107
 local function CopyGridCategories(source_grid_name, target_grid_name)
 	local categories = util.table.deepcopy(data.raw["equipment-grid"][source_grid_name].equipment_categories)
 	data.raw["equipment-grid"][target_grid_name].equipment_categories = categories
@@ -54,7 +53,6 @@ end
 if mods["PowerAndArmor"] then
 	SetGridSize("PaA-power-armor-mk3-grid", "pa-mk3")
 	SetGridSize("PaA-power-armor-mk4-grid", "pa-mk4")
--- crash here if mods
 	SetInvSize("PaA-power-armor-mk3", "cas-")
 	SetInvSize("PaA-power-armor-mk4", "cas-")
 end
