@@ -28,6 +28,24 @@ SetInvSize("modular-armor", "v-cas-")
 SetInvSize("power-armor", "v-cas-")
 SetInvSize("power-armor-mk2", "v-cas-")
 
+-- Creating setting here. Since i made this prior to "MK10 Amrour"
+SetGridSize("", "MK10-3")
+SetGridSize("", "MK10-4")
+SetGridSize("", "MK10-5")
+SetGridSize("", "MK10-6")
+SetGridSize("", "MK10-7")
+SetGridSize("", "MK10-8")
+SetGridSize("", "MK10-9")
+SetGridSize("", "MK10-10")
+
+SetInvSize("", "m-cas-")
+SetInvSize("", "m-cas-")
+SetInvSize("", "m-cas-")
+SetInvSize("", "m-cas-")
+SetInvSize("", "m-cas-")
+SetInvSize("", "m-cas-")
+SetInvSize("", "m-cas-")
+
 if mods["bobwarfare"] then
 	SetGridSize("power-armor-equipment-grid-mk3", "bob-power-armor-mk3")
 	SetGridSize("power-armor-equipment-grid-mk4", "bob-power-armor-mk4")
