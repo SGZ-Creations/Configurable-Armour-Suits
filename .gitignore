@@ -1,3 +1,3 @@
 .gitattributes
 cspell.json
-git_files
+.gitignore

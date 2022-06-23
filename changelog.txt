@@ -2,7 +2,9 @@
 Version: 0.2.7
 Date: 06.06.2022
   Features:
-    - Comptibility with my new mod.
+    - Comptibility with MK10-Armour.
+    - Added setting for MK10-Armour mod.
+    - Optional Dependencies.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.6
 Date: 06.06.2022
