@@ -630,6 +630,47 @@ if mods["space-exploration"] then
     })
 end
 --------------------------------------------------------------------------------------------------
+if mods["IndustrialRevolution"] then
+    data:extend({
+        {
+            type = "int-setting",
+            name = "ir2-light-cas-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 10,
+            default_value = 8,
+            order = "1Fa1"
+        },
+        {
+            type = "int-setting",
+            name = "ir2-light-cas-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 10,
+            default_value = 2,
+            order = "1Fab"
+        },
+        {
+            type = "int-setting",
+            name = "ir2-heavy-cas-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 10,
+            default_value = 10,
+            order = "1Fac"
+        },
+        {
+            type = "int-setting",
+            name = "ir2-heavy-cas-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 10,
+            default_value = 2,
+            order = "1Fad"
+        },
+    })
+end
+--------------------------------------------------------------------------------------------------
 if mods["Krastorio2"] then
     data:extend({
         {
