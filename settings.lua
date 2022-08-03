@@ -226,7 +226,7 @@ if mods["MK10-Armour"] then
             minimum_value = 0,
             maximum_value = 900,
             default_value = 90,
-            order = "1Bap"
+            order = "1Ban"
         },
         {
             type = "int-setting",
@@ -235,7 +235,7 @@ if mods["MK10-Armour"] then
             minimum_value = 0,
             maximum_value = 1000,
             default_value = 100,
-            order = "1Baq"
+            order = "1Bao"
         },
         {
             type = "int-setting",
@@ -244,7 +244,7 @@ if mods["MK10-Armour"] then
             minimum_value = 0,
             maximum_value = 1000,
             default_value = 100,
-            order = "1Bar"
+            order = "1Bap"
         },
     })
 end
