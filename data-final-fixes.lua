@@ -12,7 +12,7 @@ local function SetInvSize(armor_name, setting_name_prefix)
 	data.raw["armor"][armor_name].inventory_size_bonus = settings.startup[setting_name_prefix..armor_name.."-inv-size"].value
 end
 
--- Reverts K2's Armour grid size for SE. more on line 107
+-- Reverts K2's Armour grid size for SE. more on line 77 - 87
 local function CopyGridCategories(source_grid_name, target_grid_name)
 	local categories = util.table.deepcopy(data.raw["equipment-grid"][source_grid_name].equipment_categories)
 	data.raw["equipment-grid"][target_grid_name].equipment_categories = categories
@@ -87,7 +87,7 @@ CopyGridCategories("mk3-armor-grid", "se-thruster-suit-3-grid")
 CopyGridCategories("mk4-armor-grid", "se-thruster-suit-4-grid")
 end
 
--- Creating setting here. Since i made this prior to "MK10 Amrour"
+-- Creating setting here. for mod "MK10 Amrour" so this is the setting mod used with all other.
 if mods["MK10-Armour"] then
 	SetGridSize("", "MK10-3")
 	SetGridSize("", "MK10-4")
@@ -98,13 +98,14 @@ if mods["MK10-Armour"] then
 	SetGridSize("", "MK10-9")
 	SetGridSize("", "MK10-10")
 
-	SetInvSize("", "m-cas-")
-	SetInvSize("", "m-cas-")
-	SetInvSize("", "m-cas-")
-	SetInvSize("", "m-cas-")
-	SetInvSize("", "m-cas-")
-	SetInvSize("", "m-cas-")
-	SetInvSize("", "m-cas-")
+	SetInvSize("", "m-cas-3")
+	SetInvSize("", "m-cas-4")
+	SetInvSize("", "m-cas-5")
+	SetInvSize("", "m-cas-6")
+	SetInvSize("", "m-cas-7")
+	SetInvSize("", "m-cas-8")
+	SetInvSize("", "m-cas-9")
+	SetInvSize("", "m-cas-10")
 end
 
 if mods["Power Armor MK3"] then
