@@ -61,8 +61,8 @@ if mods["FactorioExtended-Equipment"] then
 end
 
 if mods["IndustrialRevolution"] then
-	SetGridSize("copper-equipment-grid", "ir2-light-cas-")
-	SetGridSize("bronze-equipment-grid", "ir2-heavy-cas-")
+	SetGridSize("copper-equipment-grid", "ir2-light-cas")
+	SetGridSize("bronze-equipment-grid", "ir2-heavy-cas")
 end
 
 if mods["Krastorio2"] then
