@@ -6,7 +6,7 @@ Date: 06.06.2022
     - Added setting for IR2-Armour grids.
     - Traces of upcoming mod MK10-Armour is added. Mod does not exstis yet.
   Compatibility:
-    - IR2. U can now configure grid size if mod is present. Since the mod adds grid to these armours.
+    - IR2. U can now configure grid size for Light & Heavy armour if mod is present. Since IR2 mod adds grids to them.
   Changes:
     - Internal cleanup in datafinalfixes.
     - Info.json verified verion 0.2.7.
