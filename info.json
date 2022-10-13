@@ -13,7 +13,8 @@
 			"text_for_later.cpp",
 			"control.lua",
 			"prototype/*",
-			"data.lua"
+			"data.lua",
+			"locale/ru/mod-locales.cfg"
 		]
 	}
 }
