@@ -10,7 +10,7 @@ Date: 06.06.2022
   Changes:
     - Internal cleanup in datafinalfixes.
     - Info.json verified verion 0.2.7.
-    - Locals Cleanup EN
+    - Locals Cleanup EN.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.6
 Date: 06.06.2022

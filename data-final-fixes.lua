@@ -87,25 +87,29 @@ CopyGridCategories("mk3-armor-grid", "se-thruster-suit-3-grid")
 CopyGridCategories("mk4-armor-grid", "se-thruster-suit-4-grid")
 end
 
--- Creating setting here. for mod "MK10 Amrour" so this is the setting mod used with all other.
+-- Creating setting here. for mod "MK10 Armour" so this is the setting mod used with all other.
 if mods["MK10-Armour"] then
-	SetGridSize("", "MK10-3")
-	SetGridSize("", "MK10-4")
-	SetGridSize("", "MK10-5")
-	SetGridSize("", "MK10-6")
-	SetGridSize("", "MK10-7")
-	SetGridSize("", "MK10-8")
-	SetGridSize("", "MK10-9")
-	SetGridSize("", "MK10-10")
+	SetGridSize("a_mk1", "MK10-1")
+	SetGridSize("a_mk2", "MK10-2")
+	SetGridSize("a_mk3", "MK10-3")
+	SetGridSize("a_mk4", "MK10-4")
+	SetGridSize("a_mk5", "MK10-5")
+	SetGridSize("a_mk6", "MK10-6")
+	SetGridSize("a_mk7", "MK10-7")
+	SetGridSize("a_mk8", "MK10-8")
+	SetGridSize("a_mk9", "MK10-9")
+	SetGridSize("a_mk10", "MK10-10")
 
-	SetInvSize("", "m-cas-3")
-	SetInvSize("", "m-cas-4")
-	SetInvSize("", "m-cas-5")
-	SetInvSize("", "m-cas-6")
-	SetInvSize("", "m-cas-7")
-	SetInvSize("", "m-cas-8")
-	SetInvSize("", "m-cas-9")
-	SetInvSize("", "m-cas-10")
+	SetInvSize("ai_mk1", "m-cas-1")
+	SetInvSize("ai_mk2", "m-cas-2")
+	SetInvSize("ai_mk3", "m-cas-3")
+	SetInvSize("ai_mk4", "m-cas-4")
+	SetInvSize("ai_mk5", "m-cas-5")
+	SetInvSize("ai_mk6", "m-cas-6")
+	SetInvSize("ai_mk7", "m-cas-7")
+	SetInvSize("ai_mk8", "m-cas-8")
+	SetInvSize("ai_mk9", "m-cas-9")
+	SetInvSize("ai_mk10", "m-cas-10")
 end
 
 if mods["Power Armor MK3"] then
