@@ -10,7 +10,10 @@
 	"description": "Configurable Armours currently supports\nBob's, Custom_Power_Armor_fix, FE-Equipment, IR2, K2, Power&Armor, Power Armor MK3, Rampand Aresensal, SE,",
 	"package": {
 		"ignore": [
-			"text_for_later.cpp"
+			"text_for_later.cpp",
+			"control.lua",
+			"prototype/*",
+			"data.lua"
 		]
 	}
 }

@@ -1,0 +1,2 @@
+--function on
+    --defines.events.on_player_armor_inventory_changed
