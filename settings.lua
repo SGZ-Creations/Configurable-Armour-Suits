@@ -1,5 +1,11 @@
 data:extend({
     {
+        type = "bool-setting",
+        name = "simulation_crash",
+        setting_type = "startup",
+        default_value = true,
+    },
+    {
         type = "int-setting",
         name = "modular-armor-grid-size-h",
         setting_type = "startup",

@@ -12,6 +12,8 @@ Date: 13.10.2022
     - Info.json verified verion 0.2.7.
     - Locals Cleanup EN.
     - Removed RU locals as for updates if u want to help use my github.
+  Internal:
+    - Added data.lua to be read.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.6
 Date: 06.06.2022
