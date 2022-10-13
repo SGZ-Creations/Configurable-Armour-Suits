@@ -11,6 +11,7 @@ Date: 06.06.2022
     - Internal cleanup in datafinalfixes.
     - Info.json verified verion 0.2.7.
     - Locals Cleanup EN.
+    - Removed RU locals as for updates.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.6
 Date: 06.06.2022
@@ -39,7 +40,7 @@ Date: 04.06.2022
   Thanks:
     - To @implost#4072 for helping with RU translations. (Discord).
   Info:
-    - RU Translation are not tested
+    - RU Translation are not tested.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.3
 Date: 03.06.2022
