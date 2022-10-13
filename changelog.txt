@@ -1,8 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.7
-Date: 06.06.2022
+Date: 13.10.2022
   Features:
-    - Comptibility with IR2.-Armour.
+    - Comptibility with IR2-Armour.
     - Added setting for IR2-Armour grids.
     - Traces of upcoming mod MK10-Armour is added. Mod does not exstis yet.
   Compatibility:
@@ -11,7 +11,7 @@ Date: 06.06.2022
     - Internal cleanup in datafinalfixes.
     - Info.json verified verion 0.2.7.
     - Locals Cleanup EN.
-    - Removed RU locals as for updates.
+    - Removed RU locals as for updates if u want to help use my github.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.6
 Date: 06.06.2022
