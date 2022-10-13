@@ -14,6 +14,8 @@ Date: 13.10.2022
     - Removed RU locals as for updates if u want to help use my github.
   Internal:
     - Added data.lua to be read.
+  Fixes:
+    - attempted fix for known simulations issue.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.6
 Date: 06.06.2022

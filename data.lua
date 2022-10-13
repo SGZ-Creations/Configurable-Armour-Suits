@@ -1,6 +1,5 @@
 if settings.startup["simulation_crash"].value then
-local simulations_with_grids = {
-        "biter_base_spidertron",
+    local simulations_with_grids = {
         "biter_base_laser_defense",
     }
     -- "dontcare" replace with "_" 
