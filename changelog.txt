@@ -1,19 +1,27 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 15.10.2022
+  Features:
+    - support for MK10-Armour
+  Fixes:
+    - Changelog
+---------------------------------------------------------------------------------------------------
 Version: 0.2.7
 Date: 13.10.2022
   Features:
     - Comptibility with IR2-Armour.
-    - Added setting for IR2-Armour grids.
-    - Traces of upcoming mod MK10-Armour is added. Mod does not exstis yet.
+    - Added setting for IR2-Armour's grids.
+
   Compatibility:
     - IR2. U can now configure grid size for Light & Heavy armour if mod is present. Since IR2 mod adds grids to them.
   Changes:
     - Internal cleanup in datafinalfixes.
-    - Info.json verified verion 0.2.7.
     - Locals Cleanup EN.
     - Removed RU locals as for updates if u want to help use my github.
   Internal:
     - Added data.lua to be read.
+    - Info.json verified verion 0.2.7.
+    - Traces of upcoming mod MK10-Armour is added. Mod does not exstis yet.
   Fixes:
     - attempted fix for known simulations issue.
 ---------------------------------------------------------------------------------------------------
@@ -22,7 +30,7 @@ Date: 06.06.2022
   Fixes:
     - Setting order for Power Armour MK3. the entire order was not made properly.
     - Setting order for Rampant Arsenal.
-  Changes:
+  Internal:
     - Info.json version 0.2.6 Done this to verify my changed version.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.5
