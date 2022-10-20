@@ -293,8 +293,8 @@ if mods["MK10-Armour"] then
             name = "m-cas-1-a_mk1-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 500,
-            default_value = 40,
+            maximum_value = 100,
+            default_value = 50,
             order = "2Baa"
         },
         {
@@ -302,8 +302,8 @@ if mods["MK10-Armour"] then
             name = "m-cas-2-a_mk2-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 600,
-            default_value = 60,
+            maximum_value = 200,
+            default_value = 100,
             order = "2Bab"
         },
         {
@@ -311,8 +311,8 @@ if mods["MK10-Armour"] then
             name = "m-cas-3-a_mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 800,
-            default_value = 40,
+            maximum_value = 300,
+            default_value = 150,
             order = "2Bac"
         },
         {
@@ -320,8 +320,8 @@ if mods["MK10-Armour"] then
             name = "m-cas-4-a_mk4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 900,
-            default_value = 50,
+            maximum_value = 400,
+            default_value = 200,
             order = "2Bad"
         },
         {
@@ -329,8 +329,8 @@ if mods["MK10-Armour"] then
             name = "m-cas-5-a_mk5-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 1000,
-            default_value = 60,
+            maximum_value = 500,
+            default_value = 250,
             order = "2Bae"
         },
         {
@@ -338,8 +338,8 @@ if mods["MK10-Armour"] then
             name = "m-cas-6-a_mk6-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 500,
-            default_value = 40,
+            maximum_value = 600,
+            default_value = 300,
             order = "2Baf"
         },
         {
@@ -347,8 +347,8 @@ if mods["MK10-Armour"] then
             name = "m-cas-7-a_mk7-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 600,
-            default_value = 60,
+            maximum_value = 700,
+            default_value = 350,
             order = "2Bag"
         },
         {
@@ -357,7 +357,7 @@ if mods["MK10-Armour"] then
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 800,
-            default_value = 40,
+            default_value = 400,
             order = "2Bah"
         },
         {
@@ -366,7 +366,7 @@ if mods["MK10-Armour"] then
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 900,
-            default_value = 50,
+            default_value = 450,
             order = "2Bai"
         },
         {
@@ -375,7 +375,7 @@ if mods["MK10-Armour"] then
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 1000,
-            default_value = 60,
+            default_value = 500,
             order = "2Baj"
         },
     })

@@ -2,7 +2,7 @@
 Version: 0.3.0
 Date: 15.10.2022
   Features:
-    - Support for MK10-Armour fully implemented.
+    - Support for MK10-Armour is good to go. (tool tip for settings comes later) 
     - Item icons will now show armour icon on the settings menue.
   Fixes:
     - Changelog.
