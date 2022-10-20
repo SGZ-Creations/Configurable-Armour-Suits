@@ -288,6 +288,96 @@ if mods["MK10-Armour"] then
             default_value = 100,
             order = "1Bas"
         },
+        {
+            type = "int-setting",
+            name = "m-cas-1-a_mk1-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 500,
+            default_value = 40,
+            order = "2Baa"
+        },
+        {
+            type = "int-setting",
+            name = "m-cas-2-a_mk2-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 600,
+            default_value = 60,
+            order = "2Bab"
+        },
+        {
+            type = "int-setting",
+            name = "m-cas-3-a_mk3-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 800,
+            default_value = 40,
+            order = "2Bac"
+        },
+        {
+            type = "int-setting",
+            name = "m-cas-4-a_mk4-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 900,
+            default_value = 50,
+            order = "2Bad"
+        },
+        {
+            type = "int-setting",
+            name = "m-cas-5-a_mk5-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 1000,
+            default_value = 60,
+            order = "2Bae"
+        },
+        {
+            type = "int-setting",
+            name = "m-cas-6-a_mk6-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 500,
+            default_value = 40,
+            order = "2Baf"
+        },
+        {
+            type = "int-setting",
+            name = "m-cas-7-a_mk7-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 600,
+            default_value = 60,
+            order = "2Bag"
+        },
+        {
+            type = "int-setting",
+            name = "m-cas-8-a_mk8-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 800,
+            default_value = 40,
+            order = "2Bah"
+        },
+        {
+            type = "int-setting",
+            name = "m-cas-9-a_mk9-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 900,
+            default_value = 50,
+            order = "2Bai"
+        },
+        {
+            type = "int-setting",
+            name = "m-cas-10-a_mk10-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 1000,
+            default_value = 60,
+            order = "2Baj"
+        },
     })
 end
 --------------------------------------------------------------------------------------------------

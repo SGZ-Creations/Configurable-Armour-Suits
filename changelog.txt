@@ -2,9 +2,11 @@
 Version: 0.3.0
 Date: 15.10.2022
   Features:
-    - support for MK10-Armour
+    - Support for MK10-Armour fully implemented.
+    - Item icons will now show armour icon on the settings menue.
   Fixes:
-    - Changelog
+    - Changelog.
+    - typos in locales.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.7
 Date: 13.10.2022
@@ -50,7 +52,7 @@ Date: 04.06.2022
     - NO translation should now be implemented with feature from 0.2.0.
     - Added Russian Traslation.
   Thanks:
-    - To @implost#4072 for helping with RU translations. (Discord).
+    - To @implost for helping with RU translations. (Discord).
   Info:
     - RU Translation are not tested.
 ---------------------------------------------------------------------------------------------------
@@ -59,7 +61,7 @@ Date: 03.06.2022
   Fixes:
     - Fixed that K2 was depending on SE to be enabled.
   Thanks:
-    - To @implost#4072 for helping & solveing the issue (Discord).
+    - To @implost for helping & solveing the issue (Discord).
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.2
 Date: 02.06.2022
@@ -80,7 +82,7 @@ Date: 01.06.2022
   Fixes:
     - Homepage Url.
   Thanks:
-    - @jasper#8009 for spotting the bug (Discord).
+    - @jasper for spotting the bug (Discord).
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 30.05.2022
