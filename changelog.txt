@@ -13,7 +13,6 @@ Date: 13.10.2022
   Features:
     - Comptibility with IR2-Armour.
     - Added setting for IR2-Armour's grids.
-
   Compatibility:
     - IR2. U can now configure grid size for Light & Heavy armour if mod is present. Since IR2 mod adds grids to them.
   Changes:
