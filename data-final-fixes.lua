@@ -100,16 +100,16 @@ if mods["MK10-Armour"] then
 	SetGridSize("sgz-a9-equipment-grid", "mk10-9")
 	SetGridSize("sgz-a10-equipment-grid", "mk10-10")
 
-	SetInvSize("a_mk1", "m-cas-1")
-	SetInvSize("a_mk2", "m-cas-2")
-	SetInvSize("a_mk3", "m-cas-3")
-	SetInvSize("a_mk4", "m-cas-4")
-	SetInvSize("a_mk5", "m-cas-5")
-	SetInvSize("a_mk6", "m-cas-6")
-	SetInvSize("a_mk7", "m-cas-7")
-	SetInvSize("a_mk8", "m-cas-8")
-	SetInvSize("a_mk9", "m-cas-9")
-	SetInvSize("a_mk10", "m-cas-10")
+	SetInvSize("a_mk1", "m-cas-1-")
+	SetInvSize("a_mk2", "m-cas-2-")
+	SetInvSize("a_mk3", "m-cas-3-")
+	SetInvSize("a_mk4", "m-cas-4-")
+	SetInvSize("a_mk5", "m-cas-5-")
+	SetInvSize("a_mk6", "m-cas-6-")
+	SetInvSize("a_mk7", "m-cas-7-")
+	SetInvSize("a_mk8", "m-cas-8-")
+	SetInvSize("a_mk9", "m-cas-9-")
+	SetInvSize("a_mk10", "m-cas-10-")
 end
 
 if mods["Power Armor MK3"] then
