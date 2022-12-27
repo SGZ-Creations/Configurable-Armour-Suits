@@ -5,7 +5,7 @@ Date: 27.12.2022
     - Removed support for IR2.
     - Added support for IR3.
   Fixes:
-    - Typo in No locals.
+    - Typo in NO locals.
     - IR2 NO Translation + Tooltip. Now for IR3 instead.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.1
