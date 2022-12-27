@@ -88,17 +88,17 @@ CopyGridCategories("mk4-armor-grid", "se-thruster-suit-4-grid")
 end
 
 -- Creating setting here. for mod "MK10 Armour" so this is the setting mod used with all other.
-if mods["MK10-Armour"] then
-	SetGridSize("sgz-a1-equipment-grid", "mk10-1")
-	SetGridSize("sgz-a2-equipment-grid", "mk10-2")
-	SetGridSize("sgz-a3-equipment-grid", "mk10-3")
-	SetGridSize("sgz-a4-equipment-grid", "mk10-4")
-	SetGridSize("sgz-a5-equipment-grid", "mk10-5")
-	SetGridSize("sgz-a6-equipment-grid", "mk10-6")
-	SetGridSize("sgz-a7-equipment-grid", "mk10-7")
-	SetGridSize("sgz-a8-equipment-grid", "mk10-8")
-	SetGridSize("sgz-a9-equipment-grid", "mk10-9")
-	SetGridSize("sgz-a10-equipment-grid", "mk10-10")
+if mods["Power-Armour-Replacer"] then
+	SetGridSize("sgz-a1-equipment-grid", "par-1")
+	SetGridSize("sgz-a2-equipment-grid", "par-2")
+	SetGridSize("sgz-a3-equipment-grid", "par-3")
+	SetGridSize("sgz-a4-equipment-grid", "par-4")
+	SetGridSize("sgz-a5-equipment-grid", "par-5")
+	SetGridSize("sgz-a6-equipment-grid", "par-6")
+	SetGridSize("sgz-a7-equipment-grid", "par-7")
+	SetGridSize("sgz-a8-equipment-grid", "par-8")
+	SetGridSize("sgz-a9-equipment-grid", "par-9")
+	SetGridSize("sgz-a10-equipment-grid", "par-10")
 
 	SetInvSize("a_mk1", "m-cas-1-")
 	SetInvSize("a_mk2", "m-cas-2-")

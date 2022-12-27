@@ -1,4 +1,17 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 27.12.2022
+  Features:
+    - Added setting tooltip to Power-Armour-Replacer. Only on Grid section for now EN NO Locals.
+    - Added Colour sorted setting. one mod one colour. On EN Locals only.
+  Changes:
+    - MK10-Armour --> Power-Armour-Replacer (Power Armour & Replacer).
+  Fixes:
+    - Internal name for MK10-Armour mod. --> Power-Armour-Replacer.
+    - Typo in NO Translation :p
+  Internal:
+    - Added to settings.lua ("--invetory" Vs Nothing)
+---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 15.10.2022
   Features:

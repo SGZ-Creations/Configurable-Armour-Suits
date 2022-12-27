@@ -59,6 +59,7 @@ data:extend({
         default_value = 20,
         order = "1Aaf"
     },
+    -- Inventory
     {
         type = "int-setting",
         name = "v-cas-light-armor-inv-size",
@@ -106,11 +107,11 @@ data:extend({
     },
 })
 --------------------------------------------------------------------------------------------------
-if mods["MK10-Armour"] then
+if mods["Power-Armour-Replacer"] then
     data:extend({
         {
             type = "int-setting",
-            name = "mk10-1-grid-size-h",
+            name = "par-1-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 100,
@@ -119,7 +120,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-1-grid-size-w",
+            name = "par-1-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 100,
@@ -128,7 +129,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-2-grid-size-h",
+            name = "par-2-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 200,
@@ -137,7 +138,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-2-grid-size-w",
+            name = "par-2-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 200,
@@ -146,7 +147,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-3-grid-size-h",
+            name = "par-3-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 300,
@@ -155,7 +156,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-3-grid-size-w",
+            name = "par-3-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 300,
@@ -164,7 +165,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-4-grid-size-h",
+            name = "par-4-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 400,
@@ -173,7 +174,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-4-grid-size-w",
+            name = "par-4-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 400,
@@ -182,7 +183,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-5-grid-size-h",
+            name = "par-5-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 500,
@@ -191,7 +192,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-5-grid-size-w",
+            name = "par-5-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 500,
@@ -200,7 +201,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-6-grid-size-h",
+            name = "par-6-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 600,
@@ -209,7 +210,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-6-grid-size-w",
+            name = "par-6-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 600,
@@ -218,7 +219,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-7-grid-size-h",
+            name = "par-7-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 700,
@@ -227,7 +228,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-7-grid-size-w",
+            name = "par-7-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 700,
@@ -236,7 +237,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-8-grid-size-h",
+            name = "par-8-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 800,
@@ -245,7 +246,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-8-grid-size-w",
+            name = "par-8-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 800,
@@ -254,7 +255,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-9-grid-size-h",
+            name = "par-9-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 900,
@@ -263,7 +264,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-9-grid-size-w",
+            name = "par-9-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 900,
@@ -272,7 +273,7 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-10-grid-size-h",
+            name = "par-10-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 1000,
@@ -281,13 +282,14 @@ if mods["MK10-Armour"] then
         },
         {
             type = "int-setting",
-            name = "mk10-10-grid-size-w",
+            name = "par-10-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 1000,
             default_value = 100,
             order = "1Bas"
         },
+        -- Inventory
         {
             type = "int-setting",
             name = "m-cas-1-a_mk1-inv-size",
@@ -437,6 +439,7 @@ if mods["bobwarfare"] then
             default_value = 55,
             order = "1Caf"
         },
+        -- Inventory
         {
             type = "int-setting",
             name = "cas-bob-heavy-armor-2-inv-size",
@@ -541,6 +544,7 @@ if mods["custom_power_armor_fix"] then
             default_value = 50,
             order = "1Daf"
         },
+        -- Inventory
         {
             type = "int-setting",
             name = "cas-custom-power-armor-mk3-inv-size",
@@ -610,6 +614,7 @@ if mods["Power Armor MK3"] then
             default_value = 40,
             order = "1Ead"
         },
+        -- Inventory
         {
             type = "int-setting",
             name = "cas-pamk3-lvest-inv-size",
@@ -723,6 +728,7 @@ if mods["space-exploration"] then
             default_value = 60,
             order = "1Vah"
         },
+        -- Inventory
         {
             type = "int-setting",
             name = "cas-se-thruster-suit-inv-size",
@@ -782,6 +788,7 @@ if mods["IndustrialRevolution"] then
             default_value = 2,
             order = "1Fab"
         },
+        -- Inventory
         {
             type = "int-setting",
             name = "ir2-heavy-cas-grid-size-h",
@@ -841,6 +848,7 @@ if mods["Krastorio2"] then
             default_value = 40,
             order = "1Wad"
         },
+        -- Inventory
         {
             type = "int-setting",
             name = "cas-k2-power-armor-mk3-inv-size",
@@ -918,6 +926,7 @@ if mods["FactorioExtended-Equipment"] then
             default_value = 55,
             order = "1Xaf"
         },
+        -- Inventory
         {
             type = "int-setting",
             name = "cas-extended-power-armor-1-inv-size",
@@ -986,6 +995,7 @@ if mods["PowerAndArmor"] then
             default_value = 40,
             order = "1Yad"
         },
+        -- Inventory
         {
             type = "int-setting",
             name = "cas-PaA-power-armor-mk3-inv-size",
@@ -1027,6 +1037,7 @@ if mods["RampantArsenal"] then
             default_value = 30,
             order = "1Zab"
         },
+        -- Inventory
         {
             type = "int-setting",
             name = "cas-ra-power-armor-mk3-armor-rampant-arsenal-inv-size",
