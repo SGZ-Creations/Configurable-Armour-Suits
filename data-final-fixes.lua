@@ -60,9 +60,9 @@ if mods["FactorioExtended-Equipment"] then
 	SetInvSize("power-armor-3", "cas-extended-")
 end
 
-if mods["IndustrialRevolution"] then
-	SetGridSize("copper-equipment-grid", "ir2-light-cas")
-	SetGridSize("bronze-equipment-grid", "ir2-heavy-cas")
+if mods["IndustrialRevolution3"] then
+	SetGridSize("copper-equipment-grid", "ir3-light-cas")
+	SetGridSize("bronze-equipment-grid", "ir3-heavy-cas")
 end
 
 if mods["Krastorio2"] then

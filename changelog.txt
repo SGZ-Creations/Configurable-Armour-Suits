@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: xx.01.2023
+  Changes:
+    - Removed support for IR2.
+    - Added support for IR3.
+  Fixes:
+    - Typo in No locals.
+    - IR2 NO Translation + Tooltip. Now for IR3 instead.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.1
 Date: 27.12.2022
   Features:

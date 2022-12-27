@@ -768,11 +768,11 @@ if mods["space-exploration"] then
     })
 end
 --------------------------------------------------------------------------------------------------
-if mods["IndustrialRevolution"] then
+if mods["IndustrialRevolution3"] then
     data:extend({
         {
             type = "int-setting",
-            name = "ir2-light-cas-grid-size-h",
+            name = "ir3-light-cas-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 10,
@@ -781,7 +781,7 @@ if mods["IndustrialRevolution"] then
         },
         {
             type = "int-setting",
-            name = "ir2-light-cas-grid-size-w",
+            name = "ir3-light-cas-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 10,
@@ -791,7 +791,7 @@ if mods["IndustrialRevolution"] then
         -- Inventory
         {
             type = "int-setting",
-            name = "ir2-heavy-cas-grid-size-h",
+            name = "ir3-heavy-cas-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 10,
@@ -800,7 +800,7 @@ if mods["IndustrialRevolution"] then
         },
         {
             type = "int-setting",
-            name = "ir2-heavy-cas-grid-size-w",
+            name = "ir3-heavy-cas-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 10,
