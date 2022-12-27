@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.1
-Date: 27.12.2022
+Date: 2022-12-27
   Features:
     - Added setting tooltip to Power-Armour-Replacer. Only on Grid section for now EN NO Locals.
     - Added Colour sorted setting. one mod one colour. On EN Locals only.
