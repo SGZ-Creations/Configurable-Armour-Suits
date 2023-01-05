@@ -84,7 +84,7 @@ data:extend({
         setting_type = "startup",
         minimum_value = 0,
         maximum_value = 500,
-        default_value = 15,
+        default_value = 25,
         order = "2Aac"
     },
     {
@@ -92,8 +92,8 @@ data:extend({
         name = "v-cas-power-armor-inv-size",
         setting_type = "startup",
         minimum_value = 0,
-        maximum_value = 600,
-        default_value = 20,
+        maximum_value = 500,
+        default_value = 50,
         order = "2Aad"
     },
     {
@@ -101,8 +101,8 @@ data:extend({
         name = "v-cas-power-armor-mk2-inv-size",
         setting_type = "startup",
         minimum_value = 0,
-        maximum_value = 700,
-        default_value = 30,
+        maximum_value = 1000,
+        default_value = 100,
         order = "2Aae"
     },
 })
@@ -295,7 +295,7 @@ if mods["Power-Armour-Replacer"] then
             name = "m-cas-1-a_mk1-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 100,
+            maximum_value = 500,
             default_value = 50,
             order = "2Baa"
         },
@@ -304,7 +304,7 @@ if mods["Power-Armour-Replacer"] then
             name = "m-cas-2-a_mk2-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 200,
+            maximum_value = 1000,
             default_value = 100,
             order = "2Bab"
         },
@@ -313,7 +313,7 @@ if mods["Power-Armour-Replacer"] then
             name = "m-cas-3-a_mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 300,
+            maximum_value = 1500,
             default_value = 150,
             order = "2Bac"
         },
@@ -322,7 +322,7 @@ if mods["Power-Armour-Replacer"] then
             name = "m-cas-4-a_mk4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 400,
+            maximum_value = 2000,
             default_value = 200,
             order = "2Bad"
         },
@@ -331,7 +331,7 @@ if mods["Power-Armour-Replacer"] then
             name = "m-cas-5-a_mk5-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 500,
+            maximum_value = 2500,
             default_value = 250,
             order = "2Bae"
         },
@@ -340,7 +340,7 @@ if mods["Power-Armour-Replacer"] then
             name = "m-cas-6-a_mk6-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 600,
+            maximum_value = 3000,
             default_value = 300,
             order = "2Baf"
         },
@@ -349,7 +349,7 @@ if mods["Power-Armour-Replacer"] then
             name = "m-cas-7-a_mk7-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 700,
+            maximum_value = 3500,
             default_value = 350,
             order = "2Bag"
         },
@@ -358,7 +358,7 @@ if mods["Power-Armour-Replacer"] then
             name = "m-cas-8-a_mk8-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 800,
+            maximum_value = 4000,
             default_value = 400,
             order = "2Bah"
         },
@@ -367,7 +367,7 @@ if mods["Power-Armour-Replacer"] then
             name = "m-cas-9-a_mk9-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 900,
+            maximum_value = 4500,
             default_value = 450,
             order = "2Bai"
         },
@@ -376,7 +376,7 @@ if mods["Power-Armour-Replacer"] then
             name = "m-cas-10-a_mk10-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 1000,
+            maximum_value = 5000,
             default_value = 500,
             order = "2Baj"
         },
@@ -445,8 +445,8 @@ if mods["bobwarfare"] then
             name = "cas-bob-heavy-armor-2-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 500,
-            default_value = 40,
+            maximum_value = 750,
+            default_value = 75,
             order = "2Caa"
         },
         {
@@ -454,8 +454,8 @@ if mods["bobwarfare"] then
             name = "cas-bob-heavy-armor-3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 600,
-            default_value = 60,
+            maximum_value = 1250,
+            default_value = 125,
             order = "2Cab"
         },
         {
@@ -463,8 +463,8 @@ if mods["bobwarfare"] then
             name = "cas-bob-power-armor-mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 800,
-            default_value = 40,
+            maximum_value = 1500,
+            default_value = 150,
             order = "2Cac"
         },
         {
@@ -472,8 +472,8 @@ if mods["bobwarfare"] then
             name = "cas-bob-power-armor-mk4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 900,
-            default_value = 50,
+            maximum_value = 2000,
+            default_value = 200,
             order = "2Cad"
         },
         {
@@ -481,8 +481,8 @@ if mods["bobwarfare"] then
             name = "cas-bob-power-armor-mk5-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 1000,
-            default_value = 60,
+            maximum_value = 2500,
+            default_value = 250,
             order = "2Cae"
         },
     })

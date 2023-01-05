@@ -2,7 +2,11 @@
 Version: 0.3.3
 Date: 29.12.2022
   Changes:
-    - Added...
+    - Added incompatibility and new Optional mod to the list. Without depedency loop.
+    - Universefied all mod default INV bonuses.
+  Info:
+    - Have u read my section about supported mods this isn't new.
+    - All tiered armour's should now have the same INV size bonus as others MK2 100, MK3 150...
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.2
 Date: 27.12.2022
