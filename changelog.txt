@@ -1,12 +1,16 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.3
-Date: 29.12.2022
+Date: 07.01.2023
   Changes:
     - Added incompatibility and new Optional mod to the list. Without depedency loop.
     - Universefied all mod default INV bonuses.
+  Locals:
+    - Removed the Mod Deafault in tooltip locales. Click the setting reset should u want the default.
   Info:
     - Have u read my section about supported mods this isn't new.
-    - All tiered armour's should now have the same INV size bonus as others MK2 100, MK3 150...
+    - All armour tiers should now have the same INV size bonus as others MK2=100, MK3=150...
+    - This also means new deafault values have been made. may efffect current but shouldn't
+    - So downloading the mod for the first time will make inventory Huge/Enormus. Example MK5=250 MK10=500.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.2
 Date: 27.12.2022

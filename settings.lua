@@ -65,7 +65,7 @@ data:extend({
         name = "v-cas-light-armor-inv-size",
         setting_type = "startup",
         minimum_value = 0,
-        maximum_value = 200,
+        maximum_value = 100,
         default_value = 5,
         order = "2Aaa"
     },
@@ -74,7 +74,7 @@ data:extend({
         name = "v-cas-heavy-armor-inv-size",
         setting_type = "startup",
         minimum_value = 0,
-        maximum_value = 300,
+        maximum_value = 200,
         default_value = 10,
         order = "2Aab"
     },
@@ -83,7 +83,7 @@ data:extend({
         name = "v-cas-modular-armor-inv-size",
         setting_type = "startup",
         minimum_value = 0,
-        maximum_value = 500,
+        maximum_value = 250,
         default_value = 25,
         order = "2Aac"
     },
@@ -550,8 +550,8 @@ if mods["custom_power_armor_fix"] then
             name = "cas-custom-power-armor-mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 800,
-            default_value = 40,
+            maximum_value = 1500,
+            default_value = 150,
             order = "2Daa"
         },
         {
@@ -559,8 +559,8 @@ if mods["custom_power_armor_fix"] then
             name = "cas-custom-power-armor-mk4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 900,
-            default_value = 50,
+            maximum_value = 2000,
+            default_value = 200,
             order = "2Dab"
         },
         {
@@ -568,8 +568,8 @@ if mods["custom_power_armor_fix"] then
             name = "cas-custom-power-armor-mk5-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 1000,
-            default_value = 60,
+            maximum_value = 2500,
+            default_value = 250,
             order = "2Dac"
         },
         
@@ -620,7 +620,7 @@ if mods["Power Armor MK3"] then
             name = "cas-pamk3-lvest-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 500,
+            maximum_value = 150,
             default_value = 15,
             order = "2Eaa"
         },
@@ -629,7 +629,7 @@ if mods["Power Armor MK3"] then
             name = "cas-pamk3-hvest-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 600,
+            maximum_value = 200,
             default_value = 20,
             order = "2Eab"
         },
@@ -638,8 +638,8 @@ if mods["Power Armor MK3"] then
             name = "cas-pamk3-pamk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 800,
-            default_value = 50,
+            maximum_value = 1500,
+            default_value = 150,
             order = "2Eac"
         },
         {
@@ -647,8 +647,8 @@ if mods["Power Armor MK3"] then
             name = "cas-pamk3-pamk4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 900,
-            default_value = 60,
+            maximum_value = 2000,
+            default_value = 200,
             order = "2Ead"
         },
     })
@@ -734,8 +734,8 @@ if mods["space-exploration"] then
             name = "cas-se-thruster-suit-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 600,
-            default_value = 40,
+            maximum_value = 500,
+            default_value = 50,
             order = "2Vaa"
         },
         {
@@ -743,8 +743,8 @@ if mods["space-exploration"] then
             name = "cas-se-thruster-suit-2-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 700,
-            default_value = 60,
+            maximum_value = 1000,
+            default_value = 100,
             order = "2Vab"
         },
         {
@@ -752,8 +752,8 @@ if mods["space-exploration"] then
             name = "cas-se-thruster-suit-3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 800,
-            default_value = 80,
+            maximum_value = 1500,
+            default_value = 150,
             order = "2Vac"
         },
         {
@@ -761,8 +761,8 @@ if mods["space-exploration"] then
             name = "cas-se-thruster-suit-4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 900,
-            default_value = 100,
+            maximum_value = 2000,
+            default_value = 200,
             order = "2Vad"
         },
     })
@@ -854,8 +854,8 @@ if mods["Krastorio2"] then
             name = "cas-k2-power-armor-mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 800,
-            default_value = 40,
+            maximum_value = 1500,
+            default_value = 150,
             order = "2Waa"
         },
         {
@@ -863,8 +863,8 @@ if mods["Krastorio2"] then
             name = "cas-k2-power-armor-mk4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 900,
-            default_value = 50,
+            maximum_value = 2000,
+            default_value = 200,
             order = "2Wab"
         },
     })
@@ -932,7 +932,7 @@ if mods["FactorioExtended-Equipment"] then
             name = "cas-extended-power-armor-1-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 600,
+            maximum_value = 500,
             default_value = 50,
             order = "2Xaa"
         },
@@ -941,8 +941,8 @@ if mods["FactorioExtended-Equipment"] then
             name = "cas-extended-power-armor-2-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 700,
-            default_value = 80,
+            maximum_value = 1000,
+            default_value = 100,
             order = "2Xab"
         },
         {
@@ -950,8 +950,8 @@ if mods["FactorioExtended-Equipment"] then
             name = "cas-extended-power-armor-3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 800,
-            default_value = 100,
+            maximum_value = 1500,
+            default_value = 150,
             order = "2Xac"
         },
     })
@@ -1001,8 +1001,8 @@ if mods["PowerAndArmor"] then
             name = "cas-PaA-power-armor-mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 800,
-            default_value = 60,
+            maximum_value = 1500,
+            default_value = 150,
             order = "2Yaa"
         },
         {
@@ -1010,8 +1010,8 @@ if mods["PowerAndArmor"] then
             name = "cas-PaA-power-armor-mk4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 900,
-            default_value = 70,
+            maximum_value = 2000,
+            default_value = 200,
             order = "2Yab"
         },
     })
@@ -1043,8 +1043,8 @@ if mods["RampantArsenal"] then
             name = "cas-ra-power-armor-mk3-armor-rampant-arsenal-inv-size",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 800,
-            default_value = 60,
+            maximum_value = 1500,
+            default_value = 150,
             order = "2Zaa"
         },
     })
