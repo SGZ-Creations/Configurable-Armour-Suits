@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.3
-Date: 07.01.2023
+Date: 2023-01-07
   Changes:
     - Added incompatibility and new Optional mod to the list. Without depedency loop.
     - Universefied all mod default INV bonuses.
