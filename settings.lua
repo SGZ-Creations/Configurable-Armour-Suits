@@ -110,6 +110,13 @@ data:extend({
 if mods["Power-Armour-Replacer"] then
     data:extend({
         {
+            type = "bool-setting",
+            name = "hard_science_required",
+            setting_type = "startup",
+            default_value = false,
+            order = "3Baa"
+        },
+        {
             type = "int-setting",
             name = "par-1-grid-size-h",
             setting_type = "startup",

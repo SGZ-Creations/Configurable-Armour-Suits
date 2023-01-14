@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.4
 Date: xx.xx.2023
+  Features:
+    - Added new setting for armour-replacer mod.
   Fixes:
     - Incompatibility listed in wrong changelog. Was meant for Power Armour Replacer mod. WIP but avalible in beta.
     - Chanagelog wrong mod liting incompatibility.

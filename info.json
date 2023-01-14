@@ -5,7 +5,7 @@
 	"author": "SGZ_Creations",
 	"contact": "https://discord.gg/tbxnpsxkDM",
 	"Source": "https://github.com/SGZ-Creations/configurable-armour-suits",
-	"dependencies": ["base >= 1.1", "? bobwarfare >= 1.1.0", "? custom_power_armor_fix >= 5.1.1", "? FactorioExtended-Equipment >= 5.0301", "? IndustrialRevolution3 >= 3.0.3", "? Krastorio2 >= 1.2.25", "? PowerAndArmor >= 1.19", "? Power Armor MK3 >= 0.4", "? Power-Armour-Replacer >= 0.1.13", "? RampantArsenal >= 1.1.5", "? space-exploration >= 0.5.115",  "! Moar-Grid" ],
+	"dependencies": ["base >= 1.1", "? bobwarfare >= 1.1.0", "? custom_power_armor_fix >= 5.1.1", "? FactorioExtended-Equipment >= 5.0301", "? IndustrialRevolution3 >= 3.0.3", "? Krastorio2 >= 1.2.25", "? PowerAndArmor >= 1.19", "? Power Armor MK3 >= 0.4", "? Power-Armour-Replacer >= 0.1.16", "? RampantArsenal >= 1.1.5", "? space-exploration >= 0.5.115",  "! Moar-Grid" ],
 	"factorio_version": "1.1",
 	"description": "Configurable Armours currently supports\nBob's, Custom_Power_Armor_fix, FE-Equipment, IR2, K2, Power&Armor, Power Armor MK3, Power-Armour-Replacer, Rampant Aresensal, SE,",
 	"package": {
