@@ -1,11 +1,16 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.4
-Date: xx.xx.2023
+Date: xx.01.2023
   Features:
-    - Added new setting for armour-replacer mod.
+    - Added new setting for armour-replacer mod. Now requires v1.0.0 of mod.
   Fixes:
-    - Incompatibility listed in wrong changelog. Was meant for Power Armour Replacer mod. WIP but avalible in beta.
-    - Chanagelog wrong mod liting incompatibility.
+    - Incompatibility listed in wrong changelog. Was meant for Power Armour Replacer mod.
+    - Crash when attempting to remove item/armour, tech, recipe (Wanting to run Migration).
+  Info:
+    - More about Power Armour Replacer mod. Can be found in it's changelog. found at my Discord.
+    - RU translation folder deleted. Reason depricated. New can be added.
+  Realeses:
+    - Want news about: mods, stream's, yt-videos? Head to: https://discord.gg/tbxnpsxkDM.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.3
 Date: 07.01.2023

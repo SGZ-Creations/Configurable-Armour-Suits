@@ -7,9 +7,12 @@ local function SetGridSize(grid_name, setting_name_prefix)
 		grid.height = height
 	end
 end
+
 -- 1= Inv size prefix. 2= name of item. 3= add the: "-inv-size"
 local function SetInvSize(armor_name, setting_name_prefix)
-	data.raw["armor"][armor_name].inventory_size_bonus = settings.startup[setting_name_prefix..armor_name.."-inv-size"].value
+    local armor = data.raw.armor[armor_name]
+    if not armor then return end
+    armor.inventory_size_bonus = settings.startup[setting_name_prefix..armor_name.."-inv-size"].value
 end
 
 -- Reverts K2's Armour grid size for SE. more on line 77 - 87
