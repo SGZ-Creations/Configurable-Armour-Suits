@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: 2023-02-13
+Date: 13.02.2023
   Info:
     - This mod has gone trought all know implementation it should have. So i see now to release a 1.0 of this mod.
     - New mods may still be added on a later date. For now only bugs and so on will be taken care off.
@@ -15,7 +15,7 @@ Date: 2023-02-13
     - Want news about: mods, stream's, yt-videos? Head to: https://discord.gg/tbxnpsxkDM.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.4
-Date: 2023-01-15
+Date: 15.01.2023
   Features:
     - Added new setting for armour-replacer mod. Now requires v0.1.16 of mod.
   Fixes:
