@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: 13.02.2023
+Date: 2023-02-13
   Info:
     - This mod has gone trought all know implementation it should have. So i see now to release a 1.0 of this mod.
     - New mods may still be added on a later date. For now only bugs and so on will be taken care off.
