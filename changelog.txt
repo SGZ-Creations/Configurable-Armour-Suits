@@ -2,15 +2,15 @@
 Version: 1.0.0
 Date: 03.02.2023
   Info:
-    - This mod has gone trought all know implementation it should have so i see now to release a 1.0 of this mod.
-    - New mod may still be added on a later date. For now only bugs and so on will be taken care off.
-    - I will not leave it but my main attetion is now going towards living life and working towards my next project.
+    - This mod has gone trought all know implementation it should have. So i see now to release a 1.0 of this mod.
+    - New mods may still be added on a later date. For now only bugs and so on will be taken care off.
+    - I will not leave it but my main attention is now going towards living life and working towards completing my next project.
     - That u can find more info about in the "Releases:" section of this changelog.
   Fixes:
     - Changelog.
   Changes:
     - EN locales tool tip.
-    - NO locals tool tip
+    - NO locals tool tip.
   Releases:
     - Want news about: mods, stream's, yt-videos? Head to: https://discord.gg/tbxnpsxkDM.
 ---------------------------------------------------------------------------------------------------
@@ -24,8 +24,6 @@ Date: 2023-01-15
   Info:
     - More about Power Armour Replacer mod. Can be found in it's changelog. found at my Discord.
     - RU translation folder deleted. Reason depricated. New can be added.
-  Releases:
-    - Want news about: mods, stream's, yt-videos? Head to: https://discord.gg/tbxnpsxkDM.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.3
 Date: 07.01.2023
