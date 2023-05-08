@@ -90,6 +90,22 @@ CopyGridCategories("mk3-armor-grid", "se-thruster-suit-3-grid")
 CopyGridCategories("mk4-armor-grid", "se-thruster-suit-4-grid")
 end
 
+if mods["nullius"] then
+	SetGridSize("nullius-armor-grid-1", "nullius-1")
+	SetGridSize("nullius-armor-grid-2", "nullius-2")
+	SetGridSize("nullius-armor-grid-3", "nullius-3")
+	SetGridSize("nullius-armor-grid-4", "nullius-4")
+	SetGridSize("nullius-armor-grid-5", "nullius-5")
+	SetGridSize("nullius-armor-grid-6", "nullius-6")
+
+	SetInvSize("nullius-chassis-1", "n-cas-")
+	SetInvSize("nullius-chassis-2", "n-cas-")
+	SetInvSize("nullius-chassis-3", "n-cas-")
+	SetInvSize("nullius-chassis-4", "n-cas-")
+	SetInvSize("nullius-chassis-5", "n-cas-")
+	SetInvSize("nullius-chassis-6", "n-cas-")
+end
+
 -- Creating setting here. for mod "MK10 Armour" so this is the setting mod used with all other.
 if mods["Power-Armour-Replacer"] then
 	SetGridSize("sgz-a1-equipment-grid", "par-1")
