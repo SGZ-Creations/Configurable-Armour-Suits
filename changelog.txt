@@ -1,8 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
-Date: 11.05.2023
+Date: 20.05.2023
   Changes:
     - Colour change for Nullius.
+    - Changed the max setting on all chassis for Nullius.
+  Fixes:
+    - Typo in EN Description for space science packs.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 08.05.2023
