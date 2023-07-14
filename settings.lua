@@ -5,23 +5,24 @@ data:extend({
         setting_type = "startup",
         default_value = true,
     },
+    --Vanilla Armour Grids
     {
         type = "int-setting",
         name = "modular-armor-grid-size-h",
         setting_type = "startup",
         minimum_value = 0,
-        maximum_value = 10,
-        default_value = 5,
-        order = "1Aaa"
+        maximum_value = 15,
+        default_value = 10,
+        order = "1Aae"
     },
     {
         type = "int-setting",
         name = "modular-armor-grid-size-w",
         setting_type = "startup",
         minimum_value = 0,
-        maximum_value = 10,
+        maximum_value = 15,
         default_value = 5,
-        order = "1Aab"
+        order = "1Aaf"
     },
     {
         type = "int-setting",
@@ -30,7 +31,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 20,
         default_value = 10,
-        order = "1Aac"
+        order = "1Aag"
     },
     {
         type = "int-setting",
@@ -39,7 +40,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 20,
         default_value = 10,
-        order = "1Aad"
+        order = "1Aah"
     },
     {
         type = "int-setting",
@@ -48,7 +49,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 40,
         default_value = 20,
-        order = "1Aae"
+        order = "1Aaj"
     },
     {
         type = "int-setting",
@@ -57,7 +58,7 @@ data:extend({
         minimum_value = 0,
         maximum_value = 40,
         default_value = 20,
-        order = "1Aaf"
+        order = "1Aak"
     },
     -- Inventory
     {
@@ -106,6 +107,49 @@ data:extend({
         order = "2Aae"
     },
 })
+--Added Grids to Vanilla
+if not mods["IndustrialRevolution3"] then
+--Light
+    data:extend({
+        {
+            type = "int-setting",
+            name = "light-grid-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 10,
+            default_value = 5,
+            order = "1Aaa"
+        },
+        {
+            type = "int-setting",
+            name = "light-grid-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 10,
+            default_value = 3,
+            order = "1Aab"
+        },
+        --Heavy
+        {
+            type = "int-setting",
+            name = "heavy-grid-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 10,
+            default_value = 5,
+            order = "1Aac"
+        },
+        {
+            type = "int-setting",
+            name = "heavy-grid-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 10,
+            default_value = 5,
+            order = "1Aad"
+        },
+    })
+end
 --------------------------------------------------------------------------------------------------
 if mods["Power-Armour-Replacer"] then
     data:extend({
@@ -781,7 +825,7 @@ if mods["IndustrialRevolution3"] then
             name = "ir3-light-cas-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 10,
+            maximum_value = 15,
             default_value = 8,
             order = "1Fa1"
         },
@@ -790,7 +834,7 @@ if mods["IndustrialRevolution3"] then
             name = "ir3-light-cas-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 10,
+            maximum_value = 15,
             default_value = 2,
             order = "1Fab"
         },
@@ -800,7 +844,7 @@ if mods["IndustrialRevolution3"] then
             name = "ir3-heavy-cas-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 10,
+            maximum_value = 15,
             default_value = 10,
             order = "1Fac"
         },
@@ -809,7 +853,7 @@ if mods["IndustrialRevolution3"] then
             name = "ir3-heavy-cas-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 10,
+            maximum_value = 15,
             default_value = 2,
             order = "1Fad"
         },
