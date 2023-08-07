@@ -1,26 +1,34 @@
 local function SetGridSize(grid_name, setting_name_prefix)
-	local width = settings.startup[setting_name_prefix.."-grid-size-w"].value
-	local height = settings.startup[setting_name_prefix.."-grid-size-h"].value
-	local grid = data.raw["equipment-grid"][grid_name]
-	if grid then
-		grid.width = width
-		grid.height = height
+	if settings.startup[setting_name_prefix .. "-grid-size-w"] then	
+		local width = settings.startup[setting_name_prefix.."-grid-size-w"].value
+		local height = settings.startup[setting_name_prefix.."-grid-size-h"].value
+		local grid = data.raw["equipment-grid"][grid_name]
+		if grid then
+			grid.width = width
+			grid.height = height
+		end
 	end
 end
 
 -- 1= Inv size prefix. 2= name of item. 3= add the: "-inv-size"
 local function SetInvSize(armor_name, setting_name_prefix)
-    local armor = data.raw.armor[armor_name]
-    if not armor then return end
-    armor.inventory_size_bonus = settings.startup[setting_name_prefix..armor_name.."-inv-size"].value
+	if settings.startup[setting_name_prefix..armor_name.."-inv-size"] then
+		local armor = data.raw.armor[armor_name]
+		if not armor then return end
+		armor.inventory_size_bonus = settings.startup[setting_name_prefix..armor_name.."-inv-size"].value
+	end
 end
+
 
 -- Reverts K2's Armour grid size for SE. more on line 77 - 87
 local function CopyGridCategories(source_grid_name, target_grid_name)
-	local categories = util.table.deepcopy(data.raw["equipment-grid"][source_grid_name].equipment_categories)
-	data.raw["equipment-grid"][target_grid_name].equipment_categories = categories
+if not mods["space-exploration"] then 
+	if setting.startup[source_grid_name..target_grid_name.."equipment-grid"] then
+			local categories = util.table.deepcopy(data.raw["equipment-grid"][source_grid_name].equipment_categories)
+			data.raw["equipment-grid"][target_grid_name].equipment_categories = categories
+		end
+	end
 end
-
 SetGridSize("small-equipment-grid", "modular-armor")
 SetGridSize("medium-equipment-grid", "power-armor")
 SetGridSize("large-equipment-grid", "power-armor-mk2")
@@ -34,7 +42,7 @@ SetInvSize("power-armor-mk2", "v-cas-")
 if mods["bobwarfare"] then
 	SetGridSize("power-armor-equipment-grid-mk3", "bob-power-armor-mk3")
 	SetGridSize("power-armor-equipment-grid-mk4", "bob-power-armor-mk4")
-    SetGridSize("power-armor-equipment-grid-mk5", "bob-power-armor-mk5")
+  SetGridSize("power-armor-equipment-grid-mk5", "bob-power-armor-mk5")
 
 	SetInvSize("heavy-armor-2", "cas-bob-")
 	SetInvSize("heavy-armor-3", "cas-bob-")

@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 08.08.2023
+  Changes:
+    - Added Function to hide the mod setting if P.A.&.R is enabeld.
+  Fixes:
+    - While at it made sure to not crash if settings didn't exsist.
+  Discord-Realese:
+    - Beta untill PA&R has been done with the few Changes Fetures.  
+---------------------------------------------------------------------------------------------------
 Version: 1.2.1
 Date: 16.07.2023
   Changes:

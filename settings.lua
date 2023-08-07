@@ -434,7 +434,7 @@ if mods["Power-Armour-Replacer"] then
     })
 end
 --------------------------------------------------------------------------------------------------
-if mods["bobwarfare"] then
+if mods["bobwarfare"] and not mods["Power-Armour-Replacer"] then
     data:extend({
         {
             type = "int-setting",
@@ -493,24 +493,6 @@ if mods["bobwarfare"] then
         -- Inventory
         {
             type = "int-setting",
-            name = "cas-bob-heavy-armor-2-inv-size",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 750,
-            default_value = 75,
-            order = "2Caa"
-        },
-        {
-            type = "int-setting",
-            name = "cas-bob-heavy-armor-3-inv-size",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 1250,
-            default_value = 125,
-            order = "2Cab"
-        },
-        {
-            type = "int-setting",
             name = "cas-bob-power-armor-mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
@@ -539,7 +521,32 @@ if mods["bobwarfare"] then
     })
 end
 --------------------------------------------------------------------------------------------------
-if mods["custom_power_armor_fix"] then
+--makes sure that bob's Heavy Armour 2 & 3 still has inventory djustements avalible.
+if mods["bobwarfare"] then
+    data:extend({
+        -- Inventory
+        {
+            type = "int-setting",
+            name = "cas-bob-heavy-armor-2-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 750,
+            default_value = 75,
+            order = "2Caa"
+        },
+        {
+            type = "int-setting",
+            name = "cas-bob-heavy-armor-3-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 1250,
+            default_value = 125,
+            order = "2Cab"
+        },
+    })
+end
+--------------------------------------------------------------------------------------------------
+if mods["custom_power_armor_fix"] and not mods["Power-Armour-Replacer"] then
     data:extend({
         {
             type = "int-setting",
@@ -626,7 +633,7 @@ if mods["custom_power_armor_fix"] then
     })
 end
 --------------------------------------------------------------------------------------------------
-if mods["Power Armor MK3"] then
+if mods["Power Armor MK3"] and not mods["Power-Armour-Replacer"] then
     data:extend({
         {
             type = "int-setting",
@@ -860,7 +867,7 @@ if mods["IndustrialRevolution3"] then
     })
 end
 --------------------------------------------------------------------------------------------------
-if mods["Krastorio2"] then
+if mods["Krastorio2"] and not mods["Power-Armour-Replacer"] then
     data:extend({
         {
             type = "int-setting",
@@ -1175,7 +1182,7 @@ if mods["nullius"] then
     })
 end
 --------------------------------------------------------------------------------------------------
-if mods["PowerAndArmor"] then
+if mods["PowerAndArmor"] and not mods["Power-Armour-Replacer"] then
     data:extend({
         {
             type = "int-setting",
@@ -1235,7 +1242,7 @@ if mods["PowerAndArmor"] then
     })
 end
 --------------------------------------------------------------------------------------------------
-if mods["RampantArsenal"] then
+if mods["RampantArsenal"] and not mods["Power-Armour-Replacer"] then
     data:extend({
         {
             type = "int-setting",
