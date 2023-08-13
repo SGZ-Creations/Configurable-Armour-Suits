@@ -9,3 +9,6 @@ if settings.startup["simulation_crash"].value then
         menu_simulations[simulation_name] = nil
     end
 end
+
+
+require("prototype.achievements")

@@ -22,13 +22,14 @@ end
 
 -- Reverts K2's Armour grid size for SE. more on line 77 - 87
 local function CopyGridCategories(source_grid_name, target_grid_name)
-if not mods["space-exploration"] then 
-	if setting.startup[source_grid_name..target_grid_name.."equipment-grid"] then
+if not mods["space-exploration"] then
+	if settings.startup[source_grid_name..target_grid_name.."equipment-grid"] then
 			local categories = util.table.deepcopy(data.raw["equipment-grid"][source_grid_name].equipment_categories)
 			data.raw["equipment-grid"][target_grid_name].equipment_categories = categories
 		end
 	end
 end
+
 SetGridSize("small-equipment-grid", "modular-armor")
 SetGridSize("medium-equipment-grid", "power-armor")
 SetGridSize("large-equipment-grid", "power-armor-mk2")
@@ -42,7 +43,7 @@ SetInvSize("power-armor-mk2", "v-cas-")
 if mods["bobwarfare"] then
 	SetGridSize("power-armor-equipment-grid-mk3", "bob-power-armor-mk3")
 	SetGridSize("power-armor-equipment-grid-mk4", "bob-power-armor-mk4")
-  SetGridSize("power-armor-equipment-grid-mk5", "bob-power-armor-mk5")
+	SetGridSize("power-armor-equipment-grid-mk5", "bob-power-armor-mk5")
 
 	SetInvSize("heavy-armor-2", "cas-bob-")
 	SetInvSize("heavy-armor-3", "cas-bob-")
@@ -72,8 +73,8 @@ if mods["FactorioExtended-Equipment"] then
 end
 
 if mods["IndustrialRevolution3"] then
-		SetGridSize("copper-equipment-grid", "ir3-light-cas")
-		SetGridSize("bronze-equipment-grid", "ir3-heavy-cas")
+	SetGridSize("copper-equipment-grid", "ir3-light-cas")
+	SetGridSize("bronze-equipment-grid", "ir3-heavy-cas")
 else
 	data:extend({
 		{

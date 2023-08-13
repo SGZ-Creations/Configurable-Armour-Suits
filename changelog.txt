@@ -1,9 +1,22 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+Date: 13.08.2023
+  Minor Features:
+    - Added Achievement.
+  Changes:
+    - Changelog "Fixes:" --> "Bugfixes:".
+    - Changelog "Internal:" --> "Scripting:".
+    - Changelog "Compatibility" --> "Modding:"
+  Bugfixes:
+    - Possible crash if SE didn't load.
+  Thanks:
+    - @Honktown For helping with creating a Achievement.
+---------------------------------------------------------------------------------------------------
 Version: 1.2.2
 Date: 08.08.2023
   Changes:
     - Added Function to hide the mod setting if P.A.&.R is enabeld.
-  Fixes:
+  Bugfixes:
     - While at it made sure to not crash if settings didn't exsist.
   Discord-Realese:
     - Beta untill PA&R has been done with the few Changes Fetures.  
@@ -12,7 +25,7 @@ Version: 1.2.1
 Date: 16.07.2023
   Changes:
     - Mod version required IR3, PA&R,
-  Fixes:
+  Bugfixes:
     - Rare ocation crash if loading incompatibilities with this mod and PA&R.
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.0
@@ -24,7 +37,7 @@ Date: 14.07.2023
     - Settings values IR3.
   Info:
     - The IR3 grids and grids from this mods will not load the same settings.
-  Fixes:
+  Bugfixes:
     - NO locales.
     - EN NO locales for the new section. Correcting the few locales for the settings that changed.
 ---------------------------------------------------------------------------------------------------
@@ -33,7 +46,7 @@ Date: 03.06.2023
   Changes:
     - Colour change for Nullius.
     - Changed the max setting on all chassis for Nullius.
-  Fixes:
+  Bugfixes:
     - Typo in EN Description for space science packs.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
@@ -49,20 +62,20 @@ Date: 13.02.2023
     - This mod has gone trought all know implementation it should have. So i see now to release a 1.0 of this mod.
     - New mods may still be added on a later date. For now only bugs and so on will be taken care off.
     - I will not leave it but my main attention is now going towards living life and working towards completing my next project.
-    - That u can find more info about in the "Releases:" section of this changelog.
-  Fixes:
+    - That u can find more info about in the "Discord-Realese:" section of this changelog.
+  Bugfixes:
     - Changelog.
   Changes:
     - EN locales tool tip.
     - NO locals tool tip.
-  Releases:
+  Discord-Realese:
     - Want news about: mods, stream's, yt-videos? Head to: https://discord.gg/tbxnpsxkDM.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.4
 Date: 15.01.2023
   Features:
     - Added new setting for armour-replacer mod. Now requires v0.1.16 of mod.
-  Fixes:
+  Bugfixes:
     - Incompatibility listed in wrong changelog. Was meant for Power Armour Replacer mod.
     - Crash when attempting to remove item/armour, tech, recipe (Wanting to run Migration).
   Info:
@@ -74,7 +87,7 @@ Date: 07.01.2023
   Changes:
     - Added new Optional mod to the list. Without depedency loop.
     - Universefied all mod default INV bonuses.
-  Locals:
+  Locale:
     - Removed the Mod Deafault in tooltip locales. Click the setting reset should u want the default.
   Info:
     - Have u read my section about supported mods this isn't new.
@@ -87,7 +100,7 @@ Date: 27.12.2022
   Changes:
     - Removed support for IR2.
     - Added support for IR3.
-  Fixes:
+  Bugfixes:
     - Typo in NO locals.
     - IR2 NO Translation + Tooltip. Now for IR3 instead.
 ---------------------------------------------------------------------------------------------------
@@ -98,10 +111,10 @@ Date: 27.12.2022
     - Added Colour sorted setting. one mod one colour. On EN Locals only.
   Changes:
     - MK10-Armour --> Power-Armour-Replacer (Power Armour & Replacer).
-  Fixes:
+  Bugfixes:
     - Internal name for MK10-Armour mod. --> Power-Armour-Replacer.
     - Typo in NO Translation :p
-  Internal:
+  Scripting:
     - Added to settings.lua ("--invetory" Vs Nothing)
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.0
@@ -109,7 +122,7 @@ Date: 15.10.2022
   Features:
     - Support for MK10-Armour is good to go. (tool tip for settings comes later) 
     - Item icons will now show armour icon on the settings menue.
-  Fixes:
+  Bugfixes:
     - Changelog.
     - typos in locales.
 ---------------------------------------------------------------------------------------------------
@@ -118,30 +131,30 @@ Date: 13.10.2022
   Features:
     - Comptibility with IR2-Armour.
     - Added setting for IR2-Armour's grids.
-  Compatibility:
+  Modding:
     - IR2. U can now configure grid size for Light & Heavy armour if mod is present. Since IR2 mod adds grids to them.
   Changes:
     - Internal cleanup in datafinalfixes.
     - Locals Cleanup EN.
     - Removed RU locals as for updates if u want to help use my github.
-  Internal:
+  Scripting:
     - Added data.lua to be read.
     - Info.json verified verion 0.2.7.
     - Traces of upcoming mod MK10-Armour is added. Mod does not exstis yet.
-  Fixes:
+  Bugfixes:
     - attempted fix for known simulations issue.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.6
 Date: 06.06.2022
-  Fixes:
+  Bugfixes:
     - Setting order for Power Armour MK3. the entire order was not made properly.
     - Setting order for Rampant Arsenal.
-  Internal:
+  Scripting:
     - Info.json version 0.2.6 Done this to verify my changed version.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.5
 Date: 06.06.2022
-  Completions:
+  Locale:
     - The missing number for the "game defaults". Done with (NO, EN, RU)
   Changes:
     - Default INV values for Power & Armour went from 40 & 50 to 60 & 70.
@@ -162,7 +175,7 @@ Date: 04.06.2022
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.3
 Date: 03.06.2022
-  Fixes:
+  Bugfixes:
     - Fixed that K2 was depending on SE to be enabled.
   Thanks:
     - To @implost for helping & solveing the issue (Discord).
@@ -171,7 +184,7 @@ Version: 0.2.2
 Date: 02.06.2022
   Features:
     - Implemented setting descriptions for the latest feature. This means u can now see "Min" to "Max" size of settings. & the other 2 as u would in equipment grid sizes.
-  Fixes:
+  Bugfixes:
     - Sleepless spelling mistakes.
     - Wrong description limit for SE's Space suit 4. Was showing 400 setting limits to 500. In EN translation only.
   Changes:
@@ -183,7 +196,7 @@ Date: 02.06.2022
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.1
 Date: 01.06.2022
-  Fixes:
+  Bugfixes:
     - Homepage Url.
   Thanks:
     - @jasper for spotting the bug (Discord).
@@ -199,7 +212,7 @@ Date: 30.05.2022
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 17.05.2022
-  Fixes:
+  Bugfixes:
     - Organized Optional dependencies to show alphabetic order on the web page.
     - Organized dependencies in info page to be in alphabetic order.
     - Fixed typos.
@@ -207,7 +220,7 @@ Date: 17.05.2022
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 15.05.2022
-  Fixes:
+  Bugfixes:
     - Organized info page.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
@@ -219,11 +232,11 @@ Date: 15.05.2022
   Changes:
     - Setting order for Rampant Aresnal went from "F" to "I".
     - reduced limit of K2's mk4 Armour from: 500 - 400.
-  Fixes:
+  Bugfixes:
     - Reverted the way K2 changes the grid sizes for SE if both mods are played toghetter.
     - Fixed NO localisations in general.
     - Fixed NO localisations for "bob-power-armor-mk4-grid-size-w".
-  Betas:
+  Discord-Realese:
     - Cancelled beta testing.
   Thanks:
     - @Tomatoking for the thumbnail.png (Discord).
@@ -235,7 +248,7 @@ Date: 11.05.2022
     - Complete NO and EN Translation.
   Changes:
     - Disabled compatibility code for (Custom Power Armour Fix/(Custom Power Armour Reborn)) until i figure out why it won't load. 
-  Betas:
+  Discord-Realese:
     - New Testing for 0.0.3 will come. Want to be one of them join my discord to get a chance.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
@@ -245,5 +258,5 @@ Date: xx.04.2022
     - The mods defaults are higer than the other mod u install. Can be found at ("startup-setting"/startup settings) if u have the optional mod present.
     - Added Norwegian translation. vanilla only. Rest still WIP.
     - Compatibility: Bob's, Power Armour mk3, RampantArsenal, Krastorio2, Space Exploration,
-  Betas:
+  Discord-Realese:
     - Closed beta testing done.
