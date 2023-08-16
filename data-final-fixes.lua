@@ -20,13 +20,11 @@ local function SetInvSize(armor_name, setting_name_prefix)
 end
 
 
--- Reverts K2's Armour grid size for SE. more on line 77 - 87
+-- Reverts K2's Armour grid size for SE. more on line 106 - 118
 local function CopyGridCategories(source_grid_name, target_grid_name)
-if not mods["space-exploration"] then
-	if settings.startup[source_grid_name..target_grid_name.."equipment-grid"] then
-			local categories = util.table.deepcopy(data.raw["equipment-grid"][source_grid_name].equipment_categories)
-			data.raw["equipment-grid"][target_grid_name].equipment_categories = categories
-		end
+if settings.startup[source_grid_name..target_grid_name.."equipment-grid"] then
+		local categories = util.table.deepcopy(data.raw["equipment-grid"][source_grid_name].equipment_categories)
+		data.raw["equipment-grid"][target_grid_name].equipment_categories = categories
 	end
 end
 

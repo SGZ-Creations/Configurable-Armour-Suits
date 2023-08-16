@@ -521,7 +521,7 @@ if mods["bobwarfare"] and not mods["Power-Armour-Replacer"] then
     })
 end
 --------------------------------------------------------------------------------------------------
---makes sure that bob's Heavy Armour 2 & 3 still has inventory djustements avalible.
+--Makes sure that bob's Heavy Armour 2 & 3 still has inventory adjustements avalible.
 if mods["bobwarfare"] then
     data:extend({
         -- Inventory
@@ -637,24 +637,6 @@ if mods["Power Armor MK3"] and not mods["Power-Armour-Replacer"] then
     data:extend({
         {
             type = "int-setting",
-            name = "pamk3-pmak3-grid-size-h",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 40,
-            default_value = 30,
-            order = "1Eaa"
-        },
-        {
-            type = "int-setting",
-            name = "pamk3-pmak3-grid-size-w",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 40,
-            default_value = 30,
-            order = "1Eab"
-        },
-        {
-            type = "int-setting",
             name = "pamk3-pmak4-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
@@ -671,25 +653,7 @@ if mods["Power Armor MK3"] and not mods["Power-Armour-Replacer"] then
             default_value = 40,
             order = "1Ead"
         },
-        -- Inventory
-        {
-            type = "int-setting",
-            name = "cas-pamk3-lvest-inv-size",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 150,
-            default_value = 15,
-            order = "2Eaa"
-        },
-        {
-            type = "int-setting",
-            name = "cas-pamk3-hvest-inv-size",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 200,
-            default_value = 20,
-            order = "2Eab"
-        },
+        --Inventory
         {
             type = "int-setting",
             name = "cas-pamk3-pamk3-inv-size",
@@ -707,6 +671,50 @@ if mods["Power Armor MK3"] and not mods["Power-Armour-Replacer"] then
             maximum_value = 2000,
             default_value = 200,
             order = "2Ead"
+        },
+    })
+end
+--------------------------------------------------------------------------------------------------
+--Make sure that Utillity vest is left to be modified regardless of PA&R 
+if mods["Power Armor MK3"] then
+    data:extend({
+        --Grids
+        {
+            type = "int-setting",
+            name = "pamk3-pmak3-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 40,
+            default_value = 30,
+            order = "1Eaa"
+        },
+        {
+            type = "int-setting",
+            name = "pamk3-pmak3-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 40,
+            default_value = 30,
+            order = "1Eab"
+        },
+        --Inventory
+        {
+            type = "int-setting",
+            name = "cas-pamk3-lvest-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 150,
+            default_value = 15,
+            order = "2Eaa"
+        },
+        {
+            type = "int-setting",
+            name = "cas-pamk3-hvest-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 200,
+            default_value = 20,
+            order = "2Eab"
         },
     })
 end
