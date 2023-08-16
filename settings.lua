@@ -678,25 +678,6 @@ end
 --Make sure that Utillity vest is left to be modified regardless of PA&R 
 if mods["Power Armor MK3"] then
     data:extend({
-        --Grids
-        {
-            type = "int-setting",
-            name = "pamk3-pmak3-grid-size-h",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 40,
-            default_value = 30,
-            order = "1Eaa"
-        },
-        {
-            type = "int-setting",
-            name = "pamk3-pmak3-grid-size-w",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 40,
-            default_value = 30,
-            order = "1Eab"
-        },
         --Inventory
         {
             type = "int-setting",
