@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.3.1
+Date: 26.10.2023
+  Changes:
+    - Changelog.
+  Scripting:
+    - Updated comment in mod-files/space-exploration-Krastorio2.
+  Bugfixes:
+    - Vanilla Armours wouldn't applie settings due to me forgetitng to have the file of code be read after my initial 1.3.0 update.
+  Thanks:
+    - Discord @immow1 for helping with solving the bug.
+    - Discord @neltisen. For reporting the bug.
+---------------------------------------------------------------------------------------------------
 Version: 1.3.0
 Date: 03.09.2023
   Changes:
@@ -177,7 +189,7 @@ Date: 13.10.2022
   Scripting:
     - Added data.lua to be read.
     - Info.json verified verion 0.2.7.
-    - Traces of upcoming mod MK10-Armour is added. Mod does not exstis yet.
+    - Traces of upcoming mod MK10-Armour is added. Mod is not released yet.
   Bugfixes:
     - attempted fix for known simulations issue.
 ---------------------------------------------------------------------------------------------------

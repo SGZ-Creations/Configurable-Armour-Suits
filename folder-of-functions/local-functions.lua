@@ -21,7 +21,7 @@ inv_grids.SetInvSize = function(armor_name, setting_name_prefix)
 	end
 end
 
--- Reverts K2's Armour grid size for SE. more on line 106 - 118
+-- Reverts K2's Armour grid size for SE. more on space-exploration-Krastorio2.lua at line 24 - 35
 inv_grids.CopyGridCategories = function(source_grid_name, target_grid_name)
 	local categories = util.table.deepcopy(data.raw["equipment-grid"][source_grid_name].equipment_categories)
 	data.raw["equipment-grid"][target_grid_name].equipment_categories = categories

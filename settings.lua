@@ -1063,7 +1063,7 @@ if mods["space-exploration"] then
             name = "se-thruster-suit-2-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 45,
+            maximum_value = 60,
             default_value = 30,
             order = "1Vac"
         },
@@ -1072,7 +1072,7 @@ if mods["space-exploration"] then
             name = "se-thruster-suit-2-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 45,
+            maximum_value = 60,
             default_value = 30,
             order = "1Vad"
         },
@@ -1081,7 +1081,7 @@ if mods["space-exploration"] then
             name = "se-thruster-suit-3-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 60,
+            maximum_value = 90,
             default_value = 45,
             order = "1Vae"
         },
@@ -1090,7 +1090,7 @@ if mods["space-exploration"] then
             name = "se-thruster-suit-3-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 60,
+            maximum_value = 90,
             default_value = 45,
             order = "1Vaf"
         },

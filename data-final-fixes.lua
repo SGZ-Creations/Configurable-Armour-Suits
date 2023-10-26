@@ -1,4 +1,4 @@
-
+require("mod-files.vanila")
 require("mod-files.bobwarfare")
 require("mod-files.custome-power-armour")
 require("mod-files.rampant-arsenal")
