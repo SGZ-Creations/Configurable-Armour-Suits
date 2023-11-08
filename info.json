@@ -24,7 +24,7 @@
 		"! Moar-Grid"
 	],
 	"factorio_version": "1.1",
-	"description": "Configurable Armours currently supports:\nBob's\nCustom_Power_Armor_fix\nFE-Equipment\nIR2\nK2\nNullius\nPower&Armor\nPower Armor MK3\nPower-Armour-Replacer\nRampant Aresensal\nSE",
+	"description": "Configurable Armours currently supports:\nBob's\nCustom_Power_Armor_fix\nexotic-industries\nFE-Equipment\nHiladdar_Gear\nIR2\nK2\nNullius\nPower&Armor\nPower Armor MK3\nPower-Armour-Replacer\nRampant Aresensal\nSE",
 	"package": {
 		"ignore": [
 			"text_for_later.cpp",
