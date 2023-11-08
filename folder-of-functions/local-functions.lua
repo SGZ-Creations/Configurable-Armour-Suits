@@ -1,5 +1,6 @@
 local inv_grids = {}
 
+-- 1 Armours Grid name ((Not item name)ctrl + shift + E) 2 "-grid-size-((w)or(h))" done in mod-files on the mod for compatibility.
 inv_grids.SetGridSize = function(grid_name, setting_name_prefix)
 	if settings.startup[setting_name_prefix .. "-grid-size-w"] then
 		local width = settings.startup[setting_name_prefix.."-grid-size-w"].value

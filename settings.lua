@@ -132,7 +132,7 @@ if mods["custom_power_armor_fix"] and not mods["Power-Armour-Replacer"] then
         {
             type = "int-setting",
             name = "custom-power-armor-mk4-grid-size-h",
-           setting_type = "startup",
+            setting_type = "startup",
             minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
@@ -196,6 +196,72 @@ if mods["custom_power_armor_fix"] and not mods["Power-Armour-Replacer"] then
     })
 end
 --------------------------------------------------------------------------------------------------
+if mods["exotic-industries"] and not mods["Power-Armour-Replacer"] then
+    data:extend({
+        {
+            type = "int-setting",
+            name = "cas-bio-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 30,
+            order = "1Iaa"
+        },
+        {
+            type = "int-setting",
+            name = "cas-bio-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 30,
+            order = "1Iab"
+        },
+        -- Inventory
+        {
+            type = "int-setting",
+            name = "cas-bio-ei_bio-armor-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 1500,
+            default_value = 150,
+            order = "2Iaa"
+        },
+    })
+end
+
+if mods["exotic-industries"] and mods["Power-Armour-Replacer"] then
+    data:extend({
+        {
+            type = "int-setting",
+            name = "cas-bio-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 1100,
+            default_value = 110,
+            order = "1Iaa"
+        },
+        {
+            type = "int-setting",
+            name = "cas-bio-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 1100,
+            default_value = 110,
+            order = "1Iab"
+        },
+        -- Inventory
+        {
+            type = "int-setting",
+            name = "cas-bio-ei_bio-armor-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 5500,
+            default_value = 550,
+            order = "2Iaa"
+        },
+    })
+end
+--------------------------------------------------------------------------------------------------
 if mods["FactorioExtended-Equipment"] then
     data:extend({
         {
@@ -205,7 +271,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 50,
             default_value = 35,
-            order = "1Xaa"
+            order = "1Faa"
         },
         {
             type = "int-setting",
@@ -214,7 +280,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 50,
             default_value = 35,
-            order = "1Xab"
+            order = "1Fab"
         },
         {
             type = "int-setting",
@@ -223,7 +289,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 45,
-            order = "1Xac"
+            order = "1Fac"
         },
         {
             type = "int-setting",
@@ -232,7 +298,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 60,
             default_value = 45,
-            order = "1Xad"
+            order = "1Fad"
         },
         {
             type = "int-setting",
@@ -241,7 +307,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 70,
             default_value = 55,
-            order = "1Xae"
+            order = "1Fae"
         },
         {
             type = "int-setting",
@@ -250,7 +316,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 70,
             default_value = 55,
-            order = "1Xaf"
+            order = "1Faf"
         },
         -- Inventory
         {
@@ -260,7 +326,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 500,
             default_value = 50,
-            order = "2Xaa"
+            order = "2Faa"
         },
         {
             type = "int-setting",
@@ -269,7 +335,7 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 1000,
             default_value = 100,
-            order = "2Xab"
+            order = "2Fab"
         },
         {
             type = "int-setting",
@@ -278,7 +344,67 @@ if mods["FactorioExtended-Equipment"] then
             minimum_value = 0,
             maximum_value = 1500,
             default_value = 150,
-            order = "2Xac"
+            order = "2Fac"
+        },
+    })
+end
+--------------------------------------------------------------------------------------------------
+if mods["Hiladdar_Gear"] and not mods["Power-Armour-Replacer"] then
+    data:extend({
+        {
+            type = "int-setting",
+            name = "hl-3-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 30,
+            order = "1Haa"
+        },
+        {
+            type = "int-setting",
+            name = "hl-3-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 30,
+            order = "1Hab"
+        },
+        {
+            type = "int-setting",
+            name = "hl-4-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 60,
+            default_value = 40,
+            order = "1Hac"
+        },
+        {
+            type = "int-setting",
+            name = "hl-4-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 60,
+            default_value = 40,
+            order = "1Had"
+        },
+        -- Inventory
+        {
+            type = "int-setting",
+            name = "hl-hsmd-power-armor-mk3-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 1500,
+            default_value = 150,
+            order = "2Haa"
+        },
+        {
+            type = "int-setting",
+            name = "hl-hsmd-power-armor-mk4-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 2000,
+            default_value = 200,
+            order = "2Hab"
         },
     })
 end
@@ -292,7 +418,7 @@ if mods["IndustrialRevolution3"] then
             minimum_value = 0,
             maximum_value = 15,
             default_value = 8,
-            order = "1Fa1"
+            order = "1Ga1"
         },
         {
             type = "int-setting",
@@ -301,7 +427,7 @@ if mods["IndustrialRevolution3"] then
             minimum_value = 0,
             maximum_value = 15,
             default_value = 2,
-            order = "1Fab"
+            order = "1Gab"
         },
         -- Inventory
         {
@@ -311,7 +437,7 @@ if mods["IndustrialRevolution3"] then
             minimum_value = 0,
             maximum_value = 15,
             default_value = 10,
-            order = "1Fac"
+            order = "1Gac"
         },
         {
             type = "int-setting",
@@ -320,7 +446,7 @@ if mods["IndustrialRevolution3"] then
             minimum_value = 0,
             maximum_value = 15,
             default_value = 2,
-            order = "1Fad"
+            order = "1Gad"
         },
     })
 end

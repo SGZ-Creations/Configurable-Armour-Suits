@@ -1,12 +1,21 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 07.11.2023
+  Changes:
+    - Changelog.
+  Features:
+    - Added settings to Hiladder.
+    - Added settings to Exotic Industires.
+---------------------------------------------------------------------------------------------------
 Version: 1.3.1
 Date: 26.10.2023
   Changes:
     - Changelog.
+    - SE Space suit 2 & 3 max setting increaesed to allow for a 30 tile increase all the way to 4 so current valaues are 30, 60, 90, 500.
   Scripting:
     - Updated comment in mod-files/space-exploration-Krastorio2.
   Bugfixes:
-    - Vanilla Armours wouldn't applie settings due to me forgetitng to have the file of code be read after my initial 1.3.0 update.
+    - Vanilla Armours wouldn't apply settings, due to file of code not being read. After the initial 1.3.0 update.
   Thanks:
     - Discord @immow1 for helping with solving the bug.
     - Discord @neltisen. For reporting the bug.
@@ -16,7 +25,7 @@ Date: 03.09.2023
   Changes:
     - File structure rework.
     - Version required for PA&R mod 0.1.39 --> 0.1.47.
-    - Apply correct grid name "sgz-a??-equipment-grid", --> "par-a??-equipment-grid". 
+    - PA&R grid corection.
   Scripting:
     - Added bobwarfare file.
     - Added coding-files
@@ -31,6 +40,7 @@ Date: 03.09.2023
     - Added Power-Armour-&-Replacer file.
     - Added Power-Armor-MK3 file.
     - Added space-exploration-Krastorio2 file.
+    - Applied correct grid name "sgz-a??-equipment-grid", --> "par-a??-equipment-grid".
   Bugfixes:
     - Missing equipment icons not showing up correctly.
 ---------------------------------------------------------------------------------------------------

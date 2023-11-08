@@ -18,7 +18,6 @@ end
 
 script.on_event(defines.events.on_player_armor_inventory_changed, player_armour_inventory_changed)
 
-
 --[[
 commands.add_command("give_me_one", "Gives 1 item", function(event)
     local player_index = event.player_index
