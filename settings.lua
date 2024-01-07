@@ -974,7 +974,7 @@ if mods["Power-Armour-Replacer"] then
         -- Inventory
         {
             type = "int-setting",
-            name = "m-cas-1-a_mk1-inv-size",
+            name = "m-cas-1-par-armour-mk1-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 500,
@@ -983,7 +983,7 @@ if mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "m-cas-2-a_mk2-inv-size",
+            name = "m-cas-2-par-armour-mk2-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 1000,
@@ -992,7 +992,7 @@ if mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "m-cas-3-a_mk3-inv-size",
+            name = "m-cas-3-par-armour-mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 1500,
@@ -1001,7 +1001,7 @@ if mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "m-cas-4-a_mk4-inv-size",
+            name = "m-cas-4-par-armour-mk4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 2000,
@@ -1010,7 +1010,7 @@ if mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "m-cas-5-a_mk5-inv-size",
+            name = "m-cas-5-par-armour-mk5-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 2500,
@@ -1019,7 +1019,7 @@ if mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "m-cas-6-a_mk6-inv-size",
+            name = "m-cas-6-par-armour-mk6-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 3000,
@@ -1028,7 +1028,7 @@ if mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "m-cas-7-a_mk7-inv-size",
+            name = "m-cas-7-par-armour-mk7-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 3500,
@@ -1037,7 +1037,7 @@ if mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "m-cas-8-a_mk8-inv-size",
+            name = "m-cas-8-par-armour-mk8-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 4000,
@@ -1046,7 +1046,7 @@ if mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "m-cas-9-a_mk9-inv-size",
+            name = "m-cas-9-par-armour-mk9-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 4500,
@@ -1055,7 +1055,7 @@ if mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "m-cas-10-a_mk10-inv-size",
+            name = "m-cas-10-par-armour-mk10-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 5000,
