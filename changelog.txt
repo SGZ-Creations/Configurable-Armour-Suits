@@ -1,8 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.3
+Date: 13.01.2024
+  Changes:
+    - Requires PAR version 0.2.4+
+    - Achivement texture. 
+  Bugfixes:
+    - Crash with PA&R.
+---------------------------------------------------------------------------------------------------
 Version: 1.4.2
 Date: 07.01.2024
   Changes:
-    - Requires PAR minimum version 0.2.0
+    - Requires PAR version 0.2.0+
   Bugfixes:
     - Issue with item icon for PAR mod.
     - Item name for PAR

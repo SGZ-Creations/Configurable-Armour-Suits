@@ -1,6 +1,6 @@
 {
 	"name": "Configurable-Armour-Suits",
-	"version": "1.4.2",
+	"version": "1.4.3",
 	"title": "Configurable Armour & Suits",
 	"author": "SGZ_Creations",
 	"contact": "https://discord.gg/tbxnpsxkDM",
@@ -17,7 +17,7 @@
 		"? nullius >= 1.5.25",
 		"? PowerAndArmor >= 1.19",
 		"? Power Armor MK3 >= 0.4",
-		"? Power-Armour-Replacer >= 0.2.0",
+		"? Power-Armour-Replacer >= 0.2.4",
 		"? RampantArsenal >= 1.1.5",
 		"? space-exploration >= 0.5.115",
 		"! Early-Armor-Grid",

@@ -4,8 +4,8 @@ if mods["Power-Armour-Replacer"] then
             type = "achievement",
             name = "Geez-you-a-GOD",
             order = "Baa",
-            icon = "__Power-Armour-Replacer__/texture/items/power-armor-mk10.png",
-            icon_size = 256,
+            icon = "__Power-Armour-Replacer__/graphics/icons/armour/power-armour-mk5.png",
+            icon_size = 64,
         },
     })
 end
