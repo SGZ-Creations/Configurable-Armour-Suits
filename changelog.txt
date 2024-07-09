@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.5
+Date: 09.07.2024
+  Changes:
+    - Clened control file.
+    - Added control-achievement, control-debug.
+  Webpage:
+    - Added explanation to a visual bug that can happen when playing with both SE K2 (INFO).
+---------------------------------------------------------------------------------------------------
 Version: 1.4.4
 Date: 19.05.2024
   Locale:
