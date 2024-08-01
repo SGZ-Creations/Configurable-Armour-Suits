@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.6
+Date: 01.08.2024
+  Changes:
+    - Corrected settings INV info. Inventory warning to specify inventory and not equipments grid.
+    - Added code to remove the vanilla Power Armour setting when there are no point in changing them.
+---------------------------------------------------------------------------------------------------
 Version: 1.4.5
 Date: 09.07.2024
   Changes:

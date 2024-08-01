@@ -1286,7 +1286,29 @@ data:extend({
         setting_type = "startup",
         default_value = true,
     },
+    --Inventory not removed by mod
+    {
+        type = "int-setting",
+        name = "v-cas-light-armor-inv-size",
+        setting_type = "startup",
+        minimum_value = 0,
+        maximum_value = 100,
+        default_value = 5,
+        order = "2Aaa"
+    },
+    {
+        type = "int-setting",
+        name = "v-cas-heavy-armor-inv-size",
+        setting_type = "startup",
+        minimum_value = 0,
+        maximum_value = 200,
+        default_value = 10,
+        order = "2Aab"
+    },
+})
+    if not mods["Power-Armour-Replacer"] then
     --Vanilla Armour Grids
+    data:extend({
     {
         type = "int-setting",
         name = "modular-armor-grid-size-h",
@@ -1341,25 +1363,7 @@ data:extend({
         default_value = 20,
         order = "1Aak"
     },
-    -- Inventory
-    {
-        type = "int-setting",
-        name = "v-cas-light-armor-inv-size",
-        setting_type = "startup",
-        minimum_value = 0,
-        maximum_value = 100,
-        default_value = 5,
-        order = "2Aaa"
-    },
-    {
-        type = "int-setting",
-        name = "v-cas-heavy-armor-inv-size",
-        setting_type = "startup",
-        minimum_value = 0,
-        maximum_value = 200,
-        default_value = 10,
-        order = "2Aab"
-    },
+    --Inventory
     {
         type = "int-setting",
         name = "v-cas-modular-armor-inv-size",
@@ -1387,4 +1391,4 @@ data:extend({
         default_value = 100,
         order = "2Aae"
     },
-})
+})end
