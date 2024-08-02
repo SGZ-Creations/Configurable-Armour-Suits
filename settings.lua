@@ -453,7 +453,7 @@ end
 --Added Grids to Vanilla
 if not mods["IndustrialRevolution3"] then
 	data:extend({
-		--Light
+		--Light grid
 		{
 			type = "int-setting",
 			name = "light-grid-h",
@@ -469,17 +469,17 @@ if not mods["IndustrialRevolution3"] then
 			setting_type = "startup",
 			minimum_value = 0,
 			maximum_value = 10,
-			default_value = 3,
+			default_value = 5,
 			order = "1Aab"
 		},
-		--Heavy
+		--Heavy grid
 		{
 			type = "int-setting",
 			name = "heavy-grid-h",
 			setting_type = "startup",
 			minimum_value = 0,
 			maximum_value = 10,
-			default_value = 5,
+			default_value = 7,
 			order = "1Aac"
 		},
 		{
@@ -488,7 +488,7 @@ if not mods["IndustrialRevolution3"] then
 			setting_type = "startup",
 			minimum_value = 0,
 			maximum_value = 10,
-			default_value = 5,
+			default_value = 7,
 			order = "1Aad"
 		},
 	})
@@ -1067,6 +1067,26 @@ end
 --------------------------------------------------------------------------------------------------
 if mods["Power Armor MK3"] and not mods["Power-Armour-Replacer"] then
     data:extend({
+        -- Armour MK3
+        {
+            type = "int-setting",
+            name = "pamk3-pmak3-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 40,
+            default_value = 30,
+            order = "1Eae"
+        },
+        {
+            type = "int-setting",
+            name = "pamk3-pmak3-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 40,
+            default_value = 30,
+            order = "1Eaf"
+        },
+        -- Armour MK4
         {
             type = "int-setting",
             name = "pamk3-pmak4-grid-size-h",
@@ -1074,7 +1094,7 @@ if mods["Power Armor MK3"] and not mods["Power-Armour-Replacer"] then
             minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
-            order = "1Eac"
+            order = "1Eag"
         },
         {
             type = "int-setting",
@@ -1083,7 +1103,7 @@ if mods["Power Armor MK3"] and not mods["Power-Armour-Replacer"] then
             minimum_value = 0,
             maximum_value = 50,
             default_value = 40,
-            order = "1Ead"
+            order = "1Eah"
         },
         --Inventory
         {
@@ -1109,6 +1129,44 @@ end
 --Make sure that Utillity vest is left to be modified regardless of PA&R 
 if mods["Power Armor MK3"] then
     data:extend({
+        --Light Utillity grid
+        {
+            type = "int-setting",
+            name = "util-vlight-grid-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 6,
+            order = "1Eaa"
+        },
+        {
+            type = "int-setting",
+            name = "util-vlight-grid-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 6,
+            order = "1Eab"
+        },
+        --Heavy Utillity grid
+        {
+            type = "int-setting",
+            name = "util-vheavy-grid-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 8,
+            order = "1Eac"
+        },
+        {
+            type = "int-setting",
+            name = "util-vheavy-grid-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 50,
+            default_value = 8,
+            order = "1Ead"
+        },
         --Inventory
         {
             type = "int-setting",
@@ -1116,7 +1174,7 @@ if mods["Power Armor MK3"] then
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 150,
-            default_value = 15,
+            default_value = 10,
             order = "2Eaa"
         },
         {
@@ -1302,7 +1360,7 @@ data:extend({
         setting_type = "startup",
         minimum_value = 0,
         maximum_value = 200,
-        default_value = 10,
+        default_value = 15,
         order = "2Aab"
     },
 })
@@ -1315,7 +1373,7 @@ data:extend({
         setting_type = "startup",
         minimum_value = 0,
         maximum_value = 15,
-        default_value = 10,
+        default_value = 9,
         order = "1Aae"
     },
     {
@@ -1324,7 +1382,7 @@ data:extend({
         setting_type = "startup",
         minimum_value = 0,
         maximum_value = 15,
-        default_value = 5,
+        default_value = 9,
         order = "1Aaf"
     },
     {

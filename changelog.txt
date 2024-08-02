@@ -1,4 +1,20 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.7
+Date: 02.08.2024
+  Features:
+    - Added grids for ("Power Armour Mk3") light & heavyutillity vest utillity vest. Giving them simularity to vailla armours.
+    - Added file simulation-crash.lua
+  Changes:
+    - Moved code for simulation crash check to it's own file.
+    - Default grid sizes for vailla grids and utillity vest have tired based sizes. (INFO changelog)
+    - Made the default grid size for modular armour 9x9 to match the new scaling when using ("Power Armour Mk3") &/or ("Power Armour & Replacer")
+    - Made default INV bonus setting in vanilla be 5 & 15.
+    - Made default INV bonus setting in ("Power Armour Mk3") 10 & 20.
+  Bugfixes:
+    - Missing setting for the armour-mk3 from ("Power Armour Mk3"). (must have been deleted by mistake). 
+  Info:
+    - Tired scaling is most notible if playing with PAR mod ("Power Armour & Replacer")
+---------------------------------------------------------------------------------------------------
 Version: 1.4.6
 Date: 01.08.2024
   Changes:
@@ -11,7 +27,7 @@ Date: 09.07.2024
     - Clened control file.
     - Added control-achievement, control-debug.
   Webpage:
-    - Added explanation to a visual bug that can happen when playing with both SE K2 (INFO).
+    - Added explanation to a visual bug that can happen when playing with both SE K2 (on website INFO tab).
 ---------------------------------------------------------------------------------------------------
 Version: 1.4.4
 Date: 19.05.2024
