@@ -20,6 +20,6 @@ else
 			equipment_categories = {"armor"}
 		},
 	})
-data.raw["armor"]["light-armor"].equipment_grid = "equipment-grid-light"
-data.raw["armor"]["heavy-armor"].equipment_grid = "equipment-grid-heavy"
+	data.raw["armor"]["light-armor"].equipment_grid = "equipment-grid-light"
+	data.raw["armor"]["heavy-armor"].equipment_grid = "equipment-grid-heavy"
 end
