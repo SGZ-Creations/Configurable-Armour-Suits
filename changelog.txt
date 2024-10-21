@@ -1,8 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.0
+Date: 21.10.2024
+  Features:
+    - Updated to work with 2.0 Base.(Maybe S-A)
+  Info:
+    - Let me know if you find bugs. Feature will be added later as i go.
+---------------------------------------------------------------------------------------------------
 Version: 1.4.7
 Date: 02.08.2024
   Features:
-    - Added grids for ("Power Armour Mk3") light & heavyutillity vest utillity vest. Giving them simularity to vailla armours.
+    - Added grids for ("Power Armour Mk3") light & heavy utillity vest. Giving them simularity to vailla armours.
     - Added file simulation-crash.lua
   Changes:
     - Moved code for simulation crash check to it's own file.
@@ -209,7 +216,7 @@ Date: 07.01.2023
   Info:
     - Have u read my section about supported mods this isn't new.
     - All armour tiers should now have the same INV size bonus as others MK2=100, MK3=150...
-    - This also means new deafault values have been made. may efffect current but shouldn't
+    - This also means new deafault values have been made. may effect current but shouldn't
     - So downloading the mod for the first time will make inventory Huge/Enormus. Example MK5=250 MK10=500.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.2
