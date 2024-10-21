@@ -1336,6 +1336,40 @@ if mods["space-exploration"] then
     })
 end
 --------------------------------------------------------------------------------------------------
+--DLC SA
+if mods["space-age"] and not mods["Power-Armour-Replacer"] then
+    data:extend({
+        {
+            type = "int-setting",
+            name = "mech-armor-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 60,
+            default_value = 30,
+            order = "1Aal"
+        },
+        {
+            type = "int-setting",
+            name = "mech-armor-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 60,
+            default_value = 30,
+            order = "1Aam"
+        },
+        --Inventory
+        {
+            type = "int-setting",
+            name = "sa-cas-mech-armor-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 1500,
+            default_value = 150,
+            order = "2Aaf"
+        },
+    })
+end
+--------------------------------------------------------------------------------------------------
 --Vanilla
 data:extend({
     {
@@ -1364,89 +1398,89 @@ data:extend({
         order = "2Aab"
     },
 })
-    if not mods["Power-Armour-Replacer"] then
+if not mods["Power-Armour-Replacer"] then
     --Vanilla Armour Grids
     data:extend({
-    {
-        type = "int-setting",
-        name = "modular-armor-grid-size-h",
-        setting_type = "startup",
-        minimum_value = 0,
-        maximum_value = 15,
-        default_value = 9,
-        order = "1Aae"
-    },
-    {
-        type = "int-setting",
-        name = "modular-armor-grid-size-w",
-        setting_type = "startup",
-        minimum_value = 0,
-        maximum_value = 15,
-        default_value = 9,
-        order = "1Aaf"
-    },
-    {
-        type = "int-setting",
-        name = "power-armor-grid-size-h",
-        setting_type = "startup",
-        minimum_value = 0,
-        maximum_value = 20,
-        default_value = 10,
-        order = "1Aag"
-    },
-    {
-        type = "int-setting",
-        name = "power-armor-grid-size-w",
-        setting_type = "startup",
-        minimum_value = 0,
-        maximum_value = 20,
-        default_value = 10,
-        order = "1Aah"
-    },
-    {
-        type = "int-setting",
-        name = "power-armor-mk2-grid-size-h",
-        setting_type = "startup",
-        minimum_value = 0,
-        maximum_value = 40,
-        default_value = 20,
-        order = "1Aaj"
-    },
-    {
-        type = "int-setting",
-        name = "power-armor-mk2-grid-size-w",
-        setting_type = "startup",
-        minimum_value = 0,
-        maximum_value = 40,
-        default_value = 20,
-        order = "1Aak"
-    },
-    --Inventory
-    {
-        type = "int-setting",
-        name = "v-cas-modular-armor-inv-size",
-        setting_type = "startup",
-        minimum_value = 0,
-        maximum_value = 250,
-        default_value = 25,
-        order = "2Aac"
-    },
-    {
-        type = "int-setting",
-        name = "v-cas-power-armor-inv-size",
-        setting_type = "startup",
-        minimum_value = 0,
-        maximum_value = 500,
-        default_value = 50,
-        order = "2Aad"
-    },
-    {
-        type = "int-setting",
-        name = "v-cas-power-armor-mk2-inv-size",
-        setting_type = "startup",
-        minimum_value = 0,
-        maximum_value = 1000,
-        default_value = 100,
-        order = "2Aae"
-    },
-})end
+        {
+            type = "int-setting",
+            name = "modular-armor-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 15,
+            default_value = 9,
+            order = "1Aae"
+        },
+        {
+            type = "int-setting",
+            name = "modular-armor-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 15,
+            default_value = 9,
+            order = "1Aaf"
+        },
+        {
+            type = "int-setting",
+            name = "power-armor-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 20,
+            default_value = 10,
+            order = "1Aag"
+        },
+        {
+            type = "int-setting",
+            name = "power-armor-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 20,
+            default_value = 10,
+            order = "1Aah"
+        },
+        {
+            type = "int-setting",
+            name = "power-armor-mk2-grid-size-h",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 40,
+            default_value = 20,
+            order = "1Aaj"
+        },
+        {
+            type = "int-setting",
+            name = "power-armor-mk2-grid-size-w",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 40,
+            default_value = 20,
+            order = "1Aak"
+        },
+        --Inventory
+        {
+            type = "int-setting",
+            name = "v-cas-modular-armor-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 250,
+            default_value = 25,
+            order = "2Aac"
+        },
+        {
+            type = "int-setting",
+            name = "v-cas-power-armor-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 500,
+            default_value = 50,
+            order = "2Aad"
+        },
+        {
+            type = "int-setting",
+            name = "v-cas-power-armor-mk2-inv-size",
+            setting_type = "startup",
+            minimum_value = 0,
+            maximum_value = 1000,
+            default_value = 100,
+            order = "2Aae"
+        },
+    })end

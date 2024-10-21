@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.1
+Date: 21.10.2024
+  Features:
+    - Added Mech Armour setting from SA DLC.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.0
 Date: 21.10.2024
   Features:
@@ -18,7 +23,7 @@ Date: 02.08.2024
     - Made default INV bonus setting in vanilla be 5 & 15.
     - Made default INV bonus setting in ("Power Armour Mk3") 10 & 20.
   Bugfixes:
-    - Missing setting for the armour-mk3 from ("Power Armour Mk3"). (must have been deleted by mistake). 
+    - Missing setting for the armour-mk3 from ("Power Armour Mk3"). (Must have been deleted by mistake). 
   Info:
     - Tired scaling is most notible if playing with PAR mod ("Power Armour & Replacer")
 ---------------------------------------------------------------------------------------------------
