@@ -3,6 +3,8 @@ Version: 1.5.2
 Date: 21.10.2024
   Bugfixes:
     - Added missing locals.
+  Thanks:
+    - Discord @whysoma #9966 for creating the locals for me. Was aksed :P
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.1
 Date: 21.10.2024
