@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.3
+Date: 22.10.2024
+  Changes:
+    - Fixed weird localization left by @whysoma #9966.
+    - Removed IR3 Compatibilty modder left modding for good...?
+---------------------------------------------------------------------------------------------------
 Version: 1.5.2
 Date: 21.10.2024
   Bugfixes:

@@ -409,91 +409,6 @@ if mods["Hiladdar_Gear"] and not mods["Power-Armour-Replacer"] then
     })
 end
 --------------------------------------------------------------------------------------------------
-if mods["IndustrialRevolution3"] then
-    data:extend({
-        {
-            type = "int-setting",
-            name = "ir3-light-cas-grid-size-h",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 15,
-            default_value = 8,
-            order = "1Ga1"
-        },
-        {
-            type = "int-setting",
-            name = "ir3-light-cas-grid-size-w",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 15,
-            default_value = 2,
-            order = "1Gab"
-        },
-        -- Inventory
-        {
-            type = "int-setting",
-            name = "ir3-heavy-cas-grid-size-h",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 15,
-            default_value = 10,
-            order = "1Gac"
-        },
-        {
-            type = "int-setting",
-            name = "ir3-heavy-cas-grid-size-w",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 15,
-            default_value = 2,
-            order = "1Gad"
-        },
-    })
-end
---Added Grids to Vanilla
-if not mods["IndustrialRevolution3"] then
-	data:extend({
-		--Light grid
-		{
-			type = "int-setting",
-			name = "light-grid-h",
-			setting_type = "startup",
-			minimum_value = 0,
-			maximum_value = 10,
-			default_value = 5,
-			order = "1Aaa"
-		},
-		{
-			type = "int-setting",
-			name = "light-grid-w",
-			setting_type = "startup",
-			minimum_value = 0,
-			maximum_value = 10,
-			default_value = 5,
-			order = "1Aab"
-		},
-		--Heavy grid
-		{
-			type = "int-setting",
-			name = "heavy-grid-h",
-			setting_type = "startup",
-			minimum_value = 0,
-			maximum_value = 10,
-			default_value = 7,
-			order = "1Aac"
-		},
-		{
-			type = "int-setting",
-			name = "heavy-grid-w",
-			setting_type = "startup",
-			minimum_value = 0,
-			maximum_value = 10,
-			default_value = 7,
-			order = "1Aad"
-		},
-	})
-end
---------------------------------------------------------------------------------------------------
 if mods["Krastorio2"] and not mods["Power-Armour-Replacer"] then
     data:extend({
         {
@@ -1337,7 +1252,7 @@ if mods["space-exploration"] then
 end
 --------------------------------------------------------------------------------------------------
 --DLC SA
-if mods["space-age"] and not mods["Power-Armour-Replacer"] then
+if mods["space-age"]then
     data:extend({
         {
             type = "int-setting",
@@ -1396,6 +1311,44 @@ data:extend({
         maximum_value = 200,
         default_value = 15,
         order = "2Aab"
+    },
+    --Light grids
+    {
+        type = "int-setting",
+        name = "light-grid-h",
+        setting_type = "startup",
+        minimum_value = 0,
+        maximum_value = 10,
+        default_value = 5,
+        order = "1Aaa"
+    },
+    {
+        type = "int-setting",
+        name = "light-grid-w",
+        setting_type = "startup",
+        minimum_value = 0,
+        maximum_value = 10,
+        default_value = 5,
+        order = "1Aab"
+    },
+    --Heavy grid
+    {
+        type = "int-setting",
+        name = "heavy-grid-h",
+        setting_type = "startup",
+        minimum_value = 0,
+        maximum_value = 10,
+        default_value = 7,
+        order = "1Aac"
+    },
+    {
+        type = "int-setting",
+        name = "heavy-grid-w",
+        setting_type = "startup",
+        minimum_value = 0,
+        maximum_value = 10,
+        default_value = 7,
+        order = "1Aad"
     },
 })
 if not mods["Power-Armour-Replacer"] then
