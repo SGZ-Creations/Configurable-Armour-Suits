@@ -697,7 +697,7 @@ if mods["PowerAndArmor"] and not mods["Power-Armour-Replacer"] then
     })
 end
 --------------------------------------------------------------------------------------------------
-if mods["Power-Armour-Replacer"] then
+if mods["Power-Armour-Replacer"] and not (mods["space-age"] or mods["space-exploration"]) then
     data:extend({
         {
             type = "bool-setting",
@@ -706,6 +706,11 @@ if mods["Power-Armour-Replacer"] then
             default_value = false,
             order = "3Baa"
         },
+    })
+end
+
+if mods["Power-Armour-Replacer"] then
+    data:extend({
         {
             type = "int-setting",
             name = "par-1-grid-size-h",
@@ -1252,7 +1257,7 @@ if mods["space-exploration"] then
 end
 --------------------------------------------------------------------------------------------------
 --DLC SA
-if mods["space-age"]then
+if mods["space-age"]then --and not mods["Power-Armour-Replacer"] then
     data:extend({
         {
             type = "int-setting",
@@ -1436,4 +1441,5 @@ if not mods["Power-Armour-Replacer"] then
             default_value = 100,
             order = "2Aae"
         },
-    })end
+    })
+end

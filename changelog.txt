@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.4
+Date: 24.10.2024
+  Changes:
+    - Disable setting if playing with PAR and SA or future SE.
+    - Updated Required PAR version to 0.3.2 so it work along with changes on the mod.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.3
 Date: 22.10.2024
   Changes:
@@ -10,7 +16,7 @@ Date: 21.10.2024
   Bugfixes:
     - Added missing locals.
   Thanks:
-    - Discord @whysoma #9966 for creating the locals for me. Was aksed :P
+    - Discord @whysoma #9966 for creating the locals for me. Was asked :P
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.1
 Date: 21.10.2024

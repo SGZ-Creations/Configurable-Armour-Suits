@@ -1,12 +1,13 @@
 {
 	"name": "Configurable-Armour-Suits",
-	"version": "1.5.3",
+	"version": "1.5.4",
 	"title": "Configurable Armour & Suits",
 	"factorio_version": "2.0",
 	"author": "SGZ_Creations",
 	"contact": "https://discord.gg/tbxnpsxkDM",
 	"Source": "https://github.com/SGZ-Creations/configurable-armour-suits",
 	"dependencies": [
+		"base",
 		"? bobwarfare >= 1.1.0",
 		"? custom_power_armor_fix >= 5.1.1",
 		"? exotic-industries >= 0.4.2",
