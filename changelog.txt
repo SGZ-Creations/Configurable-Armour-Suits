@@ -3,7 +3,7 @@ Version: 1.5.4
 Date: 24.10.2024
   Changes:
     - Disable setting if playing with PAR and SA or future SE.
-    - Updated Required PAR version to 0.3.2 so it work along with changes on the mod.
+    - Updated Required optional PAR version to 0.3.2 so it work along with changes on the mod.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.3
 Date: 22.10.2024
