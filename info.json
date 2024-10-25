@@ -8,6 +8,7 @@
 	"Source": "https://github.com/SGZ-Creations/configurable-armour-suits",
 	"dependencies": [
 		"base",
+		"? armor-spill-prevention >= 0.0.8",
 		"? bobwarfare >= 1.1.0",
 		"? custom_power_armor_fix >= 5.1.1",
 		"? exotic-industries >= 0.4.2",
