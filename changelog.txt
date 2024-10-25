@@ -5,7 +5,7 @@ Date: 24.10.2024
     - Disable setting if playing with PAR and SA or future SE.
     - Updated Required optional PAR version to 0.3.2 so it work along with changes on the mod.
     - Update setting for Mech Armour if using PAR mod.
-    - armor-spill-prevention added mod to optional untill it becomes updated and i will then reqired it.
+    - armor-spill-prevention added mod to optional. Untill it becomes updated and i will make it required.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.3
 Date: 22.10.2024

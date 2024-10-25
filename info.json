@@ -29,7 +29,6 @@
 	"package": {
 		"ignore": [
 			"text_for_later.cpp",
-			"locale/ru/mod-locales.cfg",
 			".gitignore"
 		]
 	}
