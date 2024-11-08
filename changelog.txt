@@ -1,11 +1,17 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.5
+Date: 05.12.2024
+  Changes:
+    - Changelog 1.5.4.
+    - Removed Optional mod Armour spill prevention function added to base game.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.4
 Date: 24.10.2024
   Changes:
     - Disable setting if playing with PAR and SA or future SE.
     - Updated Required optional PAR version to 0.3.2 so it work along with changes on the mod.
     - Update setting for Mech Armour if using PAR mod.
-    - armor-spill-prevention added mod to optional. Untill it becomes updated and i will make it required.
+    - a̶r̶m̶o̶r̶-̶s̶p̶i̶l̶l̶-̶p̶r̶e̶v̶e̶n̶t̶i̶o̶n̶ ̶a̶d̶d̶e̶d̶ ̶m̶o̶d̶ ̶t̶o̶ ̶o̶p̶t̶i̶o̶n̶a̶l̶.̶ ̶U̶n̶t̶i̶l̶l̶ ̶i̶t̶ ̶b̶e̶c̶o̶m̶e̶s̶ ̶u̶p̶d̶a̶t̶e̶d̶ ̶a̶n̶d̶ ̶i̶ ̶w̶i̶l̶l̶ ̶m̶a̶k̶e̶ ̶i̶t̶ ̶r̶e̶q̶u̶i̶r̶e̶d̶.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.3
 Date: 22.10.2024
