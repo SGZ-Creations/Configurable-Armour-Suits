@@ -1,6 +1,6 @@
 {
 	"name": "Configurable-Armour-Suits",
-	"version": "1.5.5",
+	"version": "1.5.6",
 	"title": "Configurable Armour & Suits",
 	"factorio_version": "2.0",
 	"author": "SGZ_Creations",
@@ -14,6 +14,7 @@
 		"? FactorioExtended-Equipment >= 5.0301",
 		"? Hiladdar_Gear >= 1.1.0",
 		"? Krastorio2 >= 1.2.25",
+		"? mech-armor >= 1.0.1",
 		"? nullius >= 1.5.25",
 		"? PowerAndArmor >= 1.19",
 		"? Power Armor MK3 >= 0.4",
