@@ -10,7 +10,7 @@ Version: 1.5.5
 Date: 05.12.2024
   Changes:
     - Changelog 1.5.4.
-    - Removed Optional mod Armour spill prevention function added to base game.
+    - Removed Optional mod Armour spill prevention. Function added to base game.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.4
 Date: 24.10.2024
