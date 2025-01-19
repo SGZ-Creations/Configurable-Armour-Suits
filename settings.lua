@@ -84,30 +84,6 @@ if mods["bobwarfare"] and not mods["Power-Armour-Replacer"] then
         },
     })
 end
---Makes sure that bob's Heavy Armour 2 & 3 still has inventory adjustements avalible.
-if mods["bobwarfare"] then
-    data:extend({
-        -- Inventory
-        {
-            type = "int-setting",
-            name = "cas-bob-heavy-armor-2-inv-size",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 750,
-            default_value = 75,
-            order = "2Caa"
-        },
-        {
-            type = "int-setting",
-            name = "cas-bob-heavy-armor-3-inv-size",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 1250,
-            default_value = 125,
-            order = "2Cab"
-        },
-    })
-end
 --------------------------------------------------------------------------------------------------
 if mods["custom_power_armor_fix"] and not mods["Power-Armour-Replacer"] then
     data:extend({
