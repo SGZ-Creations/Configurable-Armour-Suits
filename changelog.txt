@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.7
+Date: 19.01.2025
+  Changes:
+    - Temporaly hidden mods with unknown update state.
+  Modding:
+    - Removed missed code of IR3
+    - Removed Depricated code on Bob's. Bye Heavy armour 2-3 CAS will miss you.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.6
 Date: 20.11.2024
   Features:
