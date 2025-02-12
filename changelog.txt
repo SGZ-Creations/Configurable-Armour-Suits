@@ -4,7 +4,7 @@ Date: 12.02.2025
   Changes:
     - Temporaly hidden more mods with unknown update state.
   Bugfixes:
-    - Accidently deleted Light & Heavy armour grids.
+    - Re added Light & Heavy armour grids. Was accidently deleted.
   Info:
     - Will look in to fix on an issue with qility still effecting armour with grids set at 0.
 ---------------------------------------------------------------------------------------------------
