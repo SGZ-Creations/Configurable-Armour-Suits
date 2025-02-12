@@ -1,6 +1,6 @@
 {
 	"name": "Configurable-Armour-Suits",
-	"version": "1.5.7",
+	"version": "1.5.8",
 	"title": "Configurable Armour & Suits",
 	"factorio_version": "2.0",
 	"author": "SGZ_Creations",
@@ -10,7 +10,7 @@
 		"? bobwarfare >= 1.1.0",
 		"(?) custom_power_armor_fix >= 5.1.1",
 		"(?) exotic-industries >= 0.4.2",
-		"? FactorioExtended-Equipment >= 5.0301",
+		"(?) FactorioExtended-Equipment >= 5.0301",
 		"(?) Hiladdar_Gear >= 1.1.0",
 		"(?) Krastorio2 >= 1.2.25",
 		"? mech-armor >= 1.0.1",
