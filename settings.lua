@@ -1374,6 +1374,13 @@ data:extend({
         setting_type = "startup",
         default_value = true,
     },
+    --[[
+    {
+        type = "bool-setting",
+        name = "remove-qulity",
+        setting_type = "startup",
+        default_value = false,
+    },]]
     --Inventory not removed by mod
     {
         type = "int-setting",

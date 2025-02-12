@@ -1,4 +1,5 @@
 local inv_grid = require("folder-of-functions.local-functions")
+local SS = settings.startup
 
 inv_grid.SetGridSize("small-equipment-grid", "modular-armor")
 inv_grid.SetGridSize("medium-equipment-grid", "power-armor")
@@ -28,3 +29,8 @@ data:extend({
 })
 data.raw["armor"]["light-armor"].equipment_grid = "equipment-grid-light"
 data.raw["armor"]["heavy-armor"].equipment_grid = "equipment-grid-heavy"
+
+--[[
+if SS["remove-qulity"].value == false then
+end
+]]
