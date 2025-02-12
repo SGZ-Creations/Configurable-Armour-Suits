@@ -1233,7 +1233,7 @@ if mods["space-exploration"] then
 end
 --------------------------------------------------------------------------------------------------
 --DLC SA
-if mods["space-age"]then --and not mods["Power-Armour-Replacer"] then
+if mods["space-age"]and not mods["PARs-SpaceAge-Extension"] then
     data:extend({
         {
             type = "int-setting",
@@ -1299,7 +1299,7 @@ if mods["space-age"] and mods["Power-Armour-Replacer"] then
     })
 end
 --------------------------------------------------------------------------------------------------
---Mech Mod from SA 
+--Mech Mod without SA
 if mods["mech-armor"] and not mods["space-age"] then
     data:extend({
         {
