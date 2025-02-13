@@ -25,11 +25,5 @@
 		"! Early-Armor-Grid",
 		"! Moar-Grid"
 	],
-	"description": "Configurable Armours currently supports:\nBob's\nCustom_Power_Armor_fix\nexotic-industries\nFE-Equipment\nHiladdar_Gear\nK2\nNullius\nPower&Armor\nPower Armor MK3\nPower-Armour-Replacer\nRampant Aresensal\nSE",
-	"package": {
-		"ignore": [
-			"text_for_later.cpp",
-			".gitignore"
-		]
-	}
+	"description": "Configurable Armours currently supports:\nBob's\nCustom_Power_Armor_fix\nexotic-industries\nFE-Equipment\nHiladdar_Gear\nK2\nNullius\nPower&Armor\nPower Armor MK3\nPower-Armour-Replacer\nRampant Aresensal\nSE"
 }
