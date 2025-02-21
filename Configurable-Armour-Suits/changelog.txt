@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.9
+Date: 21.02.2025
+  Changes:
+    - Fixed VS code having issue with syncing 1352+ lines of code in settings.
+    - Added seprate files per mods settings.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.8
 Date: 12.02.2025
   Changes:
