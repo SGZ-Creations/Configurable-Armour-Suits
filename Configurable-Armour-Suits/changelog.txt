@@ -2,8 +2,11 @@
 Version: 1.5.9
 Date: 21.02.2025
   Changes:
-    - Fixed VS code having issue with syncing 1352+ lines of code in settings.
-    - Added seprate files per mods settings.
+    - 1.5.9-0 Fixed VS code having issue with syncing 1352+ lines of code in settings.
+    - 1.5.9-0 Added seprate files per mods settings.
+    - 1.5.9.1 Let me know should new issue accure as of this update (missing settings). If PAR NOT installed.
+  Bugfixes:
+    - (1.5.9-1) Crash on 1.5.9-0 Typo Vanila/Vanilla. On portal it's all fixed.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.8
 Date: 12.02.2025
