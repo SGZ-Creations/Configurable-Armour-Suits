@@ -5,7 +5,7 @@ Date: 04.03.2025
     - Tips & tricks.
   Changes:
     - cfg files now represent specific catergories. settings, tips&tricks, Achivements.
-    - Dependency version update PAR 0.3.17+. do not update if not both are posted yet.  
+    - Dependency version update PAR 0.3.17+. Do not update if not posted yet.  
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.9
 Date: 21.02.2025
