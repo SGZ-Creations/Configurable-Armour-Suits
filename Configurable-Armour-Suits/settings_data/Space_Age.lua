@@ -31,7 +31,7 @@ if mods["space-age"]and not mods["PARs-SpaceAge-Extension"] then
     })
 end
 
-if mods["space-age"] and mods["Power-Armour-Replacer"] then
+if mods["space-age"] and mods["Power-Armour-Replacer"] and not mods["PARs-SpaceAge-Extension"] then
     data:extend({
         {
             type = "int-setting",

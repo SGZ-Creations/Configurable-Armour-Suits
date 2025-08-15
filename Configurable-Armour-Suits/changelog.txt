@@ -1,37 +1,44 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.11
+Date: 15.08.2025
+  Changes:
+    - Mods with mech armours have extra description.
+  Features:
+    - Support for newer forked version of RampantArsenal.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.10
 Date: 04.03.2025
   Features:
     - Tips & tricks.
   Changes:
-    - cfg files now represent specific catergories. settings, tips&tricks, Achivements.
+    - CFG files now represent specific categories. settings, tips&tricks, Achievement's.
     - Dependency version update PAR 0.3.17+. Do not update if not posted yet.  
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.9
 Date: 21.02.2025
   Changes:
     - 1.5.9-0 Fixed VS code having issue with syncing 1528 lines of code in settings.
-    - 1.5.9-0 Added seprate files per mods settings.
-    - 1.5.9.1 Let me know should new issue accure as of this update (missing settings). If PAR NOT installed.
+    - 1.5.9-0 Added separate files per mods settings.
+    - 1.5.9.1 Let me know should new issue occur as of this update (missing settings). If PAR NOT installed.
   Bugfixes:
     - (1.5.9-1) Crash on 1.5.9-0 Typo Vanila/Vanilla. On portal it's all fixed.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.8
 Date: 12.02.2025
   Changes:
-    - Temporaly hidden more mods with unknown update state.
+    - Temporary hidden more mods with unknown update state.
   Bugfixes:
     - Re added Light & Heavy armour grids. Was accidently deleted.
   Info:
-    - Will look in to fix on an issue with qility still effecting armour with grids set at 0.
+    - Will look in to fix on an issue with quality still effecting armour with grids set at 0.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.7
 Date: 19.01.2025
   Changes:
-    - Temporaly hidden mods with unknown update state.
+    - Temporary hidden mods with unknown update state.
   Modding:
     - Removed missed code of IR3
-    - Removed Depricated code on Bob's. Bye Heavy armour 2-3 CAS will miss you.
+    - Removed Deprecated code on Bob's. Bye Heavy armour 2-3 CAS will miss you.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.6
 Date: 20.11.2024
@@ -58,7 +65,7 @@ Version: 1.5.3
 Date: 22.10.2024
   Changes:
     - Fixed weird localization left by @whysoma #9966.
-    - Removed IR3 Compatibilty modder left modding for good...?
+    - Removed IR3 Compatibility modder left modding for good...?
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.2
 Date: 21.10.2024
@@ -82,29 +89,29 @@ Date: 21.10.2024
 Version: 1.4.7
 Date: 02.08.2024
   Features:
-    - Added grids for ("Power Armour Mk3") light & heavy utillity vest. Giving them simularity to vailla armours.
-    - Added file simulation-crash.lua
+    - Added grids for ("Power Armour Mk3") light & heavy utility vest. Giving them similarity to vanilla armours.
+    - Added file simulation-crash.Lua
   Changes:
     - Moved code for simulation crash check to it's own file.
-    - Default grid sizes for vailla grids and utillity vest have tired based sizes. (INFO changelog)
+    - Default grid sizes for vanilla grids and utility vest have tired based sizes. (INFO changelog)
     - Made the default grid size for modular armour 9x9 to match the new scaling when using ("Power Armour Mk3") &/or ("Power Armour & Replacer")
     - Made default INV bonus setting in vanilla be 5 & 15.
     - Made default INV bonus setting in ("Power Armour Mk3") 10 & 20.
   Bugfixes:
     - Missing setting for the armour-mk3 from ("Power Armour Mk3"). (Must have been deleted by mistake). 
   Info:
-    - Tired scaling is most notible if playing with PAR mod ("Power Armour & Replacer")
+    - Tired scaling is most notable if playing with PAR mod ("Power Armour & Replacer")
 ---------------------------------------------------------------------------------------------------
 Version: 1.4.6
 Date: 01.08.2024
   Changes:
-    - Corrected settings INV info. Inventory warning to specify inventory and not equipments grid.
+    - Corrected settings INV info. Inventory warning to specify inventory and not equipment grid.
     - Added code to remove the vanilla Power Armour setting when there are no point in changing them.
 ---------------------------------------------------------------------------------------------------
 Version: 1.4.5
 Date: 09.07.2024
   Changes:
-    - Clened control file.
+    - Cleaned control file.
     - Added control-achievement, control-debug.
   Webpage:
     - Added explanation to a visual bug that can happen when playing with both SE K2 (on website INFO tab).
@@ -112,7 +119,7 @@ Date: 09.07.2024
 Version: 1.4.4
 Date: 19.05.2024
   Locale:
-    - Missing Norwegain. suimulation section.
+    - Missing Norwegian. simulation section.
   Changes:
     - (Optional) Requires PAR version 0.2.10+
 ---------------------------------------------------------------------------------------------------
@@ -120,7 +127,7 @@ Version: 1.4.3
 Date: 13.01.2024
   Changes:
     - (Optional) Requires PAR version 0.2.4+
-    - Achivement texture. 
+    - Achievement texture. 
   Bugfixes:
     - Crash with PA&R.
 ---------------------------------------------------------------------------------------------------
@@ -143,13 +150,13 @@ Date: 08.11.2023
     - Changelog.
   Features:
     - Added settings to Hiladder.
-    - Added settings to Exotic Industires.
+    - Added settings to Exotic Industries.
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.1
 Date: 26.10.2023
   Changes:
     - Changelog.
-    - SE Space suit 2 & 3 max setting increaesed to allow for a 30 tile increase all the way to 4 so current valaues are 30, 60, 90, 500.
+    - SE Space suit 2 & 3 max setting increased to allow for a 30 tile increase all the way to 4 so current values are 30, 60, 90, 500.
   Scripting:
     - Updated comment in mod-files/space-exploration-Krastorio2.
   Bugfixes:
@@ -163,7 +170,7 @@ Date: 03.09.2023
   Changes:
     - File structure rework.
     - Version required for PA&R mod 0.1.39 --> 0.1.47.
-    - PA&R grid corection.
+    - PA&R grid correction.
   Scripting:
     - Added bobwarfare file.
     - Added coding-files
@@ -185,7 +192,7 @@ Date: 03.09.2023
 Version: 1.2.5
 Date: 16.08.2023
   Changes:
-    - Utillity vest from Power Armour MK3 should show regardless of PA&R.
+    - Utility vest from Power Armour MK3 should show regardless of PA&R.
   Scripting:
     - Attempt to make Icons show on space suit regarding SE-K2-CAS.
   Info:
@@ -212,23 +219,23 @@ Date: 13.08.2023
 Version: 1.2.2
 Date: 08.08.2023
   Changes:
-    - Added Function to hide the mod setting if P.A.&.R is enabeld.
+    - Added Function to hide the mod setting if P.A.&.R is enabled.
   Bugfixes:
-    - While at it made sure to not crash if settings didn't exsist.
-  Discord-Releases:
-    - Beta untill PA&R has been done with the few Changes Fetures.  
+    - While at it made sure to not crash if settings didn't exists.
+  Discord-Release:
+    - Beta until PA&R has been done with the few Changes Features.  
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.1
 Date: 16.07.2023
   Changes:
     - Mod version required IR3, PA&R,
   Bugfixes:
-    - Rare ocation crash if loading incompatibilities with this mod and PA&R.
+    - Rare occasions crash if loading incompatibilities with this mod and PA&R.
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.0
 Date: 14.07.2023
   Features:
-    - Light and Heavy armour recived grids. & settings for those grids.
+    - Light and Heavy armour received grids. & settings for those grids.
   Changes:
     - Settings values Modular armour.
     - Settings values IR3.
@@ -265,8 +272,8 @@ Date: 13.02.2023
   Changes:
     - EN locales tool tip.
     - NO locals tool tip.
-  Discord-Releases:
-    - Want news about: mods, stream's, yt-videos? Head to: https://discord.gg/tbxnpsxkDM.
+  Discord-Release:
+    - Want news about: mods, stream's, YT-videos? Head to: https://discord.gg/tbxnpsxkDM.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.4
 Date: 15.01.2023
@@ -277,20 +284,20 @@ Date: 15.01.2023
     - Crash when attempting to remove item/armour, tech, recipe (Wanting to run Migration).
   Info:
     - More about Power Armour Replacer mod. Can be found in it's changelog. found at my Discord.
-    - RU translation folder deleted. Reason depricated. New can be added.
+    - RU translation folder deleted. Reason deprecated. New can be added.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.3
 Date: 07.01.2023
   Changes:
-    - Added new Optional mod to the list. Without depedency loop.
+    - Added new Optional mod to the list. Without dependency loop.
     - Universefied all mod default INV bonuses.
   Locale:
-    - Removed the Mod Deafault in tooltip locales. Click the setting reset should u want the default.
+    - Removed the Mod Default in tooltip locales. Click the setting reset should u want the default.
   Info:
     - Have u read my section about supported mods this isn't new.
     - All armour tiers should now have the same INV size bonus as others MK2=100, MK3=150...
-    - This also means new deafault values have been made. may effect current but shouldn't
-    - So downloading the mod for the first time will make inventory Huge/Enormus. Example MK5=250 MK10=500.
+    - This also means new default values have been made. may effect current but shouldn't
+    - So downloading the mod for the first time will make inventory Huge/Enormous. Example MK5=250 MK10=500.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.2
 Date: 27.12.2022
@@ -312,13 +319,13 @@ Date: 27.12.2022
     - Internal name for MK10-Armour mod. --> Power-Armour-Replacer.
     - Typo in NO Translation :p
   Scripting:
-    - Added to settings.lua ("--invetory" Vs Nothing)
+    - Added to settings.Lua ("--inventory" Vs Nothing)
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 15.10.2022
   Features:
     - Support for MK10-Armour is good to go. (tool tip for settings comes later) (Current name PA&R)
-    - Item icons will now show armour icon on the settings menue.
+    - Item icons will now show armour icon on the settings menu.
   Bugfixes:
     - Changelog.
     - Typos in locales.
@@ -326,17 +333,17 @@ Date: 15.10.2022
 Version: 0.2.7
 Date: 13.10.2022
   Features:
-    - Comptibility with IR2-Armour.
+    - Compatibility with IR2-Armour.
     - Added setting for IR2-Armour's grids.
   Modding:
     - IR2. U can now configure grid size for Light & Heavy armour if mod is present. Since IR2 mod adds grids to them.
   Changes:
-    - Locals Cleanup EN.
-    - Removed RU locals as for updates if u want to help use my github.
+    - Locals Cleaned-up EN.
+    - Removed RU locals as for updates if u want to help use my GitHub.
   Scripting:
-    - Internal cleanup in data-final-fixes.
-    - Added data.lua to be read.
-    - Info.json verified verion 0.2.7.
+    - Internal clean-up in data-final-fixes.
+    - Added data.Lua to be read.
+    - Info.JSON verified version 0.2.7.
     - Traces of upcoming mod MK10-Armour is added. Mod is not released yet. (Current name PA&R)
   Bugfixes:
     - Attempted fix for known simulations issue.
@@ -347,7 +354,7 @@ Date: 06.06.2022
     - Setting order for Power Armour MK3. the entire order was not made properly.
     - Setting order for Rampant Arsenal.
   Scripting:
-    - Info.json version 0.2.6 Done this to verify my changed version.
+    - Info.JSON version 0.2.6 Done this to verify my changed version.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.5
 Date: 06.06.2022
@@ -385,7 +392,7 @@ Date: 02.06.2022
     - Sleepless spelling mistakes.
     - Wrong description limit for SE's Space suit 4. Was showing 400 setting limits to 500. In EN translation only.
   Changes:
-    - Bob's Heavy Armor 3 Inv Size incresed limit from 500 to 600.
+    - Bob's Heavy Armor 3 Inv Size increased limit from 500 to 600.
     - Inv Sizes for: (Custom Power Armour Reborn) have been updated defaults to be Mk3:40,Mk4:50,Mk5:60.
     - The setting names for Inv Sizes.
   Info:
@@ -394,7 +401,7 @@ Date: 02.06.2022
 Version: 0.2.1
 Date: 01.06.2022
   Bugfixes:
-    - Homepage Url.
+    - Homepage URL.
   Thanks:
     - @jasper for spotting the bug (Discord).
 ---------------------------------------------------------------------------------------------------
@@ -433,7 +440,7 @@ Date: 15.05.2022
     - Reverted the way K2 changes the grid sizes for SE if both mods are played together.
     - Fixed NO localisations in general.
     - Fixed NO localisations for "bob-power-armor-mk4-grid-size-w".
-  Discord-Realese:
+  Discord-Release:
     - Cancelled beta testing.
   Thanks:
     - @Tomatoking for the thumbnail.png (Discord).
@@ -445,15 +452,15 @@ Date: 11.05.2022
     - Complete NO and EN Translation.
   Changes:
     - Disabled compatibility code for (Custom Power Armour Fix/(Custom Power Armour Reborn)) until i figure out why it won't load. 
-  Discord-Realese:
+  Discord-Release:
     - New Testing for 0.0.3 will come. Want to be one of them join my discord to get a chance.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
 Date: xx.04.2022
   Features:
     - Added settings to choose the suitable size of equipment grid of own choice.
-    - The mods defaults are higer than the other mod u install. Can be found at ("startup-setting"/startup settings) if u have the optional mod present.
+    - The mods defaults are higher than the other mod u install. Can be found at ("startup-setting"/startup settings) if u have the optional mod present.
     - Added Norwegian translation. vanilla only. Rest still WIP.
     - Compatibility: Bob's, Power Armour mk3, RampantArsenal, Krastorio2, Space Exploration,
-  Discord-Realese:
+  Discord-Release:
     - Closed beta testing done.

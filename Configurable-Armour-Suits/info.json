@@ -1,6 +1,6 @@
 {
 	"name": "Configurable-Armour-Suits",
-	"version": "1.5.10",
+	"version": "1.5.11",
 	"title": "Configurable Armour & Suits",
 	"factorio_version": "2.0",
 	"author": "SGZ_Creations",
@@ -20,6 +20,7 @@
 		"? Power-Armour-Replacer >= 0.3.17",
 		"? PARs-SpaceAge-Extension >= 0.0.1",
 		"(?) RampantArsenal >= 1.1.5",
+		"(?) RampantArsenalFork >=1.0.3",
 		"? space-age >= 2.0.8",
 		"(?) space-exploration >= 0.5.115",
 		"! Early-Armor-Grid",
