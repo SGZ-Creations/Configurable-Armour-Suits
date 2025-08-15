@@ -2,7 +2,7 @@
 Version: 1.5.11
 Date: 15.08.2025
   Changes:
-    - Mods with mech armours have extra description.
+    - Mods with mech armours have extra tooltip description.
   Features:
     - Support for newer forked version of RampantArsenal.
 ---------------------------------------------------------------------------------------------------
