@@ -32,68 +32,72 @@ if (mods["RampantArsenal"] or mods["RampantArsenalFork"]) and not mods["Power-Ar
     })
 end
 
-if mods["space-age"] and mods["RampantArsenalFork"] and mods["Power-Armour-Replacer"] and not mods["PARs-SpaceAge-Extension"] then
-    data:extend({
-        {
-            type = "int-setting",
-            name = "MechArmourRA-grid-size-h",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 750,
-            default_value = 75,
-            order = "1Zac"
-        },
-        {
-            type = "int-setting",
-            name = "MechArmourRA-grid-size-w",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 750,
-            default_value = 75,
-            order = "1Zad"
-        },
-        -- Inventory
-        {
-            type = "int-setting",
-            name = "cas-ra-combat-mech-armor-rampant-arsenal-inv-size",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 4000,
-            default_value = 400,
-            order = "2Zab"
-        },
-    })
+if mods["RampantArsenalFork"] and not mods["Power-Armour-Replacer"] and not mods["PARs-SpaceAge-Extension"] then
+    if (mods["space-age"] or mods["mech-armor"]) then
+        data:extend({
+            {
+                type = "int-setting",
+                name = "MechArmourRA-grid-size-h",
+                setting_type = "startup",
+                minimum_value = 0,
+                maximum_value = 75,
+                default_value = 45,
+                order = "1Zac"
+            },
+            {
+                type = "int-setting",
+                name = "MechArmourRA-grid-size-w",
+                setting_type = "startup",
+                minimum_value = 0,
+                maximum_value = 75,
+                default_value = 45,
+                order = "1Zad"
+            },
+            -- Inventory
+            {
+                type = "int-setting",
+                name = "cas-ra-combat-mech-armor-rampant-arsenal-inv-size",
+                setting_type = "startup",
+                minimum_value = 0,
+                maximum_value = 1750,
+                default_value = 175,
+                order = "2Zab"
+            },
+        })
+    end
 end
 
-if mods["space-age"] and mods["RampantArsenalFork"] and not mods["Power-Armour-Replacer"] and not mods["PARs-SpaceAge-Extension"] then
-    data:extend({
-        {
-            type = "int-setting",
-            name = "MechArmourRA-grid-size-h",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 75,
-            default_value = 45,
-            order = "1Zac"
-        },
-        {
-            type = "int-setting",
-            name = "MechArmourRA-grid-size-w",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 75,
-            default_value = 45,
-            order = "1Zad"
-        },
-        -- Inventory
-        {
-            type = "int-setting",
-            name = "cas-ra-combat-mech-armor-rampant-arsenal-inv-size",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 1750,
-            default_value = 175,
-            order = "2Zab"
-        },
-    })
+if mods["RampantArsenalFork"] and mods["Power-Armour-Replacer"] and not mods["PARs-SpaceAge-Extension"] then
+    if (mods["space-age"] or mods["mech-armor"]) then
+        data:extend({
+            {
+                type = "int-setting",
+                name = "MechArmourRA-grid-size-h",
+                setting_type = "startup",
+                minimum_value = 0,
+                maximum_value = 750,
+                default_value = 75,
+                order = "1Zac"
+            },
+            {
+                type = "int-setting",
+                name = "MechArmourRA-grid-size-w",
+                setting_type = "startup",
+                minimum_value = 0,
+                maximum_value = 750,
+                default_value = 75,
+                order = "1Zad"
+            },
+            -- Inventory
+            {
+                type = "int-setting",
+                name = "cas-ra-combat-mech-armor-rampant-arsenal-inv-size",
+                setting_type = "startup",
+                minimum_value = 0,
+                maximum_value = 4000,
+                default_value = 400,
+                order = "2Zab"
+            },
+        })
+    end
 end

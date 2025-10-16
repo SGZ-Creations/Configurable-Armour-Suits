@@ -1,6 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.13
+Date: 16.10.25
+  Bugfixes:
+    - Fixed RampantArsenalFixed Mech armour Mod check conditions with Mech Armour & PA&R  mod.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.12
-Date: 30.08.25
+Date: 15.10.25
   Bugfixes:
     - PA&R's New texture Structure change.
     - (Optional) Require PAR 0.3.23 (Beta version Only on Discord) until PA&R 0.4.0
