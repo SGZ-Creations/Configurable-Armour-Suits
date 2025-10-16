@@ -2,7 +2,7 @@
 Version: 1.5.13
 Date: 16.10.25
   Bugfixes:
-    - Fixed RampantArsenalFixed Mech armour Mod check conditions with Mech Armour & PA&R  mod.
+    - Fixed RampantArsenalFixed Mech armour Mod check conditions with Mech Armour & PA&R mod.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.12
 Date: 15.10.25
