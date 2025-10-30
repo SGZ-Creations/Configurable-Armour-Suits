@@ -8,7 +8,7 @@ if (mods["space-age"] or mods["mech-armor"]) then
                 minimum_value = 0,
                 maximum_value = 60,
                 default_value = 30,
-                order = "1Aal"
+                order = "1Abl"
             },
             {
                 type = "int-setting",
@@ -17,7 +17,7 @@ if (mods["space-age"] or mods["mech-armor"]) then
                 minimum_value = 0,
                 maximum_value = 60,
                 default_value = 30,
-                order = "1Aam"
+                order = "1Abm"
             },
             --Inventory
             {
@@ -27,7 +27,7 @@ if (mods["space-age"] or mods["mech-armor"]) then
                 minimum_value = 0,
                 maximum_value = 1500,
                 default_value = 150,
-                order = "2Aaf"
+                order = "2Abf"
             },
         })
     end
@@ -40,7 +40,7 @@ if (mods["space-age"] or mods["mech-armor"]) then
                 minimum_value = 0,
                 maximum_value = 600,
                 default_value = 60,
-                order = "1Aal"
+                order = "1Abl"
             },
             {
                 type = "int-setting",
@@ -49,7 +49,7 @@ if (mods["space-age"] or mods["mech-armor"]) then
                 minimum_value = 0,
                 maximum_value = 600,
                 default_value = 60,
-                order = "1Aam"
+                order = "1Abm"
             },
             --Inventory
             {
@@ -59,7 +59,7 @@ if (mods["space-age"] or mods["mech-armor"]) then
                 minimum_value = 0,
                 maximum_value = 3000,
                 default_value = 300,
-                order = "2Aaf"
+                order = "2Abf"
             },
         })
     end
