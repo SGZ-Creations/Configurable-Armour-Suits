@@ -1,7 +1,13 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.14
-Date: ????
+Date: 29.10.25
+  Features:
+    - Made Settings for Metal & stars Prototype mech armour.
   Changes:
+    - Removed old mech armour file. merged with [space-age]
+    - Other code cleaning reduced the amount of similar "if" checks.
+  Bugfixes:
+    - Fixed RampantArsenalFixed Mech armour setting not applying.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.13
 Date: 16.10.25
