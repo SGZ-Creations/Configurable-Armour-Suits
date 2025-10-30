@@ -3,7 +3,7 @@ if mods["metal-and-stars"] then
         data:extend({
             {
                 type = "int-setting",
-                name = "MetalStarsMechSuit-grid-size-h",
+                name = "MSMS-grid-h",
                 setting_type = "startup",
                 minimum_value = 0,
                 maximum_value = 35,
@@ -12,7 +12,7 @@ if mods["metal-and-stars"] then
             },
             {
                 type = "int-setting",
-                name = "MetalStarsMechSuit-grid-size-w",
+                name = "MSMS-grid-w",
                 setting_type = "startup",
                 minimum_value = 0,
                 maximum_value = 35,
@@ -35,7 +35,7 @@ if mods["metal-and-stars"] then
         data:extend({
             {
                 type = "int-setting",
-                name = "MetalStarsMechSuit-grid-size-h",
+                name = "MSMS-grid-h",
                 setting_type = "startup",
                 minimum_value = 0,
                 maximum_value = 350,
@@ -44,7 +44,7 @@ if mods["metal-and-stars"] then
             },
             {
                 type = "int-setting",
-                name = "MetalStarsMechSuit-grid-size-w",
+                name = "MSMS-grid-w",
                 setting_type = "startup",
                 minimum_value = 0,
                 maximum_value = 350,
