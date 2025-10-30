@@ -1,68 +1,7 @@
-if mods["Power Armor MK3"] and not mods["Power-Armour-Replacer"] then
-    data:extend({
-        -- Armour MK3
-        {
-            type = "int-setting",
-            name = "pamk3-pmak3-grid-size-h",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 40,
-            default_value = 30,
-            order = "1Eae"
-        },
-        {
-            type = "int-setting",
-            name = "pamk3-pmak3-grid-size-w",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 40,
-            default_value = 30,
-            order = "1Eaf"
-        },
-        -- Armour MK4
-        {
-            type = "int-setting",
-            name = "pamk3-pmak4-grid-size-h",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 50,
-            default_value = 40,
-            order = "1Eag"
-        },
-        {
-            type = "int-setting",
-            name = "pamk3-pmak4-grid-size-w",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 50,
-            default_value = 40,
-            order = "1Eah"
-        },
-        --Inventory
-        {
-            type = "int-setting",
-            name = "cas-pamk3-pamk3-inv-size",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 1500,
-            default_value = 150,
-            order = "2Eac"
-        },
-        {
-            type = "int-setting",
-            name = "cas-pamk3-pamk4-inv-size",
-            setting_type = "startup",
-            minimum_value = 0,
-            maximum_value = 2000,
-            default_value = 200,
-            order = "2Ead"
-        },
-    })
-end
---Make sure that Utillity vest is left to be modified regardless of PA&R 
 if mods["Power Armor MK3"] then
+--Make sure that Utillity vest is left to be modified regardless of PA&R 
     data:extend({
-        --Light Utillity grid
+        --Light Utility grid
         {
             type = "int-setting",
             name = "util-vlight-grid-h",
@@ -81,7 +20,7 @@ if mods["Power Armor MK3"] then
             default_value = 6,
             order = "1Eab"
         },
-        --Heavy Utillity grid
+        --Heavy Utility grid
         {
             type = "int-setting",
             name = "util-vheavy-grid-h",
@@ -120,4 +59,65 @@ if mods["Power Armor MK3"] then
             order = "2Eab"
         },
     })
+    if not mods["Power-Armour-Replacer"] then
+        data:extend({
+            -- Armour MK3
+            {
+                type = "int-setting",
+                name = "pamk3-pmak3-grid-size-h",
+                setting_type = "startup",
+                minimum_value = 0,
+                maximum_value = 40,
+                default_value = 30,
+                order = "1Eae"
+            },
+            {
+                type = "int-setting",
+                name = "pamk3-pmak3-grid-size-w",
+                setting_type = "startup",
+                minimum_value = 0,
+                maximum_value = 40,
+                default_value = 30,
+                order = "1Eaf"
+            },
+            -- Armour MK4
+            {
+                type = "int-setting",
+                name = "pamk3-pmak4-grid-size-h",
+                setting_type = "startup",
+                minimum_value = 0,
+                maximum_value = 50,
+                default_value = 40,
+                order = "1Eag"
+            },
+            {
+                type = "int-setting",
+                name = "pamk3-pmak4-grid-size-w",
+                setting_type = "startup",
+                minimum_value = 0,
+                maximum_value = 50,
+                default_value = 40,
+                order = "1Eah"
+            },
+            --Inventory
+            {
+                type = "int-setting",
+                name = "cas-pamk3-pamk3-inv-size",
+                setting_type = "startup",
+                minimum_value = 0,
+                maximum_value = 1500,
+                default_value = 150,
+                order = "2Eac"
+            },
+            {
+                type = "int-setting",
+                name = "cas-pamk3-pamk4-inv-size",
+                setting_type = "startup",
+                minimum_value = 0,
+                maximum_value = 2000,
+                default_value = 200,
+                order = "2Ead"
+            },
+        })
+    end
 end

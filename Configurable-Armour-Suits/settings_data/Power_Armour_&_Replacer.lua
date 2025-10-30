@@ -1,16 +1,15 @@
-if mods["Power-Armour-Replacer"] and not (mods["space-age"] or mods["space-exploration"]) then
-    data:extend({
-        {
-            type = "bool-setting",
-            name = "hard_science_required",
-            setting_type = "startup",
-            default_value = false,
-            order = "3Baa"
-        },
-    })
-end
-
 if mods["Power-Armour-Replacer"] then
+    if not (mods["space-age"] or mods["space-exploration"]) then
+        data:extend({
+            {
+                type = "bool-setting",
+                name = "hard_science_required",
+                setting_type = "startup",
+                default_value = false,
+                order = "3Baa"
+            },
+        })
+    end
     data:extend({
         {
             type = "int-setting",
