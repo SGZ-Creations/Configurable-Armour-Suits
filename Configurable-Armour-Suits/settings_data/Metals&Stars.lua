@@ -25,8 +25,8 @@ if mods["metal-and-stars"] then
                 name = "Cas-MSMS-prototype-mech-armor-inv-size",
                 setting_type = "startup",
                 minimum_value = 0,
-                maximum_value = 1250,
-                default_value = 125,
+                maximum_value = 750,
+                default_value = 75,
                 order = "2Aaf"
             },
         })
@@ -57,8 +57,8 @@ if mods["metal-and-stars"] then
                 name = "Cas-MSMS-prototype-mech-armor-inv-size",
                 setting_type = "startup",
                 minimum_value = 0,
-                maximum_value = 2000,
-                default_value = 200,
+                maximum_value = 1500,
+                default_value = 150,
                 order = "2Aaf"
             },
         })
