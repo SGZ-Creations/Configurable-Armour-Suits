@@ -16,7 +16,7 @@ if mods["space-exploration"] then
 	inv_grid.SetInvSize("se-thruster-suit-4", "cas-")
 end
 
-if mods["Krastorio2"] then
+if mods["Krastorio2"] and not mods["Power-Armour-Replacer"]then
 	inv_grid.SetInvSize("kr-power-armor-mk3", "cas-k2-")
 	inv_grid.SetInvSize("kr-power-armor-mk4", "cas-k2-")
 
