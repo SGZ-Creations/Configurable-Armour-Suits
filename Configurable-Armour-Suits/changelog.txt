@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.15
+Date: 5.11.25
+  Bugfixes:
+    - Crash with K2.
+    - Broken settings with K2.
+  Changes:
+    - Re Wrote all code for K2 armour grid systems.
+    - De-thatched SE from K2 Code.
+    - PA&R version 0.4
+  Thanks:
+    - @tlyddll(Lost) to help find file not loading.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.14
 Date: 30.10.25
   Features:

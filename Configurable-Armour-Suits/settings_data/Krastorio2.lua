@@ -2,7 +2,7 @@ if mods["Krastorio2"] and not mods["Power-Armour-Replacer"] then
     data:extend({
         {
             type = "int-setting",
-            name = "mk3-armor-grid-size-h",
+            name = "KR2-grid3-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 60,
@@ -11,7 +11,7 @@ if mods["Krastorio2"] and not mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "mk3-armor-grid-size-w",
+            name = "KR2-grid3-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 60,
@@ -20,7 +20,7 @@ if mods["Krastorio2"] and not mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "mk4-armor-grid-size-h",
+            name = "KR2-grid4-h",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 400,
@@ -29,7 +29,7 @@ if mods["Krastorio2"] and not mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "mk4-armor-grid-size-w",
+            name = "KR2-grid4-w",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 400,
@@ -39,7 +39,7 @@ if mods["Krastorio2"] and not mods["Power-Armour-Replacer"] then
         -- Inventory
         {
             type = "int-setting",
-            name = "cas-k2-power-armor-mk3-inv-size",
+            name = "cas-k2-kr-power-armor-mk3-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 1500,
@@ -48,7 +48,7 @@ if mods["Krastorio2"] and not mods["Power-Armour-Replacer"] then
         },
         {
             type = "int-setting",
-            name = "cas-k2-power-armor-mk4-inv-size",
+            name = "cas-k2-kr-power-armor-mk4-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 2000,
