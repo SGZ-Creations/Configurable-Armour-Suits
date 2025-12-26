@@ -5,6 +5,8 @@ Date: 26.12.25
     - Crash with PAR Scenario's with Tanks.
   Info:
     - Version dependency With PA&R.
+  Thanks:
+    - @SuperHeroPuppy for giving me ... for the solution to the Main menu scenario crashing with PA&R.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.15
 Date: 5.11.25
