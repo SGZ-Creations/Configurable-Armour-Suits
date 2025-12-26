@@ -1,5 +1,7 @@
 local inv_grid = require("folder-of-functions.local-functions")
 local SS = settings.startup
+---@class CarPrototype
+local Car = data.raw["car"]
 
 inv_grid.SetGridSize("small-equipment-grid", "modular-armor")
 inv_grid.SetGridSize("medium-equipment-grid", "power-armor")
@@ -29,6 +31,21 @@ data:extend({
 })
 data.raw["armor"]["light-armor"].equipment_grid = "equipment-grid-light"
 data.raw["armor"]["heavy-armor"].equipment_grid = "equipment-grid-heavy"
+
+
+--Fixes P.A.&.R's Scenario crashing. & rewards player with 2 more rows.
+--Sorry this mod is not meant for Changing the Car Prototypes.
+Car["tank"].equipment_grid = nil
+data:extend({
+	{
+		type = "equipment-grid",
+		name = "TANK-grid",
+		height = 8,
+		width = 8,
+		equipment_categories = {"armor"}
+	},
+})
+Car["tank"].equipment_grid = "TANK-grid"
 
 --[[
 if SS["remove-qulity"].value == false then
