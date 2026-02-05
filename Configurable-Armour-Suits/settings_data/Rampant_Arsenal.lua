@@ -9,7 +9,7 @@ if (mods["RampantArsenal"] or mods["RampantArsenalFork"]) then
                 minimum_value = 0,
                 maximum_value = 60,
                 default_value = 30,
-                order = "1Zaa"
+                order = "1Gca"
             },
             {
                 type = "int-setting",
@@ -18,7 +18,7 @@ if (mods["RampantArsenal"] or mods["RampantArsenalFork"]) then
                 minimum_value = 0,
                 maximum_value = 60,
                 default_value = 30,
-                order = "1Zab"
+                order = "1Gcb"
             },
             -- Inventory
             {
@@ -28,7 +28,7 @@ if (mods["RampantArsenal"] or mods["RampantArsenalFork"]) then
                 minimum_value = 0,
                 maximum_value = 1500,
                 default_value = 150,
-                order = "2Zaa"
+                order = "2Gca"
             },
         })
     end
@@ -45,7 +45,7 @@ if mods["RampantArsenalFork"] then
                     minimum_value = 0,
                     maximum_value = 75,
                     default_value = 45,
-                    order = "1Zac"
+                    order = "1Gca"
                 },
                 {
                     type = "int-setting",
@@ -54,7 +54,7 @@ if mods["RampantArsenalFork"] then
                     minimum_value = 0,
                     maximum_value = 75,
                     default_value = 45,
-                    order = "1Zad"
+                    order = "1Gvb"
                 },
                 -- Inventory
                 {
@@ -64,7 +64,7 @@ if mods["RampantArsenalFork"] then
                     minimum_value = 0,
                     maximum_value = 1750,
                     default_value = 175,
-                    order = "2Zab"
+                    order = "2Gca"
                 },
             })
         end
@@ -79,7 +79,7 @@ if mods["RampantArsenalFork"] then
                     minimum_value = 0,
                     maximum_value = 750,
                     default_value = 75,
-                    order = "1Zac"
+                    order = "1Gca"
                 },
                 {
                     type = "int-setting",
@@ -88,7 +88,7 @@ if mods["RampantArsenalFork"] then
                     minimum_value = 0,
                     maximum_value = 750,
                     default_value = 75,
-                    order = "1Zad"
+                    order = "1Gcb"
                 },
                 -- Inventory
                 {
@@ -98,7 +98,7 @@ if mods["RampantArsenalFork"] then
                     minimum_value = 0,
                     maximum_value = 4000,
                     default_value = 400,
-                    order = "2Zab"
+                    order = "2Gca"
                 },
             })
         end

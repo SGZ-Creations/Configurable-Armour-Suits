@@ -8,7 +8,7 @@ if mods["metal-and-stars"] then
                 minimum_value = 0,
                 maximum_value = 35,
                 default_value = 15,
-                order = "1Aal"
+                order = "1Gaa"
             },
             {
                 type = "int-setting",
@@ -17,7 +17,7 @@ if mods["metal-and-stars"] then
                 minimum_value = 0,
                 maximum_value = 35,
                 default_value = 15,
-                order = "1Aam"
+                order = "1Gab"
             },
             --Inventory
             {
@@ -27,7 +27,7 @@ if mods["metal-and-stars"] then
                 minimum_value = 0,
                 maximum_value = 750,
                 default_value = 75,
-                order = "2Aaf"
+                order = "2Gaa"
             },
         })
     end
@@ -40,7 +40,7 @@ if mods["metal-and-stars"] then
                 minimum_value = 0,
                 maximum_value = 350,
                 default_value = 35,
-                order = "1Aal"
+                order = "1Gaa"
             },
             {
                 type = "int-setting",
@@ -49,7 +49,7 @@ if mods["metal-and-stars"] then
                 minimum_value = 0,
                 maximum_value = 350,
                 default_value = 35,
-                order = "1Aam"
+                order = "1Gab"
             },
             --Inventory
             {
@@ -59,7 +59,7 @@ if mods["metal-and-stars"] then
                 minimum_value = 0,
                 maximum_value = 1500,
                 default_value = 150,
-                order = "2Aaf"
+                order = "2Gaa"
             },
         })
     end
