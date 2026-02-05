@@ -12,7 +12,7 @@ Date: 5.2.26
     - TinyStart2 disabled on portal version.
     - Will be enabled again when TinyStart2 has made Cas compatibility patch on there side. if at all :(
   Thanks:
-    - @dragonfireex for giving suggestion. TinyStart2 compatibility patch. 
+    - @dragonfireex for giving suggestion. TinyStart2 compatibility patch.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.16
 Date: 26.12.25
