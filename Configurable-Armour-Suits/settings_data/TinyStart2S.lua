@@ -1,11 +1,11 @@
-if mods["inyStart-2"]then
+if mods["TinyStart-2"]then
     data:extend({
         {
             type = "int-setting",
             name = "Tiny-0-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 5,
+            maximum_value = 100,
             default_value = 5,
             order = "1Taa"
         },
@@ -14,7 +14,7 @@ if mods["inyStart-2"]then
             name = "Tiny-0-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 6,
+            maximum_value = 100,
             default_value = 6,
             order = "1Tab"
         },
@@ -23,7 +23,7 @@ if mods["inyStart-2"]then
             name = "Tiny-1-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 5,
+            maximum_value = 100,
             default_value = 5,
             order = "1Tac"
         },
@@ -32,7 +32,7 @@ if mods["inyStart-2"]then
             name = "Tiny-1-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 6,
+            maximum_value = 100,
             default_value = 6,
             order = "1Tad"
         },
@@ -41,23 +41,23 @@ if mods["inyStart-2"]then
             name = "Tiny-2-grid-size-h",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 5,
+            maximum_value = 100,
             default_value = 5,
-            order = "1Tac"
+            order = "1Tae"
         },
         {
             type = "int-setting",
             name = "Tiny-2-grid-size-w",
             setting_type = "startup",
             minimum_value = 0,
-            maximum_value = 6,
+            maximum_value = 100,
             default_value = 6,
-            order = "1Tad"
+            order = "1Taf"
         },
         -- Inventory
         {
             type = "int-setting",
-            name = "cas-PaA-power-armor-mk3-inv-size",
+            name = "Cas-Tiny0-tiny-armor-mk0-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 100,
@@ -66,7 +66,7 @@ if mods["inyStart-2"]then
         },
         {
             type = "int-setting",
-            name = "cas-PaA-power-armor-mk4-inv-size",
+            name = "Cas-Tiny1-tiny-armor-mk1-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 200,
@@ -75,7 +75,7 @@ if mods["inyStart-2"]then
         },
         {
             type = "int-setting",
-            name = "cas-PaA-power-armor-mk4-inv-size",
+            name = "Cas-Tiny2-tiny-armor-mk2-inv-size",
             setting_type = "startup",
             minimum_value = 0,
             maximum_value = 300,
@@ -83,4 +83,6 @@ if mods["inyStart-2"]then
             order = "2Tab"
         },
     })
+    --log("MainSettings-Dependency")
 end
+--log("MainSettings")

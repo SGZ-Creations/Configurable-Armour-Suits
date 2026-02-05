@@ -13,4 +13,6 @@ if mods["TinyStart-2"] then
 	inv_grid.SetInvSize("tiny-armor-mk0", "Cas-Tiny0-")
 	inv_grid.SetInvSize("tiny-armor-mk1", "Cas-Tiny1-")
 	inv_grid.SetInvSize("tiny-armor-mk2", "Cas-Tiny2-")
+	--log("MainCode-Dependency")
 end
+--log("MainCode")
