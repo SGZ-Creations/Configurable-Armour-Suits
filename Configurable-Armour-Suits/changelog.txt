@@ -10,7 +10,7 @@ Date: 5.2.26
   Info:
     - TinyStart2 compatibility patch. Only available on discord.
     - TinyStart2 disabled on portal version.
-    - Will be enabled again when TinyStart2 has made Cas compatibility patch on there side.
+    - Will be enabled again when TinyStart2 has made Cas compatibility patch on there side. if at all :(
   Thanks:
     - @dragonfireex for giving suggestion. TinyStart2 compatibility patch. 
 ---------------------------------------------------------------------------------------------------
