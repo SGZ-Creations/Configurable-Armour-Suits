@@ -40,5 +40,4 @@ if mods["Krastorio2"] and not mods["Power-Armour-Replacer"]then
 	})
 	Armour["kr-power-armor-mk3"].equipment_grid = "KR2-grid3"
 	Armour["kr-power-armor-mk4"].equipment_grid = "KR2-grid4"
-	
 end
