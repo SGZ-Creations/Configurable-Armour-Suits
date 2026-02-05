@@ -3,6 +3,12 @@ Version: 1.5.17
 Date: 5.2.26
   Features:
     - Added support for TinyStart2.
+  Bugfixes:
+    - Full Locals Fix for EN. had added the warning to the wrong setting across the the mods.
+  Info:
+    - TinyStart2 compatibility patch. Only available on discord.
+  Thanks:
+    - @dragonfireex for giving suggestion. TinyStart2 compatibility patch. 
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.16
 Date: 26.12.25
