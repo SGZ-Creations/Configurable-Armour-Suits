@@ -1,7 +1,10 @@
 local inv_grid = require("folder-of-functions.local-functions")
+---@class LuaSettings
 local SS = settings.startup
 ---@class CarPrototype
 local Car = data.raw["car"]
+---@class ArmorPrototype
+local Armour = data.raw["armor"]
 
 inv_grid.SetGridSize("small-equipment-grid", "modular-armor")
 inv_grid.SetGridSize("medium-equipment-grid", "power-armor")
@@ -17,20 +20,20 @@ data:extend({
 	{
 		type = "equipment-grid",
 		name = "equipment-grid-light",
-		height = settings.startup["light-grid-h"].value,
-		width = settings.startup["light-grid-w"].value,
+		height = SS["light-grid-h"].value,
+		width = SS["light-grid-w"].value,
 		equipment_categories = {"armor"}
 	},
 	{
 		type = "equipment-grid",
 		name = "equipment-grid-heavy",
-		height = settings.startup["heavy-grid-h"].value,
-		width = settings.startup["heavy-grid-w"].value,
+		height = SS["heavy-grid-h"].value,
+		width = SS["heavy-grid-w"].value,
 		equipment_categories = {"armor"}
 	},
 })
-data.raw["armor"]["light-armor"].equipment_grid = "equipment-grid-light"
-data.raw["armor"]["heavy-armor"].equipment_grid = "equipment-grid-heavy"
+Armour["light-armor"].equipment_grid = "equipment-grid-light"
+Armour["heavy-armor"].equipment_grid = "equipment-grid-heavy"
 
 
 --Fixes P.A.&.R's Scenario crashing. & rewards player with 2 more rows.
