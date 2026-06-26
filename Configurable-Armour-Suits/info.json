@@ -7,12 +7,12 @@
 	"Source": "https://github.com/SGZ-Creations/configurable-armour-suits",
 	"dependencies": [
 		"base",
+		"+ Power-Armour-Replacer >= 0.6.0",
 		"? bobwarfare >= 1.1.0",
 		"? Krastorio2 >= 2.0.11",
 		"? mech-armor >= 1.0.1",
 		"? metal-and-stars >= 0.1.17",
 		"? Power Armor MK3 >= 0.4",
-		"? Power-Armour-Replacer >= 0.6.0",
 		"? PARs-SpaceAge-Extension >= 0.1.0",
 		"? RampantArsenalFork >= 1.0.3",
 		"? TinyStart-2 >= 1.2.4",
