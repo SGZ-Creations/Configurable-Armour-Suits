@@ -1,9 +1,6 @@
 local inv_grid = require("folder-of-functions.local-functions")
----@class LuaSettings
 local SS = settings.startup
----@class CarPrototype
 local Car = data.raw["car"]
----@class ArmorPrototype
 local Armour = data.raw["armor"]
 
 inv_grid.SetGridSize("small-equipment-grid", "modular-armor")
@@ -49,8 +46,3 @@ data:extend({
 	},
 })
 Car["tank"].equipment_grid = "TANK-grid"
-
---[[
-if SS["remove-qulity"].value == false then
-end
-]]

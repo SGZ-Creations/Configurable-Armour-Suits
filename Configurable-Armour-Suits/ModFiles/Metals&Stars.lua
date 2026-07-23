@@ -1,7 +1,5 @@
 local inv_grid = require("folder-of-functions.local-functions")
----@class ArmorPrototype
 local Armour = data.raw["armor"]
----@class LuaSettings
 local SS = settings.startup
 
 if mods["metal-and-stars"] and not mods["PARs-SpaceAge-Extension"] then
